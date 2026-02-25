@@ -34,6 +34,41 @@
       padding: 14px;
       margin-bottom: 12px;
     }
+    body.fullscreen-lock { overflow: hidden; }
+    .panel.fullscreen-mode {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100dvh;
+      margin: 0;
+      border-radius: 0;
+      border: 0;
+      box-shadow: none;
+      padding: calc(10px + env(safe-area-inset-top)) 10px calc(10px + env(safe-area-inset-bottom));
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+    }
+    .panel.fullscreen-mode .nav-pane { display: none !important; }
+    .panel.fullscreen-mode #navToggleBtn { display: none; }
+    .panel.fullscreen-mode .layout {
+      margin-top: 10px;
+      flex: 1;
+      min-height: 0;
+      display: block;
+    }
+    .panel.fullscreen-mode .layout > div {
+      height: 100%;
+      min-height: 0;
+    }
+    .panel.fullscreen-mode .reader {
+      height: 100%;
+      min-height: 0;
+      max-height: none;
+      font-size: clamp(20px, 4.8vw, 27px);
+      line-height: 1.9;
+      padding: 16px;
+    }
     .eyebrow {
       margin: 0;
       font-family: "Monda", "Trebuchet MS", sans-serif;
@@ -237,6 +272,7 @@
       <div class="bar">
         <span class="pill">Roman Pali</span>
         <button class="pill" id="navToggleBtn">목차 접기</button>
+        <button class="pill" id="fullscreenBtn">전체화면 보기</button>
       </div>
       <div class="layout" id="layout" style="margin-top:10px">
         <div class="nav-pane">
@@ -261,6 +297,7 @@
     const els = {
       readerPanel: document.getElementById("readerPanel"),
       navToggleBtn: document.getElementById("navToggleBtn"),
+      fullscreenBtn: document.getElementById("fullscreenBtn"),
       layout: document.getElementById("layout"),
       tocToggle: document.getElementById("tocToggle"),
       toc: document.getElementById("toc"),
@@ -271,6 +308,7 @@
     let selectedFile = "";
     let selectedHref = "";
     let currentTree = [];
+    let isFullscreenMode = false;
 
     function decodeWithBom(arrayBuffer) {
       const bytes = new Uint8Array(arrayBuffer);
@@ -498,6 +536,23 @@
       els.navToggleBtn.addEventListener("click", () => {
         const collapsed = els.layout.classList.toggle("nav-collapsed");
         els.navToggleBtn.textContent = collapsed ? "목차 열기" : "목차 접기";
+      });
+
+      function setFullscreenMode(next) {
+        isFullscreenMode = Boolean(next);
+        document.body.classList.toggle("fullscreen-lock", isFullscreenMode);
+        els.readerPanel.classList.toggle("fullscreen-mode", isFullscreenMode);
+        els.fullscreenBtn.textContent = isFullscreenMode ? "전체화면 해제" : "전체화면 보기";
+      }
+
+      els.fullscreenBtn.addEventListener("click", () => {
+        setFullscreenMode(!isFullscreenMode);
+      });
+
+      document.addEventListener("keydown", (ev) => {
+        if (ev.key === "Escape" && isFullscreenMode) {
+          setFullscreenMode(false);
+        }
       });
 
     }
