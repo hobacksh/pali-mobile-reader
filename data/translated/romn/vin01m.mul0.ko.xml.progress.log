@@ -1,0 +1,156 @@
+[2026-02-25T05:12:12Z] collected text nodes: 5129
+[2026-02-25T05:12:12Z] planned translation items: 5129 (paragraph splits included), batches: 133, max_batch_chars=5000
+[2026-02-25T05:12:12Z] [batch 1/133]   0.0% | items=31 | chars=4852 | elapsed=00:00 | eta=00:00
+[2026-02-25T05:13:14Z]   -> batch done 31/5129 (  0.6%) | batch_time=01:01 | elapsed=01:01 | eta=02:49:18
+[2026-02-25T05:13:14Z] [batch 2/133]   0.6% | items=22 | chars=4954 | elapsed=01:01 | eta=02:49:23
+[2026-02-25T05:14:12Z]   -> batch done 53/5129 (  1.0%) | batch_time=00:57 | elapsed=01:59 | eta=03:10:38
+[2026-02-25T05:14:12Z] [batch 3/133]   1.0% | items=31 | chars=4882 | elapsed=01:59 | eta=03:10:41
+[2026-02-25T05:15:47Z]   -> batch done 84/5129 (  1.6%) | batch_time=01:35 | elapsed=03:34 | eta=03:34:51
+[2026-02-25T05:15:47Z] [batch 4/133]   1.6% | items=20 | chars=4162 | elapsed=03:34 | eta=03:34:53
+[2026-02-25T05:17:00Z]   -> batch done 104/5129 (  2.0%) | batch_time=01:12 | elapsed=04:47 | eta=03:51:34
+[2026-02-25T05:17:00Z] [batch 5/133]   2.0% | items=24 | chars=4831 | elapsed=04:47 | eta=03:51:35
+[2026-02-25T05:18:01Z]   -> batch done 128/5129 (  2.5%) | batch_time=01:00 | elapsed=05:48 | eta=03:46:43
+[2026-02-25T05:18:01Z] [batch 6/133]   2.5% | items=16 | chars=4826 | elapsed=05:48 | eta=03:46:44
+[2026-02-25T05:19:01Z]   -> batch done 144/5129 (  2.8%) | batch_time=01:00 | elapsed=06:48 | eta=03:55:32
+[2026-02-25T05:19:01Z] [batch 7/133]   2.8% | items=25 | chars=4793 | elapsed=06:48 | eta=03:55:33
+[2026-02-25T05:21:40Z]   -> batch done 169/5129 (  3.3%) | batch_time=02:39 | elapsed=09:27 | eta=04:37:44
+[2026-02-25T05:21:40Z] [batch 8/133]   3.3% | items=24 | chars=4927 | elapsed=09:27 | eta=04:37:45
+[2026-02-25T05:23:00Z]   -> batch done 193/5129 (  3.8%) | batch_time=01:19 | elapsed=10:47 | eta=04:35:51
+[2026-02-25T05:23:00Z] [batch 9/133]   3.8% | items=18 | chars=4986 | elapsed=10:47 | eta=04:35:52
+[2026-02-25T05:24:13Z]   -> batch done 211/5129 (  4.1%) | batch_time=01:12 | elapsed=12:00 | eta=04:39:42
+[2026-02-25T05:24:13Z] [batch 10/133]   4.1% | items=28 | chars=4999 | elapsed=12:00 | eta=04:39:43
+[2026-02-25T05:25:21Z]   -> batch done 239/5129 (  4.7%) | batch_time=01:08 | elapsed=13:08 | eta=04:28:56
+[2026-02-25T05:25:21Z] [batch 11/133]   4.7% | items=39 | chars=4767 | elapsed=13:08 | eta=04:28:57
+[2026-02-25T05:26:30Z]   -> batch done 278/5129 (  5.4%) | batch_time=01:09 | elapsed=14:17 | eta=04:09:29
+[2026-02-25T05:26:30Z] [batch 12/133]   5.4% | items=19 | chars=4914 | elapsed=14:17 | eta=04:09:30
+[2026-02-25T05:27:37Z]   -> batch done 297/5129 (  5.8%) | batch_time=01:06 | elapsed=15:24 | eta=04:10:44
+[2026-02-25T05:27:37Z] [batch 13/133]   5.8% | items=27 | chars=4933 | elapsed=15:24 | eta=04:10:45
+[2026-02-25T05:28:58Z]   -> batch done 324/5129 (  6.3%) | batch_time=01:20 | elapsed=16:45 | eta=04:08:24
+[2026-02-25T05:28:58Z] [batch 14/133]   6.3% | items=24 | chars=4806 | elapsed=16:45 | eta=04:08:25
+[2026-02-25T05:30:08Z]   -> batch done 348/5129 (  6.8%) | batch_time=01:10 | elapsed=17:55 | eta=04:06:12
+[2026-02-25T05:30:08Z] [batch 15/133]   6.8% | items=20 | chars=4754 | elapsed=17:55 | eta=04:06:12
+[2026-02-25T05:31:11Z]   -> batch done 368/5129 (  7.2%) | batch_time=01:03 | elapsed=18:58 | eta=04:05:28
+[2026-02-25T05:31:11Z] [batch 16/133]   7.2% | items=40 | chars=4827 | elapsed=18:58 | eta=04:05:29
+[2026-02-25T05:32:25Z]   -> batch done 408/5129 (  8.0%) | batch_time=01:13 | elapsed=20:12 | eta=03:53:45
+[2026-02-25T05:32:25Z] [batch 17/133]   8.0% | items=40 | chars=4951 | elapsed=20:12 | eta=03:53:45
+[2026-02-25T05:33:35Z]   -> batch done 448/5129 (  8.7%) | batch_time=01:10 | elapsed=21:22 | eta=03:43:16
+[2026-02-25T05:33:35Z] [batch 18/133]   8.7% | items=33 | chars=4954 | elapsed=21:22 | eta=03:43:17
+[2026-02-25T05:34:44Z]   -> batch done 481/5129 (  9.4%) | batch_time=01:09 | elapsed=22:31 | eta=03:37:43
+[2026-02-25T05:34:44Z] [batch 19/133]   9.4% | items=40 | chars=4951 | elapsed=22:31 | eta=03:37:44
+[2026-02-25T05:36:04Z]   -> batch done 521/5129 ( 10.2%) | batch_time=01:19 | elapsed=23:51 | eta=03:31:00
+[2026-02-25T05:36:04Z] [batch 20/133]  10.2% | items=22 | chars=4222 | elapsed=23:51 | eta=03:31:00
+[2026-02-25T05:37:07Z]   -> batch done 543/5129 ( 10.6%) | batch_time=01:02 | elapsed=24:54 | eta=03:30:19
+[2026-02-25T05:37:07Z] [batch 21/133]  10.6% | items=17 | chars=4852 | elapsed=24:54 | eta=03:30:19
+[2026-02-25T05:38:05Z]   -> batch done 560/5129 ( 10.9%) | batch_time=00:58 | elapsed=25:53 | eta=03:31:10
+[2026-02-25T05:38:06Z] [batch 22/133]  10.9% | items=72 | chars=4871 | elapsed=25:53 | eta=03:31:11
+[2026-02-25T05:39:30Z]   -> batch done 632/5129 ( 12.3%) | batch_time=01:24 | elapsed=27:17 | eta=03:14:15
+[2026-02-25T05:39:31Z] [batch 23/133]  12.3% | items=31 | chars=4574 | elapsed=27:18 | eta=03:14:15
+[2026-02-25T05:40:45Z]   -> batch done 663/5129 ( 12.9%) | batch_time=01:14 | elapsed=28:32 | eta=03:12:16
+[2026-02-25T05:40:45Z] [batch 24/133]  12.9% | items=35 | chars=4970 | elapsed=28:32 | eta=03:12:17
+[2026-02-25T05:41:59Z]   -> batch done 698/5129 ( 13.6%) | batch_time=01:13 | elapsed=29:46 | eta=03:08:59
+[2026-02-25T05:41:59Z] [batch 25/133]  13.6% | items=40 | chars=4880 | elapsed=29:46 | eta=03:09:00
+[2026-02-25T05:43:20Z]   -> batch done 738/5129 ( 14.4%) | batch_time=01:20 | elapsed=31:07 | eta=03:05:09
+[2026-02-25T05:43:20Z] [batch 26/133]  14.4% | items=59 | chars=4780 | elapsed=31:07 | eta=03:05:09
+[2026-02-25T05:45:50Z]   -> batch done 797/5129 ( 15.5%) | batch_time=02:29 | elapsed=33:37 | eta=03:02:43
+[2026-02-25T05:45:50Z] [batch 27/133]  15.5% | items=29 | chars=4966 | elapsed=33:37 | eta=03:02:43
+[2026-02-25T05:46:55Z]   -> batch done 826/5129 ( 16.1%) | batch_time=01:05 | elapsed=34:42 | eta=03:00:49
+[2026-02-25T05:46:55Z] [batch 28/133]  16.1% | items=32 | chars=4997 | elapsed=34:42 | eta=03:00:50
+[2026-02-25T05:49:28Z]   -> batch done 858/5129 ( 16.7%) | batch_time=02:32 | elapsed=37:15 | eta=03:05:29
+[2026-02-25T05:49:28Z] [batch 29/133]  16.7% | items=30 | chars=4993 | elapsed=37:15 | eta=03:05:29
+[2026-02-25T05:50:44Z]   -> batch done 888/5129 ( 17.3%) | batch_time=01:16 | elapsed=38:31 | eta=03:04:01
+[2026-02-25T05:50:44Z] [batch 30/133]  17.3% | items=38 | chars=4913 | elapsed=38:31 | eta=03:04:01
+[2026-02-25T05:51:49Z]   -> batch done 926/5129 ( 18.1%) | batch_time=01:04 | elapsed=39:36 | eta=02:59:47
+[2026-02-25T05:51:49Z] [batch 31/133]  18.1% | items=30 | chars=4889 | elapsed=39:36 | eta=02:59:47
+[2026-02-25T05:53:07Z]   -> batch done 956/5129 ( 18.6%) | batch_time=01:17 | elapsed=40:54 | eta=02:58:33
+[2026-02-25T05:53:07Z] [batch 32/133]  18.6% | items=18 | chars=4271 | elapsed=40:54 | eta=02:58:33
+[2026-02-25T05:54:14Z]   -> batch done 974/5129 ( 19.0%) | batch_time=01:06 | elapsed=42:01 | eta=02:59:16
+[2026-02-25T05:54:14Z] [batch 33/133]  19.0% | items=15 | chars=4696 | elapsed=42:01 | eta=02:59:16
+[2026-02-25T05:57:05Z]   -> batch done 989/5129 ( 19.3%) | batch_time=02:50 | elapsed=44:52 | eta=03:07:49
+[2026-02-25T05:57:05Z] [batch 34/133]  19.3% | items=67 | chars=4990 | elapsed=44:52 | eta=03:07:49
+[2026-02-25T05:58:11Z]   -> batch done 1056/5129 ( 20.6%) | batch_time=01:06 | elapsed=45:58 | eta=02:57:20
+[2026-02-25T05:58:11Z] [batch 35/133]  20.6% | items=40 | chars=4874 | elapsed=45:58 | eta=02:57:20
+[2026-02-25T05:59:16Z]   -> batch done 1096/5129 ( 21.4%) | batch_time=01:04 | elapsed=47:03 | eta=02:53:10
+[2026-02-25T05:59:16Z] [batch 36/133]  21.4% | items=53 | chars=4878 | elapsed=47:03 | eta=02:53:11
+[2026-02-25T06:00:23Z]   -> batch done 1149/5129 ( 22.4%) | batch_time=01:06 | elapsed=48:10 | eta=02:46:51
+[2026-02-25T06:00:23Z] [batch 37/133]  22.4% | items=29 | chars=4904 | elapsed=48:10 | eta=02:46:51
+[2026-02-25T06:02:58Z]   -> batch done 1178/5129 ( 23.0%) | batch_time=02:34 | elapsed=50:45 | eta=02:50:12
+[2026-02-25T06:02:58Z] [batch 38/133]  23.0% | items=34 | chars=4990 | elapsed=50:45 | eta=02:50:13
+[2026-02-25T06:04:02Z]   -> batch done 1212/5129 ( 23.6%) | batch_time=01:04 | elapsed=51:49 | eta=02:47:28
+[2026-02-25T06:04:02Z] [batch 39/133]  23.6% | items=30 | chars=4845 | elapsed=51:49 | eta=02:47:28
+[2026-02-25T06:05:11Z]   -> batch done 1242/5129 ( 24.2%) | batch_time=01:08 | elapsed=52:58 | eta=02:45:46
+[2026-02-25T06:05:11Z] [batch 40/133]  24.2% | items=31 | chars=4282 | elapsed=52:58 | eta=02:45:46
+[2026-02-25T06:06:24Z]   -> batch done 1273/5129 ( 24.8%) | batch_time=01:12 | elapsed=54:11 | eta=02:44:07
+[2026-02-25T06:06:24Z] [batch 41/133]  24.8% | items=14 | chars=4834 | elapsed=54:11 | eta=02:44:07
+[2026-02-25T06:07:37Z]   -> batch done 1287/5129 ( 25.1%) | batch_time=01:13 | elapsed=55:24 | eta=02:45:24
+[2026-02-25T06:07:37Z] [batch 42/133]  25.1% | items=59 | chars=4957 | elapsed=55:24 | eta=02:45:24
+[2026-02-25T06:08:46Z]   -> batch done 1346/5129 ( 26.2%) | batch_time=01:08 | elapsed=56:33 | eta=02:38:56
+[2026-02-25T06:08:46Z] [batch 43/133]  26.2% | items=78 | chars=4917 | elapsed=56:33 | eta=02:38:56
+[2026-02-25T06:10:00Z]   -> batch done 1424/5129 ( 27.8%) | batch_time=01:14 | elapsed=57:47 | eta=02:30:22
+[2026-02-25T06:10:00Z] [batch 44/133]  27.8% | items=30 | chars=4924 | elapsed=57:47 | eta=02:30:22
+[2026-02-25T06:10:48Z]   -> batch done 1454/5129 ( 28.3%) | batch_time=00:47 | elapsed=58:35 | eta=02:28:06
+[2026-02-25T06:10:48Z] [batch 45/133]  28.3% | items=34 | chars=4970 | elapsed=58:35 | eta=02:28:06
+[2026-02-25T06:11:52Z]   -> batch done 1488/5129 ( 29.0%) | batch_time=01:04 | elapsed=59:39 | eta=02:25:59
+[2026-02-25T06:11:52Z] [batch 46/133]  29.0% | items=28 | chars=4933 | elapsed=59:39 | eta=02:25:59
+[2026-02-25T06:12:50Z]   -> batch done 1516/5129 ( 29.6%) | batch_time=00:58 | elapsed=01:00:38 | eta=02:24:30
+[2026-02-25T06:12:51Z] [batch 47/133]  29.6% | items=29 | chars=4894 | elapsed=01:00:38 | eta=02:24:30
+[2026-02-25T06:13:51Z]   -> batch done 1545/5129 ( 30.1%) | batch_time=01:00 | elapsed=01:01:38 | eta=02:22:59
+[2026-02-25T06:13:51Z] [batch 48/133]  30.1% | items=28 | chars=4775 | elapsed=01:01:38 | eta=02:22:59
+[2026-02-25T06:15:02Z]   -> batch done 1573/5129 ( 30.7%) | batch_time=01:11 | elapsed=01:02:49 | eta=02:22:02
+[2026-02-25T06:15:03Z] [batch 49/133]  30.7% | items=27 | chars=4973 | elapsed=01:02:50 | eta=02:22:02
+[2026-02-25T06:16:09Z]   -> batch done 1600/5129 ( 31.2%) | batch_time=01:06 | elapsed=01:03:56 | eta=02:21:01
+[2026-02-25T06:16:09Z] [batch 50/133]  31.2% | items=57 | chars=4931 | elapsed=01:03:56 | eta=02:21:01
+[2026-02-25T06:17:37Z]   -> batch done 1657/5129 ( 32.3%) | batch_time=01:27 | elapsed=01:05:24 | eta=02:17:03
+[2026-02-25T06:17:37Z] [batch 51/133]  32.3% | items=32 | chars=4869 | elapsed=01:05:24 | eta=02:17:03
+[2026-02-25T06:18:43Z]   -> batch done 1689/5129 ( 32.9%) | batch_time=01:05 | elapsed=01:06:30 | eta=02:15:26
+[2026-02-25T06:18:43Z] [batch 52/133]  32.9% | items=30 | chars=4993 | elapsed=01:06:30 | eta=02:15:26
+[2026-02-25T06:19:54Z]   -> batch done 1719/5129 ( 33.5%) | batch_time=01:11 | elapsed=01:07:41 | eta=02:14:16
+[2026-02-25T06:19:54Z] [batch 53/133]  33.5% | items=24 | chars=4899 | elapsed=01:07:41 | eta=02:14:16
+[2026-02-25T06:21:08Z]   -> batch done 1743/5129 ( 34.0%) | batch_time=01:14 | elapsed=01:08:55 | eta=02:13:53
+[2026-02-25T06:21:08Z] [batch 54/133]  34.0% | items=26 | chars=4989 | elapsed=01:08:55 | eta=02:13:53
+[2026-02-25T06:22:09Z]   -> batch done 1769/5129 ( 34.5%) | batch_time=01:00 | elapsed=01:09:56 | eta=02:12:50
+[2026-02-25T06:22:09Z] [batch 55/133]  34.5% | items=92 | chars=4894 | elapsed=01:09:56 | eta=02:12:50
+[2026-02-25T06:23:12Z]   -> batch done 1861/5129 ( 36.3%) | batch_time=01:03 | elapsed=01:10:59 | eta=02:04:39
+[2026-02-25T06:23:12Z] [batch 56/133]  36.3% | items=46 | chars=4904 | elapsed=01:10:59 | eta=02:04:39
+[2026-02-25T06:24:34Z]   -> batch done 1907/5129 ( 37.2%) | batch_time=01:21 | elapsed=01:12:21 | eta=02:02:14
+[2026-02-25T06:24:34Z] [batch 57/133]  37.2% | items=58 | chars=4900 | elapsed=01:12:21 | eta=02:02:14
+[2026-02-25T06:25:45Z]   -> batch done 1965/5129 ( 38.3%) | batch_time=01:11 | elapsed=01:13:32 | eta=01:58:25
+[2026-02-25T06:25:45Z] [batch 58/133]  38.3% | items=75 | chars=4976 | elapsed=01:13:32 | eta=01:58:25
+[2026-02-25T06:27:11Z]   -> batch done 2040/5129 ( 39.8%) | batch_time=01:26 | elapsed=01:14:58 | eta=01:53:32
+[2026-02-25T06:27:11Z] [batch 59/133]  39.8% | items=43 | chars=4869 | elapsed=01:14:58 | eta=01:53:32
+[2026-02-25T06:28:06Z]   -> batch done 2083/5129 ( 40.6%) | batch_time=00:54 | elapsed=01:15:53 | eta=01:50:59
+[2026-02-25T06:28:06Z] [batch 60/133]  40.6% | items=35 | chars=4722 | elapsed=01:15:53 | eta=01:50:59
+[2026-02-25T06:29:17Z]   -> batch done 2118/5129 ( 41.3%) | batch_time=01:10 | elapsed=01:17:04 | eta=01:49:34
+[2026-02-25T06:29:17Z] [batch 61/133]  41.3% | items=78 | chars=4924 | elapsed=01:17:04 | eta=01:49:34
+[2026-02-25T06:30:48Z]   -> batch done 2196/5129 ( 42.8%) | batch_time=01:30 | elapsed=01:18:35 | eta=01:44:57
+[2026-02-25T06:30:48Z] [batch 62/133]  42.8% | items=41 | chars=4963 | elapsed=01:18:35 | eta=01:44:57
+[2026-02-25T06:31:53Z]   -> batch done 2237/5129 ( 43.6%) | batch_time=01:05 | elapsed=01:19:40 | eta=01:42:59
+[2026-02-25T06:31:53Z] [batch 63/133]  43.6% | items=38 | chars=4854 | elapsed=01:19:40 | eta=01:42:59
+[2026-02-25T06:33:13Z]   -> batch done 2275/5129 ( 44.4%) | batch_time=01:20 | elapsed=01:21:00 | eta=01:41:37
+[2026-02-25T06:33:13Z] [batch 64/133]  44.4% | items=49 | chars=4887 | elapsed=01:21:00 | eta=01:41:37
+[2026-02-25T06:34:32Z]   -> batch done 2324/5129 ( 45.3%) | batch_time=01:18 | elapsed=01:22:19 | eta=01:39:21
+[2026-02-25T06:34:32Z] [batch 65/133]  45.3% | items=70 | chars=4916 | elapsed=01:22:19 | eta=01:39:21
+[2026-02-25T06:35:46Z]   -> batch done 2394/5129 ( 46.7%) | batch_time=01:14 | elapsed=01:23:33 | eta=01:35:27
+[2026-02-25T06:35:46Z] [batch 66/133]  46.7% | items=43 | chars=4929 | elapsed=01:23:33 | eta=01:35:27
+[2026-02-25T06:36:44Z]   -> batch done 2437/5129 ( 47.5%) | batch_time=00:57 | elapsed=01:24:31 | eta=01:33:21
+[2026-02-25T06:36:44Z] [batch 67/133]  47.5% | items=34 | chars=4961 | elapsed=01:24:31 | eta=01:33:21
+[2026-02-25T06:38:36Z]   -> batch done 2471/5129 ( 48.2%) | batch_time=01:52 | elapsed=01:26:23 | eta=01:32:56
+[2026-02-25T06:38:36Z] [batch 68/133]  48.2% | items=55 | chars=4869 | elapsed=01:26:24 | eta=01:32:56
+[2026-02-25T06:41:38Z]   -> batch done 2526/5129 ( 49.2%) | batch_time=03:01 | elapsed=01:29:25 | eta=01:32:09
+[2026-02-25T06:41:38Z] [batch 69/133]  49.2% | items=19 | chars=4896 | elapsed=01:29:25 | eta=01:32:09
+[2026-02-25T06:43:14Z]   -> batch done 2545/5129 ( 49.6%) | batch_time=01:35 | elapsed=01:31:01 | eta=01:32:25
+[2026-02-25T06:43:14Z] [batch 70/133]  49.6% | items=55 | chars=4950 | elapsed=01:31:01 | eta=01:32:25
+[2026-02-25T06:44:27Z]   -> batch done 2600/5129 ( 50.7%) | batch_time=01:12 | elapsed=01:32:14 | eta=01:29:43
+[2026-02-25T06:44:27Z] [batch 71/133]  50.7% | items=62 | chars=4993 | elapsed=01:32:14 | eta=01:29:43
+[2026-02-25T06:45:36Z]   -> batch done 2662/5129 ( 51.9%) | batch_time=01:09 | elapsed=01:33:23 | eta=01:26:33
+[2026-02-25T06:45:36Z] [batch 72/133]  51.9% | items=42 | chars=4842 | elapsed=01:33:23 | eta=01:26:33
+[2026-02-25T06:46:47Z]   -> batch done 2704/5129 ( 52.7%) | batch_time=01:10 | elapsed=01:34:34 | eta=01:24:49
+[2026-02-25T06:46:47Z] [batch 73/133]  52.7% | items=43 | chars=4681 | elapsed=01:34:34 | eta=01:24:49
+[2026-02-25T06:47:38Z]   -> batch done 2747/5129 ( 53.6%) | batch_time=00:50 | elapsed=01:35:25 | eta=01:22:44
+[2026-02-25T06:47:38Z] [batch 74/133]  53.6% | items=41 | chars=4956 | elapsed=01:35:25 | eta=01:22:44
+[2026-02-25T06:49:00Z]   -> batch done 2788/5129 ( 54.4%) | batch_time=01:21 | elapsed=01:36:47 | eta=01:21:16
+[2026-02-25T06:49:00Z] [batch 75/133]  54.4% | items=48 | chars=4537 | elapsed=01:36:47 | eta=01:21:16
+[2026-02-25T06:50:05Z]   -> batch done 2836/5129 ( 55.3%) | batch_time=01:05 | elapsed=01:37:52 | eta=01:19:07
+[2026-02-25T06:50:05Z] [batch 76/133]  55.3% | items=19 | chars=4627 | elapsed=01:37:52 | eta=01:19:07
+[2026-02-25T06:51:14Z]   -> batch done 2855/5129 ( 55.7%) | batch_time=01:08 | elapsed=01:39:01 | eta=01:18:52
+[2026-02-25T06:51:14Z] [batch 77/133]  55.7% | items=47 | chars=4989 | elapsed=01:39:01 | eta=01:18:52
+[2026-02-25T06:51:14Z] interrupted: checkpoint and partial output saved
