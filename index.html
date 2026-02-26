@@ -194,6 +194,18 @@
       color: #1f4d33;
       font-weight: 700;
     }
+    .file-btn.has-ko::after {
+      content: "KO";
+      margin-left: 8px;
+      padding: 1px 6px;
+      border-radius: 999px;
+      border: 1px solid #14532d;
+      background: #dcfce7;
+      color: #14532d;
+      font-size: 11px;
+      font-weight: 700;
+      vertical-align: middle;
+    }
     .file-btn:last-child { border-bottom: 0; }
 
     .reader {
@@ -217,6 +229,11 @@
       color: #123b2c;
     }
     .reader p { margin: .7em 0; }
+    .pill.active-lang {
+      background: #1f2937;
+      color: #f8fafc;
+      border-color: #111827;
+    }
     .ko-inline {
       margin: .25em 0 .85em 2.2em;
       padding-left: .7em;
@@ -270,7 +287,9 @@
   <main class="app">
     <section class="panel" id="readerPanel">
       <div class="bar">
-        <span class="pill">Roman Pali</span>
+        <span class="pill" id="docLangPill">Roman Pali</span>
+        <button class="pill active-lang" id="viewRomnBtn">로마자</button>
+        <button class="pill" id="viewKoBtn" disabled>한국어(없음)</button>
         <button class="pill" id="navToggleBtn">목차 접기</button>
         <button class="pill" id="fullscreenBtn">전체화면 보기</button>
       </div>
@@ -291,11 +310,15 @@
 
   <script>
     const FIXED_LANG = "romn";
+    const KO_LANG = "ko";
     const CONTENT_ROOT = "./data/corpus";
     const TREE_ROOT = "./data/tree";
 
     const els = {
       readerPanel: document.getElementById("readerPanel"),
+      docLangPill: document.getElementById("docLangPill"),
+      viewRomnBtn: document.getElementById("viewRomnBtn"),
+      viewKoBtn: document.getElementById("viewKoBtn"),
       navToggleBtn: document.getElementById("navToggleBtn"),
       fullscreenBtn: document.getElementById("fullscreenBtn"),
       layout: document.getElementById("layout"),
@@ -308,6 +331,8 @@
     let selectedFile = "";
     let selectedHref = "";
     let currentTree = [];
+    let selectedViewLang = FIXED_LANG;
+    const koAvailabilityByFile = new Map();
     let isFullscreenMode = false;
 
     function decodeWithBom(arrayBuffer) {
@@ -342,6 +367,69 @@
       return false;
     }
 
+    function getFileName(path) {
+      return String(path || "").split("/").pop() || "";
+    }
+
+    function hasKoTranslation(path) {
+      const fileName = getFileName(path).toLowerCase();
+      return Boolean(fileName) && koAvailabilityByFile.get(fileName) === true;
+    }
+
+    function getKoCorpusPath(path) {
+      return getFileName(path);
+    }
+
+    async function probeKoTranslation(path) {
+      const fileName = getFileName(path).toLowerCase();
+      if (!fileName) return false;
+      if (koAvailabilityByFile.has(fileName)) {
+        return koAvailabilityByFile.get(fileName) === true;
+      }
+      const url = `${CONTENT_ROOT}/${KO_LANG}/${getFileName(path)}`;
+      try {
+        const res = await fetch(url, { method: "HEAD" });
+        const ok = res.ok;
+        koAvailabilityByFile.set(fileName, ok);
+        return ok;
+      } catch (_) {
+        koAvailabilityByFile.set(fileName, false);
+        return false;
+      }
+    }
+
+    function scheduleKoProbe(path, btn) {
+      probeKoTranslation(path).then((ok) => {
+        if (ok) btn.classList.add("has-ko");
+        else btn.classList.remove("has-ko");
+        if (selectedHref && getFileName(selectedHref).toLowerCase() === getFileName(path).toLowerCase()) {
+          updateLanguageControls();
+        }
+      });
+    }
+
+    function updateLanguageControls() {
+      let canUseKo = false;
+      let koText = "한국어(없음)";
+      if (selectedHref) {
+        const key = getFileName(selectedHref).toLowerCase();
+        const known = koAvailabilityByFile.get(key);
+        if (known === true) {
+          canUseKo = true;
+          koText = "한국어";
+        } else if (known === undefined) {
+          koText = "한국어(확인중)";
+        }
+      }
+      els.viewKoBtn.disabled = !canUseKo;
+      els.viewKoBtn.textContent = koText;
+
+      const koActive = selectedViewLang === KO_LANG && canUseKo;
+      els.viewRomnBtn.classList.toggle("active-lang", !koActive);
+      els.viewKoBtn.classList.toggle("active-lang", koActive);
+      els.docLangPill.textContent = koActive ? "Korean Translation" : "Roman Pali";
+    }
+
     function renderTreeNodes(nodes, container, q, depth) {
       nodes.forEach((node) => {
         if (!nodeMatchesFilter(node, q)) return;
@@ -367,11 +455,13 @@
           const btn = document.createElement("button");
           btn.className = "file-btn";
           btn.dataset.href = mappedPath;
+          if (hasKoTranslation(mappedPath)) btn.classList.add("has-ko");
           if (mappedPath && mappedPath === selectedHref) btn.classList.add("active");
           btn.textContent = mappedPath ? label : `${label} (원본 링크 없음)`;
           btn.disabled = !mappedPath;
           if (mappedPath) {
             btn.addEventListener("click", () => openFile(mappedPath));
+            scheduleKoProbe(mappedPath, btn);
           }
           container.appendChild(btn);
         }
@@ -510,8 +600,12 @@
       try {
         selectedFile = file.split("/").pop() || "";
         selectedHref = file;
+        const canUseKo = await probeKoTranslation(file);
+        const viewLang = (selectedViewLang === KO_LANG && canUseKo) ? KO_LANG : FIXED_LANG;
         updateActiveTocNode();
-        const url = `${CONTENT_ROOT}/${FIXED_LANG}/${file}`;
+        updateLanguageControls();
+        const pathInLang = viewLang === KO_LANG ? getKoCorpusPath(file) : file;
+        const url = `${CONTENT_ROOT}/${viewLang}/${pathInLang}`;
         const res = await fetch(url);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const buf = await res.arrayBuffer();
@@ -527,6 +621,20 @@
     async function init() {
       await loadLanguageTree(FIXED_LANG);
       renderToc(currentTree);
+      updateLanguageControls();
+
+      els.viewRomnBtn.addEventListener("click", () => {
+        selectedViewLang = FIXED_LANG;
+        updateLanguageControls();
+        if (selectedHref) openFile(selectedHref);
+      });
+
+      els.viewKoBtn.addEventListener("click", () => {
+        if (els.viewKoBtn.disabled) return;
+        selectedViewLang = KO_LANG;
+        updateLanguageControls();
+        if (selectedHref) openFile(selectedHref);
+      });
 
       els.tocToggle.addEventListener("click", () => {
         const hidden = els.toc.style.display === "none";
