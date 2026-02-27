@@ -51,6 +51,7 @@
     }
     .panel.fullscreen-mode .nav-pane { display: none !important; }
     .panel.fullscreen-mode #navToggleBtn { display: none; }
+    .panel.fullscreen-mode .file-meta { display: none; }
     .panel.fullscreen-mode .layout {
       margin-top: 10px;
       flex: 1;
@@ -194,45 +195,102 @@
       color: #1f4d33;
       font-weight: 700;
     }
-    .file-btn.has-ko::after {
+    .file-btn.ko-full::after,
+    .file-btn.ko-partial::after {
       content: "KO";
       margin-left: 8px;
       padding: 1px 6px;
       border-radius: 999px;
-      border: 1px solid #14532d;
-      background: #dcfce7;
-      color: #14532d;
       font-size: 11px;
       font-weight: 700;
       vertical-align: middle;
+    }
+    .file-btn.ko-full::after {
+      border: 1px solid #14532d;
+      background: #dcfce7;
+      color: #14532d;
+    }
+    .file-btn.ko-partial::after {
+      border: 1px solid #92400e;
+      background: #fef3c7;
+      color: #92400e;
     }
     .file-btn:last-child { border-bottom: 0; }
 
     .reader {
       border: 1px solid var(--line);
       border-radius: 14px;
-      background: #fffcf5;
+      background: #ffffff;
       padding: 12px;
       min-height: 42dvh;
       max-height: 54dvh;
       overflow: auto;
-      font-size: 19px;
-      line-height: 1.8;
+      font-family: "Times Ext Roman", "Indic Times", "Doulos SIL", Tahoma, "Arial Unicode MS", Gentium, serif;
+      font-size: 12pt;
+      line-height: 1.6;
       width: 100%;
       overflow-wrap: anywhere;
       word-break: break-word;
     }
-    .reader h3 {
-      margin: 1.2em 0 .4em;
-      font-size: 1.05em;
-      line-height: 1.4;
-      color: #123b2c;
+    .reader p {
+      border-top: 0;
+      border-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 0.5cm;
     }
-    .reader p { margin: .7em 0; }
+    .reader .note { color: blue; }
+    .reader .bld { font-weight: bold; }
+    .reader .paranum { font-weight: bold; }
+    .reader .indent { font-size: 12pt; text-indent: 2em; margin-left: 3em; }
+    .reader .bodytext { font-size: 12pt; text-indent: 2em; }
+    .reader .hangnum { font-size: 12pt; margin-bottom: -0.75cm; text-indent: 2em; }
+    .reader .centered { font-size: 12pt; text-align: center; }
+    .reader .unindented { font-size: 12pt; }
+    .reader .book { font-size: 21pt; text-align: center; font-weight: bold; }
+    .reader .chapter { font-size: 18pt; text-align: center; font-weight: bold; }
+    .reader .nikaya { font-size: 24pt; text-align: center; font-weight: bold; }
+    .reader .title { font-size: 12pt; text-align: center; font-weight: bold; }
+    .reader .subhead { font-size: 12pt; text-align: center; font-weight: bold; }
+    .reader .subsubhead { font-size: 12pt; text-align: center; font-weight: bold; }
+    .reader .gatha1 { font-size: 12pt; margin-bottom: 0; margin-left: 4em; }
+    .reader .gatha2 { font-size: 12pt; margin-bottom: 0; margin-left: 4em; }
+    .reader .gatha3 { font-size: 12pt; margin-bottom: 0; margin-left: 4em; }
+    .reader .gathalast { font-size: 12pt; margin-bottom: 0.5cm; margin-left: 4em; }
     .pill.active-lang {
       background: #1f2937;
       color: #f8fafc;
       border-color: #111827;
+    }
+    .file-meta {
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-family: "Monda", "Trebuchet MS", sans-serif;
+      font-size: 12px;
+      color: #374151;
+    }
+    .file-name {
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 8px;
+      padding: 5px 8px;
+      cursor: pointer;
+      user-select: all;
+    }
+    .translation-status {
+      margin-left: auto;
+      color: #4b5563;
+      font-size: 11px;
+      white-space: nowrap;
+    }
+    .file-name.empty {
+      color: #6b7280;
+      cursor: default;
+      user-select: none;
     }
     .ko-inline {
       margin: .25em 0 .85em 2.2em;
@@ -252,14 +310,11 @@
       color: #5c6a5d;
       margin-bottom: .2em;
     }
-    .n {
-      display: inline-block;
-      min-width: 1.7em;
-      margin-right: .45em;
-      color: #4f5b4e;
+    .ko-inline .ko-num {
       font-family: "Monda", "Trebuchet MS", sans-serif;
-      font-size: .8em;
-      vertical-align: baseline;
+      font-weight: 700;
+      margin-right: .35em;
+      color: #255841;
     }
     .muted { color: var(--muted); font-family: "Monda", "Trebuchet MS", sans-serif; }
     .hidden { display: none; }
@@ -287,11 +342,13 @@
   <main class="app">
     <section class="panel" id="readerPanel">
       <div class="bar">
-        <span class="pill" id="docLangPill">Roman Pali</span>
-        <button class="pill active-lang" id="viewRomnBtn">로마자</button>
-        <button class="pill" id="viewKoBtn" disabled>한국어(없음)</button>
-        <button class="pill" id="navToggleBtn">목차 접기</button>
         <button class="pill" id="fullscreenBtn">전체화면 보기</button>
+      </div>
+      <div class="file-meta">
+        <span>파일명</span>
+        <code class="file-name empty" id="fileNameDisplay">선택된 파일 없음</code>
+        <button class="pill" id="copyFileNameBtn" disabled>복사</button>
+        <span class="translation-status" id="translationStatus"></span>
       </div>
       <div class="layout" id="layout" style="margin-top:10px">
         <div class="nav-pane">
@@ -316,10 +373,9 @@
 
     const els = {
       readerPanel: document.getElementById("readerPanel"),
-      docLangPill: document.getElementById("docLangPill"),
-      viewRomnBtn: document.getElementById("viewRomnBtn"),
-      viewKoBtn: document.getElementById("viewKoBtn"),
-      navToggleBtn: document.getElementById("navToggleBtn"),
+      fileNameDisplay: document.getElementById("fileNameDisplay"),
+      copyFileNameBtn: document.getElementById("copyFileNameBtn"),
+      translationStatus: document.getElementById("translationStatus"),
       fullscreenBtn: document.getElementById("fullscreenBtn"),
       layout: document.getElementById("layout"),
       tocToggle: document.getElementById("tocToggle"),
@@ -329,10 +385,13 @@
     };
 
     let selectedFile = "";
+    let selectedSectionLabel = "";
     let selectedHref = "";
     let currentTree = [];
-    let selectedViewLang = FIXED_LANG;
+    let selectedViewLang = KO_LANG;
     const koAvailabilityByFile = new Map();
+    const koSectionStatusCache = new Map();
+    const koFileMergeCache = new Map();
     let isFullscreenMode = false;
 
     function decodeWithBom(arrayBuffer) {
@@ -351,9 +410,61 @@
       return String(text).trim().replace(/\s+/g, " ");
     }
 
+    function normKeyText(text) {
+      return parseTreeText(String(text || "")).toLowerCase();
+    }
+
+    function toItem(type, num, text, idx, extra = "") {
+      const n = parseTreeText(num || "");
+      const t = parseTreeText(text || "");
+      let key = `${type}:i:${idx}`;
+      if (type === "p" && n) key = `p:n:${n}`;
+      if (type === "head") key = `head:${extra || "x"}:${normKeyText(t)}`;
+      return { type, num: n, text: t, key, rend: extra || "" };
+    }
+
+    function normalizeSectionLabel(text) {
+      return parseTreeText(text || "")
+        .toLowerCase()
+        .replace(/^\d+\.\s*/, "")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function filterBlocksBySection(items, sectionLabel) {
+      if (!Array.isArray(items) || !items.length || !sectionLabel) return items;
+      const target = normalizeSectionLabel(sectionLabel);
+      if (!target) return items;
+
+      const start = items.findIndex(
+        (x) => x && x.type === "head" && normalizeSectionLabel(x.text) === target
+      );
+      if (start < 0) return items;
+
+      // Keep front-matter (e.g. Namo tassa, Nikaya/Book headers) when the selected
+      // section is the first chapter in the document, matching tipitaka-xml behavior.
+      const firstChapterIndex = items.findIndex(
+        (x) => x && x.type === "head" && x.rend === "chapter"
+      );
+      const includeLeading = firstChapterIndex >= 0 && start === firstChapterIndex;
+
+      let end = items.length;
+      for (let i = start + 1; i < items.length; i += 1) {
+        const it = items[i];
+        if (!it || it.type !== "head") continue;
+        if (it.rend === "chapter") {
+          end = i;
+          break;
+        }
+      }
+      return includeLeading ? items.slice(0, end) : items.slice(start, end);
+    }
+
     function mapHrefToCorpusPath(href) {
       if (!href || !href.toLowerCase().endsWith(".xml")) return "";
-      return href;
+      let p = String(href).trim().replace(/^\/+/, "");
+      p = p.replace(/^\.\//, "");
+      return p;
     }
 
     function nodeMatchesFilter(node, q) {
@@ -371,13 +482,75 @@
       return String(path || "").split("/").pop() || "";
     }
 
-    function hasKoTranslation(path) {
-      const fileName = getFileName(path).toLowerCase();
-      return Boolean(fileName) && koAvailabilityByFile.get(fileName) === true;
+    function toCanonicalSourceFileName(path) {
+      const fileName = getFileName(path);
+      if (!fileName) return "";
+      return fileName.replace(/(\.[a-z]+)\d+\.xml$/i, "$1.xml");
+    }
+
+    function updateFileNameDisplay() {
+      const fileName = selectedFile || "";
+      if (!fileName) {
+        els.fileNameDisplay.textContent = "선택된 파일 없음";
+        els.fileNameDisplay.classList.add("empty");
+        els.copyFileNameBtn.disabled = true;
+        return;
+      }
+      els.fileNameDisplay.textContent = fileName;
+      els.fileNameDisplay.classList.remove("empty");
+      els.copyFileNameBtn.disabled = false;
+    }
+
+    async function copySelectedFileName() {
+      if (!selectedFile) return;
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(selectedFile);
+        } else {
+          const ta = document.createElement("textarea");
+          ta.value = selectedFile;
+          ta.setAttribute("readonly", "");
+          ta.style.position = "absolute";
+          ta.style.left = "-9999px";
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand("copy");
+          ta.remove();
+        }
+        els.copyFileNameBtn.textContent = "복사됨";
+        setTimeout(() => {
+          els.copyFileNameBtn.textContent = "복사";
+        }, 800);
+      } catch (_) {
+        els.copyFileNameBtn.textContent = "실패";
+        setTimeout(() => {
+          els.copyFileNameBtn.textContent = "복사";
+        }, 800);
+      }
     }
 
     function getKoCorpusPath(path) {
       return getFileName(path);
+    }
+
+    function buildKoCandidatePaths(path) {
+      const raw = String(path || "").trim().replace(/^\/+/, "");
+      const fileName = getFileName(raw);
+      const out = [];
+      if (raw) out.push(raw);
+      if (fileName && !out.includes(fileName)) out.push(fileName);
+      const normalized = fileName.replace(/(\.[a-z]+)\d+\.xml$/i, "$1.xml");
+      if (normalized && !out.includes(normalized)) out.push(normalized);
+      return out;
+    }
+
+    async function headOk(url) {
+      try {
+        const res = await fetch(url, { method: "HEAD" });
+        return res.ok;
+      } catch (_) {
+        return false;
+      }
     }
 
     async function probeKoTranslation(path) {
@@ -386,48 +559,114 @@
       if (koAvailabilityByFile.has(fileName)) {
         return koAvailabilityByFile.get(fileName) === true;
       }
-      const url = `${CONTENT_ROOT}/${KO_LANG}/${getFileName(path)}`;
-      try {
-        const res = await fetch(url, { method: "HEAD" });
-        const ok = res.ok;
-        koAvailabilityByFile.set(fileName, ok);
-        return ok;
-      } catch (_) {
-        koAvailabilityByFile.set(fileName, false);
-        return false;
+      const candidates = buildKoCandidatePaths(path);
+      for (const relPath of candidates) {
+        const ok = await headOk(`${CONTENT_ROOT}/${KO_LANG}/${relPath}`);
+        if (ok) {
+          koAvailabilityByFile.set(fileName, true);
+          return true;
+        }
       }
+      koAvailabilityByFile.set(fileName, false);
+      return false;
     }
 
-    function scheduleKoProbe(path, btn) {
-      probeKoTranslation(path).then((ok) => {
-        if (ok) btn.classList.add("has-ko");
-        else btn.classList.remove("has-ko");
-        if (selectedHref && getFileName(selectedHref).toLowerCase() === getFileName(path).toLowerCase()) {
-          updateLanguageControls();
+    function setKoBadgeState(btn, state) {
+      btn.classList.remove("ko-full", "ko-partial");
+      if (state === "full") btn.classList.add("ko-full");
+      if (state === "partial") btn.classList.add("ko-partial");
+    }
+
+    async function loadMergedItemsForPath(path) {
+      const key = mapHrefToCorpusPath(path);
+      if (!key) return { ok: false, mergedItems: [] };
+      if (koFileMergeCache.has(key)) return koFileMergeCache.get(key);
+
+      const promise = (async () => {
+        const hasKo = await probeKoTranslation(key);
+        const romanUrl = `${CONTENT_ROOT}/${FIXED_LANG}/${key}`;
+        const romnRes = await fetch(romanUrl);
+        if (!romnRes.ok) return { ok: false, mergedItems: [] };
+        const romnBuf = await romnRes.arrayBuffer();
+        const romnXml = decodeWithBom(romnBuf);
+        const romnBlocks = parseXmlBlocks(romnXml);
+        if (romnBlocks.error) return { ok: false, mergedItems: [] };
+        if (!hasKo) return { ok: true, mergedItems: romnBlocks.items };
+
+        const koCandidates = buildKoCandidatePaths(key);
+        let pathInKo = koCandidates[0] || getKoCorpusPath(key);
+        for (const relPath of koCandidates) {
+          const ok = await headOk(`${CONTENT_ROOT}/${KO_LANG}/${relPath}`);
+          if (ok) {
+            pathInKo = relPath;
+            break;
+          }
         }
-      });
+        const koRes = await fetch(`${CONTENT_ROOT}/${KO_LANG}/${pathInKo}`);
+        if (!koRes.ok) return { ok: true, mergedItems: romnBlocks.items };
+        const koBuf = await koRes.arrayBuffer();
+        const koXml = decodeWithBom(koBuf);
+        let koBlocks = parseXmlBlocks(koXml);
+        if (koBlocks.error) koBlocks = parseXmlFragmentBlocks(koXml);
+        if (koBlocks.error) koBlocks = parseLooseBlocks(koXml);
+        if (koBlocks.error) return { ok: true, mergedItems: romnBlocks.items };
+
+        const merged = mergeKoIntoRoman(romnBlocks.items, koBlocks.items || []);
+        return { ok: true, mergedItems: merged.items };
+      })();
+
+      koFileMergeCache.set(key, promise);
+      return promise;
+    }
+
+    async function computeKoSectionStatus(path, sectionLabel) {
+      const p = mapHrefToCorpusPath(path);
+      const sec = normalizeSectionLabel(sectionLabel || "");
+      const key = `${p}::${sec}`;
+      if (koSectionStatusCache.has(key)) return koSectionStatusCache.get(key);
+
+      const loaded = await loadMergedItemsForPath(p);
+      if (!loaded.ok) {
+        koSectionStatusCache.set(key, "none");
+        return "none";
+      }
+      const scoped = filterBlocksBySection(loaded.mergedItems, sectionLabel || "");
+      const stats = getTranslationStats(scoped);
+      let state = "none";
+      if (stats.total > 0) {
+        if (stats.translated === 0) state = "none";
+        else if (stats.translated >= stats.total) state = "full";
+        else state = "partial";
+      } else if (scoped.some((x) => x && x.koText)) {
+        state = "partial";
+      }
+      koSectionStatusCache.set(key, state);
+      return state;
     }
 
     function updateLanguageControls() {
-      let canUseKo = false;
-      let koText = "한국어(없음)";
-      if (selectedHref) {
-        const key = getFileName(selectedHref).toLowerCase();
-        const known = koAvailabilityByFile.get(key);
-        if (known === true) {
-          canUseKo = true;
-          koText = "한국어";
-        } else if (known === undefined) {
-          koText = "한국어(확인중)";
+      if (selectedViewLang !== KO_LANG && selectedViewLang !== FIXED_LANG) {
+        selectedViewLang = KO_LANG;
+      }
+    }
+
+    async function fillKoBadgesForDirectFiles(container) {
+      if (!container) return;
+      const directChildren = Array.from(container.children || []);
+      for (const el of directChildren) {
+        if (!el.matches || !el.matches(".file-btn[data-href]")) continue;
+        if (el.dataset.koStateReady === "1") continue;
+        try {
+          const state = await computeKoSectionStatus(el.dataset.href || "", el.dataset.sectionLabel || "");
+          if (!el.isConnected) continue;
+          setKoBadgeState(el, state);
+          el.dataset.koStateReady = "1";
+        } catch (_) {
+          if (!el.isConnected) continue;
+          setKoBadgeState(el, "none");
+          el.dataset.koStateReady = "1";
         }
       }
-      els.viewKoBtn.disabled = !canUseKo;
-      els.viewKoBtn.textContent = koText;
-
-      const koActive = selectedViewLang === KO_LANG && canUseKo;
-      els.viewRomnBtn.classList.toggle("active-lang", !koActive);
-      els.viewKoBtn.classList.toggle("active-lang", koActive);
-      els.docLangPill.textContent = koActive ? "Korean Translation" : "Roman Pali";
     }
 
     function renderTreeNodes(nodes, container, q, depth) {
@@ -450,22 +689,31 @@
           body.className = "toc-files toc-children";
           renderTreeNodes(children, body, q, depth + 1);
           details.appendChild(body);
+          details.addEventListener("toggle", () => {
+            if (details.open) fillKoBadgesForDirectFiles(body);
+          });
           container.appendChild(details);
         } else {
           const btn = document.createElement("button");
           btn.className = "file-btn";
           btn.dataset.href = mappedPath;
-          if (hasKoTranslation(mappedPath)) btn.classList.add("has-ko");
+          btn.dataset.sectionLabel = label;
           if (mappedPath && mappedPath === selectedHref) btn.classList.add("active");
           btn.textContent = mappedPath ? label : `${label} (원본 링크 없음)`;
           btn.disabled = !mappedPath;
           if (mappedPath) {
-            btn.addEventListener("click", () => openFile(mappedPath));
-            scheduleKoProbe(mappedPath, btn);
+            btn.addEventListener("click", () => openFile(mappedPath, label));
           }
           container.appendChild(btn);
         }
       });
+    }
+
+    function setSelectedTocKoState(state) {
+      const btn = els.toc.querySelector(`.file-btn[data-href="${CSS.escape(selectedHref || "")}"]`);
+      if (!btn) return;
+      setKoBadgeState(btn, state);
+      btn.dataset.koStateReady = "1";
     }
 
     function renderToc(treeNodes) {
@@ -504,11 +752,81 @@
       if (node.nodeType === Node.TEXT_NODE) return node.nodeValue || "";
       if (node.nodeType !== Node.ELEMENT_NODE) return "";
       const tag = node.tagName.toLowerCase();
-      if (tag === "pb" || tag === "note") return "";
+      if (tag === "pb") return "";
+      if (tag === "note") {
+        let note = "";
+        node.childNodes.forEach((c) => { note += nodeToText(c); });
+        note = compactText(note);
+        return note ? ` [${note}] ` : "";
+      }
       if (tag === "lb") return "\n";
       let out = "";
       node.childNodes.forEach((c) => { out += nodeToText(c); });
       return out;
+    }
+
+    function nodeToHtml(node) {
+      if (node.nodeType === Node.TEXT_NODE) return escapeHtml(node.nodeValue || "");
+      if (node.nodeType !== Node.ELEMENT_NODE) return "";
+      const tag = node.tagName.toLowerCase();
+      if (tag === "pb") {
+        const ed = escapeHtml(node.getAttribute("ed") || "");
+        const n = escapeHtml(node.getAttribute("n") || "");
+        if (!ed && !n) return "";
+        return `<a name="${ed}${n}"></a>`;
+      }
+      if (tag === "lb") return "<br>";
+
+      let children = "";
+      node.childNodes.forEach((c) => { children += nodeToHtml(c); });
+
+      if (tag === "note") return `<span class="note">[${children}]</span>`;
+      if (tag === "hi") {
+        const rend = (node.getAttribute("rend") || "").toLowerCase();
+        if (rend === "bold") return `<span class="bld">${children}</span>`;
+        if (rend === "paranum") return `<span class="paranum">${children}</span>`;
+        if (rend === "dot") return children;
+      }
+      return children;
+    }
+
+    function getRendClass(tag, rend) {
+      const r = String(rend || "").toLowerCase();
+      if (r === "centre" || r === "center") return "centered";
+      if (r === "bodytext") return "bodytext";
+      if (r === "hangnum") return "hangnum";
+      if (r === "unindented") return "unindented";
+      if (r === "indent") return "indent";
+      if (r === "book") return "book";
+      if (r === "chapter") return "chapter";
+      if (r === "subhead") return "subhead";
+      if (r === "subsubhead") return "subsubhead";
+      if (r === "nikaya") return "nikaya";
+      if (r === "title") return "title";
+      if (r === "gatha1") return "gatha1";
+      if (r === "gatha2") return "gatha2";
+      if (r === "gatha3") return "gatha3";
+      if (r === "gathalast") return "gathalast";
+      if (tag === "head") return "chapter";
+      if (tag === "trailer") return "centered";
+      return "bodytext";
+    }
+
+    function buildBlockFromNode(node, idx) {
+      if (!node || node.nodeType !== Node.ELEMENT_NODE) return null;
+      const tag = node.tagName.toLowerCase();
+      const rend = node.getAttribute("rend") || "";
+      const html = compactText(nodeToHtml(node)).replace(/\s*<br>\s*/g, "<br>");
+      const plain = compactText(nodeToText(node));
+      if (!plain) return null;
+      const cls = getRendClass(tag, rend);
+
+      if (tag === "head") {
+        return { type: "head", num: "", text: plain, key: `head:${idx}`, rend, cls, html };
+      }
+
+      const { num, text } = normalizeParagraph(node);
+      return { type: "p", num, text, key: num ? `p:n:${num}` : `p:i:${idx}`, rend, cls, html };
     }
 
     function compactText(text) {
@@ -536,26 +854,33 @@
       return { num: compactText(num), text: compactText(text) };
     }
 
-    function xmlToReaderHtml(xmlText) {
-      const blocks = parseXmlBlocks(xmlText);
-      if (blocks.error) return blocks.error;
+    function blocksToReaderHtml(items) {
+      function formatKoInlineText(text) {
+        if (!text) return "";
+        const escaped = escapeHtml(text).replaceAll("\n", "<br>");
+        return escaped.replace(/\[([^\]]+)\]/g, '<span class="note">[$1]</span>');
+      }
       const parts = [];
-      blocks.items.forEach((b) => {
-        if (b.type === "head") {
-          parts.push(`<h3>${escapeHtml(b.text)}</h3>`);
-          return;
-        }
-        const safe = escapeHtml(b.text).replaceAll("\n", "<br>");
-        if (b.num) {
-          parts.push(`<p><span class="n">${escapeHtml(b.num)}</span>${safe}</p>`);
-        } else {
-          parts.push(`<p>${safe}</p>`);
+      items.forEach((b) => {
+        const safe = b.html || escapeHtml(b.text).replaceAll("\n", "<br>");
+        const koSafe = b.koText ? formatKoInlineText(b.koText) : "";
+        const koNumSafe = b.koNum ? escapeHtml(String(b.koNum)) : "";
+        parts.push(`<p class="${escapeHtml(b.cls || "bodytext")}">${safe}</p>`);
+        if (koSafe) {
+          const koNumHtml = koNumSafe ? `<span class="ko-num">${koNumSafe}.</span>` : "";
+          parts.push(`<div class="ko-inline">${koNumHtml}${koSafe}</div>`);
         }
       });
       if (!parts.length) {
         return '<p class="muted">본문을 추출하지 못했습니다. (원본 XML 구조 확인 필요)</p>';
       }
       return parts.join("\n");
+    }
+
+    function xmlToReaderHtml(xmlText) {
+      const blocks = parseXmlBlocks(xmlText);
+      if (blocks.error) return blocks.error;
+      return blocksToReaderHtml(blocks.items);
     }
 
     function parseXmlBlocks(xmlText) {
@@ -566,24 +891,187 @@
       }
 
       const items = [];
-      const title = xml.querySelector("head[rend='book'], head[rend='chapter']");
-      if (title && title.textContent.trim()) {
-        items.push({ type: "head", num: "", text: title.textContent.trim() });
-      }
 
       const bodyNodes = xml.querySelectorAll("text body > p, text body > head, text body > trailer, text body div > p, text body div > head, text body div > trailer");
       bodyNodes.forEach((node) => {
-        const txt = compactText(nodeToText(node));
-        if (!txt) return;
-        if (node.tagName.toLowerCase() === "head") {
-          items.push({ type: "head", num: "", text: txt });
-          return;
-        }
-        const { num, text } = normalizeParagraph(node);
-        if (!text) return;
-        items.push({ type: "p", num, text });
+        const item = buildBlockFromNode(node, items.length);
+        if (item) items.push(item);
       });
       return { error: "", items };
+    }
+
+    function parseXmlFragmentBlocks(xmlText) {
+      const parser = new DOMParser();
+      const wrapped = `<root>${xmlText}</root>`;
+      const xml = parser.parseFromString(wrapped, "application/xml");
+      if (xml.querySelector("parsererror")) {
+        return { error: '<p class="muted">XML 파싱 실패: 원문 인코딩/형식을 확인하세요.</p>', items: [] };
+      }
+      const items = [];
+      const nodes = xml.querySelectorAll("p, head, trailer");
+      nodes.forEach((node) => {
+        const item = buildBlockFromNode(node, items.length);
+        if (item) items.push(item);
+      });
+      return { error: "", items };
+    }
+
+    function parseLooseBlocks(xmlText) {
+      const items = [];
+      if (!xmlText) return { error: '<p class="muted">본문을 추출하지 못했습니다. (원본 XML 구조 확인 필요)</p>', items };
+      const re = /<(head|p|trailer)\b[^>]*>[\s\S]*?<\/\1>/gi;
+      const blocks = String(xmlText).match(re) || [];
+      blocks.forEach((block) => {
+        const parser = new DOMParser();
+        const wrapped = `<root>${block}</root>`;
+        const xml = parser.parseFromString(wrapped, "application/xml");
+        if (xml.querySelector("parsererror")) return;
+        const node = xml.documentElement.firstElementChild;
+        const item = buildBlockFromNode(node, items.length);
+        if (item) items.push(item);
+      });
+      if (!items.length) {
+        return { error: '<p class="muted">본문을 추출하지 못했습니다. (원본 XML 구조 확인 필요)</p>', items: [] };
+      }
+      return { error: "", items };
+    }
+
+    function mergeKoIntoRoman(romanItems, koItems) {
+      if (!Array.isArray(romanItems) || !romanItems.length) return { items: koItems || [], translated: 0, total: 0 };
+      if (!Array.isArray(koItems) || !koItems.length) {
+        const total = romanItems.filter((x) => x.type === "p").length;
+        return { items: romanItems, translated: 0, total };
+      }
+
+      const byNum = new Map();
+      const koNumIndex = new Map();
+      function normParaNum(n) {
+        const raw = parseTreeText(String(n || ""));
+        if (!raw) return "";
+        const leadDigits = raw.match(/^\d+/);
+        if (leadDigits) return leadDigits[0];
+        return raw.replace(/[^\d]/g, "");
+      }
+      function itemTypeKey(item) {
+        if (!item) return "";
+        if (item.type === "head") return `head:${item.rend || ""}`;
+        if (item.type === "p") return `p:${item.rend || ""}`;
+        if (item.type === "trailer") return `trailer:${item.rend || ""}`;
+        return `${item.type || "x"}:${item.rend || ""}`;
+      }
+      function isNumberedParagraph(item) {
+        return !!(item && item.type === "p" && normParaNum(item.num));
+      }
+      function isMappableNonNumber(item) {
+        if (!item) return false;
+        if (item.type === "head") return true;
+        if (item.type === "p" && !normParaNum(item.num)) return true;
+        return false;
+      }
+      koItems.forEach((k) => {
+        if (!k || !k.text) return;
+        if (k.type !== "p") {
+          return;
+        }
+        const key = normParaNum(k.num);
+        if (key) {
+          byNum.set(key, k);
+        }
+      });
+      koItems.forEach((k, idx) => {
+        const key = normParaNum(k && k.num ? k.num : "");
+        if (key && !koNumIndex.has(key)) koNumIndex.set(key, idx);
+      });
+
+      const matchedKoByRomanIndex = new Map();
+
+      // 1) Strict number-based match for numbered paragraphs.
+      romanItems.forEach((r, idx) => {
+        if (!isNumberedParagraph(r)) return;
+        const key = normParaNum(r.num);
+        const k = key ? byNum.get(key) : null;
+        if (k && k.text) {
+          matchedKoByRomanIndex.set(idx, { koText: k.text, koNum: key || r.num || "" });
+        }
+      });
+
+      // 2) For non-number blocks (head/title/subhead/bodytext without n), map by
+      // anchor window (prev/next numbered paragraph) + structure + order.
+      const romanPrevNum = new Array(romanItems.length).fill("");
+      const romanNextNum = new Array(romanItems.length).fill("");
+      let prev = "";
+      for (let i = 0; i < romanItems.length; i += 1) {
+        const it = romanItems[i];
+        if (isNumberedParagraph(it)) prev = normParaNum(it.num);
+        romanPrevNum[i] = prev;
+      }
+      let next = "";
+      for (let i = romanItems.length - 1; i >= 0; i -= 1) {
+        const it = romanItems[i];
+        if (isNumberedParagraph(it)) next = normParaNum(it.num);
+        romanNextNum[i] = next;
+      }
+
+      const romanWindowGroups = new Map();
+      romanItems.forEach((r, idx) => {
+        if (!isMappableNonNumber(r)) return;
+        if (matchedKoByRomanIndex.has(idx)) return;
+        const key = `${romanPrevNum[idx]}|${romanNextNum[idx]}`;
+        if (!romanWindowGroups.has(key)) romanWindowGroups.set(key, []);
+        romanWindowGroups.get(key).push({ idx, item: r });
+      });
+
+      function koWindowRange(prevNumKey, nextNumKey) {
+        const start = prevNumKey && koNumIndex.has(prevNumKey) ? koNumIndex.get(prevNumKey) + 1 : 0;
+        const end = nextNumKey && koNumIndex.has(nextNumKey) ? koNumIndex.get(nextNumKey) : koItems.length;
+        return { start: Math.max(0, start), end: Math.max(0, end) };
+      }
+
+      romanWindowGroups.forEach((romanGroup, windowKey) => {
+        const [prevNumKey, nextNumKey] = windowKey.split("|");
+        const hasPrevAnchor = !!(prevNumKey && koNumIndex.has(prevNumKey));
+        const hasNextAnchor = !!(nextNumKey && koNumIndex.has(nextNumKey));
+        // Without any KO-side anchor, this window is out of translated scope.
+        // Skip to avoid leaking early KO blocks into later untranslated chapters.
+        if (!hasPrevAnchor && !hasNextAnchor) return;
+
+        const { start, end } = koWindowRange(prevNumKey || "", nextNumKey || "");
+        if (end <= start) return;
+        const koCandidates = [];
+        for (let i = start; i < end; i += 1) {
+          const k = koItems[i];
+          if (!isMappableNonNumber(k)) continue;
+          koCandidates.push({ idx: i, item: k, used: false, kind: itemTypeKey(k), type: k.type || "" });
+        }
+
+        function pickCandidate(kind, type) {
+          let found = koCandidates.find((c) => !c.used && c.kind === kind);
+          if (!found) found = koCandidates.find((c) => !c.used && c.type === type);
+          if (!found) found = koCandidates.find((c) => !c.used);
+          if (!found) return null;
+          found.used = true;
+          return found.item;
+        }
+
+        romanGroup.forEach(({ idx, item }) => {
+          const k = pickCandidate(itemTypeKey(item), item.type || "");
+          if (k && k.text) {
+            matchedKoByRomanIndex.set(idx, { koText: k.text, koNum: "" });
+          }
+        });
+      });
+
+      let translated = 0;
+      let total = 0;
+      const out = romanItems.map((r, idx) => {
+        if (!r) return r;
+        if (r.type === "p") total += 1;
+        const m = matchedKoByRomanIndex.get(idx);
+        if (!m || !m.koText) return r;
+        if (r.type === "p") translated += 1;
+        return { ...r, koText: m.koText, koNum: m.koNum || "" };
+      });
+      return { items: out, translated, total };
     }
 
     function escapeHtml(s) {
@@ -595,23 +1083,107 @@
         .replaceAll("'", "&#39;");
     }
 
-    async function openFile(file) {
+    function getTranslationStats(items) {
+      function hasParaNum(item) {
+        if (!item || item.type !== "p") return false;
+        const raw = parseTreeText(String(item.num || ""));
+        if (!raw) return false;
+        return /^\d+/.test(raw);
+      }
+      const list = Array.isArray(items) ? items : [];
+      const total = list.filter((x) => hasParaNum(x)).length;
+      const translated = list.filter((x) => hasParaNum(x) && x.koText).length;
+      return { translated, total };
+    }
+
+    async function openFile(file, sectionLabel = "") {
       els.reader.innerHTML = '<p class="muted">불러오는 중...</p>';
       try {
-        selectedFile = file.split("/").pop() || "";
+        selectedFile = toCanonicalSourceFileName(file);
+        selectedSectionLabel = sectionLabel || selectedSectionLabel || "";
         selectedHref = file;
+        updateFileNameDisplay();
         const canUseKo = await probeKoTranslation(file);
         const viewLang = (selectedViewLang === KO_LANG && canUseKo) ? KO_LANG : FIXED_LANG;
         updateActiveTocNode();
         updateLanguageControls();
-        const pathInLang = viewLang === KO_LANG ? getKoCorpusPath(file) : file;
+        if (!canUseKo) setSelectedTocKoState("none");
+        const romanUrl = `${CONTENT_ROOT}/${FIXED_LANG}/${file}`;
+        let pathInLang = file;
+        if (viewLang === KO_LANG) {
+          const koCandidates = buildKoCandidatePaths(file);
+          pathInLang = koCandidates[0] || getKoCorpusPath(file);
+          for (const relPath of koCandidates) {
+            const ok = await headOk(`${CONTENT_ROOT}/${KO_LANG}/${relPath}`);
+            if (ok) {
+              pathInLang = relPath;
+              break;
+            }
+          }
+        }
         const url = `${CONTENT_ROOT}/${viewLang}/${pathInLang}`;
-        const res = await fetch(url);
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const buf = await res.arrayBuffer();
-        const xmlText = decodeWithBom(buf);
-        const body = xmlToReaderHtml(xmlText);
-        els.reader.innerHTML = body;
+        if (viewLang === KO_LANG) {
+          const [koRes, romnRes] = await Promise.all([fetch(url), fetch(romanUrl)]);
+          if (!romnRes.ok) throw new Error(`ROMN HTTP ${romnRes.status}`);
+          const romnBuf = await romnRes.arrayBuffer();
+          const romnXml = decodeWithBom(romnBuf);
+          const romnBlocks = parseXmlBlocks(romnXml);
+          if (romnBlocks.error) {
+            els.reader.innerHTML = romnBlocks.error;
+            return;
+          }
+          const scopedRomnItems = filterBlocksBySection(romnBlocks.items, selectedSectionLabel);
+
+          if (!koRes.ok) {
+            els.translationStatus.textContent = "번역 매칭 0/" + scopedRomnItems.filter((x) => x.type === "p").length;
+            els.reader.innerHTML = blocksToReaderHtml(scopedRomnItems);
+            setSelectedTocKoState("none");
+          } else {
+            const koBuf = await koRes.arrayBuffer();
+            const koXml = decodeWithBom(koBuf);
+            let koBlocks = parseXmlBlocks(koXml);
+            if (koBlocks.error) {
+              koBlocks = parseXmlFragmentBlocks(koXml);
+            }
+            if (koBlocks.error) {
+              koBlocks = parseLooseBlocks(koXml);
+            }
+            if (koBlocks.error) {
+              els.translationStatus.textContent = "번역 파싱 실패 (원문 표시)";
+              els.reader.innerHTML = blocksToReaderHtml(scopedRomnItems);
+              setSelectedTocKoState("none");
+            } else {
+              const mergedFull = mergeKoIntoRoman(romnBlocks.items, koBlocks.items || []);
+              const scopedMergedItems = filterBlocksBySection(mergedFull.items, selectedSectionLabel);
+              const stats = getTranslationStats(scopedMergedItems);
+              els.translationStatus.textContent = `번역 매칭 ${stats.translated}/${stats.total}`;
+              els.reader.innerHTML = blocksToReaderHtml(scopedMergedItems);
+              let state = "none";
+              if (stats.total > 0) {
+                if (stats.translated === 0) state = "none";
+                else if (stats.translated >= stats.total) state = "full";
+                else state = "partial";
+              } else if (scopedMergedItems.some((x) => x && x.koText)) {
+                state = "partial";
+              }
+              setSelectedTocKoState(state);
+            }
+          }
+        } else {
+          const res = await fetch(url);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const buf = await res.arrayBuffer();
+          const xmlText = decodeWithBom(buf);
+          const blocks = parseXmlBlocks(xmlText);
+          if (blocks.error) {
+            els.reader.innerHTML = blocks.error;
+            return;
+          }
+          const body = blocksToReaderHtml(filterBlocksBySection(blocks.items, selectedSectionLabel));
+          els.reader.innerHTML = body;
+          els.translationStatus.textContent = "";
+          setSelectedTocKoState("none");
+        }
         els.reader.scrollTop = 0;
       } catch (err) {
         els.reader.innerHTML = `<p class="muted">파일 로드 실패: ${escapeHtml(String(err.message || err))}</p>`;
@@ -621,29 +1193,21 @@
     async function init() {
       await loadLanguageTree(FIXED_LANG);
       renderToc(currentTree);
+      updateFileNameDisplay();
       updateLanguageControls();
 
-      els.viewRomnBtn.addEventListener("click", () => {
-        selectedViewLang = FIXED_LANG;
-        updateLanguageControls();
-        if (selectedHref) openFile(selectedHref);
+      els.copyFileNameBtn.addEventListener("click", () => {
+        copySelectedFileName();
       });
 
-      els.viewKoBtn.addEventListener("click", () => {
-        if (els.viewKoBtn.disabled) return;
-        selectedViewLang = KO_LANG;
-        updateLanguageControls();
-        if (selectedHref) openFile(selectedHref);
+      els.fileNameDisplay.addEventListener("click", () => {
+        if (!selectedFile) return;
+        copySelectedFileName();
       });
 
       els.tocToggle.addEventListener("click", () => {
         const hidden = els.toc.style.display === "none";
         els.toc.style.display = hidden ? "block" : "none";
-      });
-
-      els.navToggleBtn.addEventListener("click", () => {
-        const collapsed = els.layout.classList.toggle("nav-collapsed");
-        els.navToggleBtn.textContent = collapsed ? "목차 열기" : "목차 접기";
       });
 
       function setFullscreenMode(next) {
