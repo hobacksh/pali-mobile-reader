@@ -318,6 +318,106 @@
     }
     .muted { color: var(--muted); font-family: "Monda", "Trebuchet MS", sans-serif; }
     .hidden { display: none; }
+    .places-panel {
+      position: fixed;
+      right: 12px;
+      top: 12px;
+      width: min(420px, calc(100vw - 24px));
+      max-height: calc(100dvh - 24px);
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fffefb;
+      box-shadow: var(--shadow);
+      padding: 10px;
+      z-index: 2000;
+    }
+    .places-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 6px;
+      font-family: "Monda", "Trebuchet MS", sans-serif;
+    }
+    .places-help {
+      color: #4b5563;
+      font-size: 12px;
+      margin-bottom: 8px;
+      font-family: "Monda", "Trebuchet MS", sans-serif;
+    }
+    .places-list { display: grid; gap: 8px; }
+    .place-item {
+      border: 1px solid #e5ddcd;
+      border-radius: 10px;
+      background: #fff;
+      padding: 8px;
+      cursor: pointer;
+    }
+    .place-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+    .place-kind {
+      font-size: 11px;
+      padding: 1px 6px;
+      border-radius: 999px;
+      border: 1px solid #b8b09d;
+      color: #334155;
+      font-family: "Monda", "Trebuchet MS", sans-serif;
+    }
+    .place-title {
+      font-weight: 700;
+      font-size: 13px;
+      color: #1f2937;
+      margin-bottom: 3px;
+      overflow-wrap: anywhere;
+    }
+    .place-meta, .place-quote {
+      font-size: 12px;
+      color: #4b5563;
+      overflow-wrap: anywhere;
+      font-family: "Monda", "Trebuchet MS", sans-serif;
+    }
+    .place-del {
+      border: 1px solid #f1c7c7;
+      background: #fff1f1;
+      color: #7f1d1d;
+      border-radius: 8px;
+      padding: 2px 8px;
+      font-size: 11px;
+      cursor: pointer;
+      font-family: "Monda", "Trebuchet MS", sans-serif;
+    }
+    .save-para-btn {
+      float: right;
+      margin-left: 8px;
+      border: 1px solid #d7cfbf;
+      background: #f9f6ef;
+      color: #516154;
+      border-radius: 999px;
+      width: 24px;
+      height: 24px;
+      line-height: 22px;
+      text-align: center;
+      font-size: 13px;
+      cursor: pointer;
+      font-family: "Monda", "Trebuchet MS", sans-serif;
+    }
+    .save-para-btn:hover {
+      background: #ecf4ed;
+      color: #1f4d33;
+      border-color: #b9cbbd;
+    }
+    .save-para-btn.active {
+      background: #e6f4e9;
+      color: #14532d;
+      border-color: #95c9a2;
+      font-weight: 700;
+    }
 
     .layout.nav-collapsed { grid-template-columns: 1fr !important; }
     .layout.nav-collapsed .nav-pane { display: none; }
@@ -342,6 +442,8 @@
   <main class="app">
     <section class="panel" id="readerPanel">
       <div class="bar">
+        <button class="pill" id="savePlaceBtn">저장</button>
+        <button class="pill" id="openPlacesBtn">저장 지점</button>
         <button class="pill" id="fullscreenBtn">전체화면 보기</button>
       </div>
       <div class="file-meta">
@@ -363,6 +465,14 @@
         </div>
       </div>
     </section>
+    <aside class="places-panel hidden" id="placesPanel" aria-hidden="true">
+      <div class="places-head">
+        <strong>저장 지점</strong>
+        <button class="pill" id="closePlacesBtn">닫기</button>
+      </div>
+      <div class="places-help">텍스트 선택 후 저장: 문구 저장, 선택 없이 저장: 현재 단락 북마크</div>
+      <div class="places-list" id="placesList"></div>
+    </aside>
   </main>
 
   <script>
@@ -370,12 +480,19 @@
     const KO_LANG = "ko";
     const CONTENT_ROOT = "./data/corpus";
     const TREE_ROOT = "./data/tree";
+    const READER_STATE_KEY = "pali_mobile_reader_state_v1";
+    const READER_PLACES_KEY = "pali_mobile_reader_places_v1";
 
     const els = {
       readerPanel: document.getElementById("readerPanel"),
       fileNameDisplay: document.getElementById("fileNameDisplay"),
       copyFileNameBtn: document.getElementById("copyFileNameBtn"),
       translationStatus: document.getElementById("translationStatus"),
+      savePlaceBtn: document.getElementById("savePlaceBtn"),
+      openPlacesBtn: document.getElementById("openPlacesBtn"),
+      placesPanel: document.getElementById("placesPanel"),
+      closePlacesBtn: document.getElementById("closePlacesBtn"),
+      placesList: document.getElementById("placesList"),
       fullscreenBtn: document.getElementById("fullscreenBtn"),
       layout: document.getElementById("layout"),
       tocToggle: document.getElementById("tocToggle"),
@@ -392,7 +509,9 @@
     const koAvailabilityByFile = new Map();
     const koSectionStatusCache = new Map();
     const koFileMergeCache = new Map();
+    let places = [];
     let isFullscreenMode = false;
+    let persistTimer = null;
 
     function decodeWithBom(arrayBuffer) {
       const bytes = new Uint8Array(arrayBuffer);
@@ -429,6 +548,346 @@
         .replace(/^\d+\.\s*/, "")
         .replace(/\s+/g, " ")
         .trim();
+    }
+
+    function getNodeKeyPart(label, idx) {
+      const base = normalizeSectionLabel(label || "");
+      if (base) return base;
+      return `node-${idx}`;
+    }
+
+    function collectOpenTocKeys() {
+      return Array.from(document.querySelectorAll(".toc-section[open][data-node-key]"))
+        .map((el) => el.dataset.nodeKey || "")
+        .filter(Boolean);
+    }
+
+    function loadReaderState() {
+      try {
+        const raw = localStorage.getItem(READER_STATE_KEY);
+        if (!raw) return null;
+        const parsed = JSON.parse(raw);
+        if (!parsed || typeof parsed !== "object") return null;
+        return parsed;
+      } catch (_) {
+        return null;
+      }
+    }
+
+    function persistReaderState() {
+      try {
+        const state = {
+          selectedHref: selectedHref || "",
+          selectedSectionLabel: selectedSectionLabel || "",
+          scrollTop: Math.max(0, Math.floor(els.reader.scrollTop || 0)),
+          openTocKeys: collectOpenTocKeys(),
+          tocHidden: els.toc.style.display === "none"
+        };
+        localStorage.setItem(READER_STATE_KEY, JSON.stringify(state));
+      } catch (_) {
+        // ignore storage failures
+      }
+    }
+
+    function schedulePersistReaderState() {
+      if (persistTimer) clearTimeout(persistTimer);
+      persistTimer = setTimeout(() => {
+        persistTimer = null;
+        persistReaderState();
+      }, 180);
+    }
+
+    function restoreOpenTocKeys(keys) {
+      if (!Array.isArray(keys)) return;
+      const keySet = new Set(keys.filter(Boolean));
+      const nodes = Array.from(document.querySelectorAll(".toc-section[data-node-key]"));
+      nodes.forEach((el) => {
+        const key = el.dataset.nodeKey || "";
+        el.open = keySet.has(key);
+      });
+    }
+
+    function loadPlaces() {
+      try {
+        const raw = localStorage.getItem(READER_PLACES_KEY);
+        if (!raw) return [];
+        const arr = JSON.parse(raw);
+        return Array.isArray(arr) ? arr : [];
+      } catch (_) {
+        return [];
+      }
+    }
+
+    function persistPlaces() {
+      try {
+        localStorage.setItem(READER_PLACES_KEY, JSON.stringify(places));
+      } catch (_) {
+        // ignore
+      }
+    }
+
+    function fmtDate(ts) {
+      const d = new Date(ts || Date.now());
+      const yyyy = d.getFullYear();
+      const mm = String(d.getMonth() + 1).padStart(2, "0");
+      const dd = String(d.getDate()).padStart(2, "0");
+      const hh = String(d.getHours()).padStart(2, "0");
+      const mi = String(d.getMinutes()).padStart(2, "0");
+      return `${yyyy}-${mm}-${dd} ${hh}:${mi}`;
+    }
+
+    function makePlaceId() {
+      if (typeof crypto !== "undefined" && crypto.randomUUID) return crypto.randomUUID();
+      return `p_${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
+    }
+
+    function getCurrentTopParagraphEl() {
+      const paras = Array.from(els.reader.querySelectorAll('p[data-block="1"]'));
+      if (!paras.length) return null;
+      const top = Math.max(0, els.reader.scrollTop || 0) + 6;
+      for (const p of paras) {
+        const pTop = p.offsetTop;
+        const pBottom = pTop + p.offsetHeight;
+        if (pBottom >= top) return p;
+      }
+      return paras[paras.length - 1];
+    }
+
+    function paragraphInfoFromEl(p) {
+      if (!p) return null;
+      const num = parseTreeText(p.dataset.num || "");
+      const clone = p.cloneNode(true);
+      const saveBtns = clone.querySelectorAll(".save-para-btn");
+      saveBtns.forEach((b) => b.remove());
+      const text = compactText(clone.textContent || "");
+      return { num, text, anchor: text.slice(0, 120) };
+    }
+
+    function firstSentence(text) {
+      const t = compactText(String(text || ""));
+      if (!t) return "";
+      const m = t.match(/^(.+?[.!?])(\s|$)/);
+      if (m && m[1]) return compactText(m[1]);
+      if (t.length <= 90) return t;
+      return `${t.slice(0, 90)}...`;
+    }
+
+    function getKoInlineTextForParagraph(p) {
+      if (!p || !p.nextElementSibling) return "";
+      const next = p.nextElementSibling;
+      if (!next.classList || !next.classList.contains("ko-inline")) return "";
+      let txt = compactText(next.textContent || "");
+      txt = txt.replace(/^\d+\.\s*/, "");
+      return txt;
+    }
+
+    function getBookmarkPreviewFromParagraph(p) {
+      const ko = getKoInlineTextForParagraph(p);
+      if (ko) return { previewText: firstSentence(ko), previewLang: "ko" };
+      const info = paragraphInfoFromEl(p);
+      const roman = info ? info.text : "";
+      return { previewText: firstSentence(roman), previewLang: "romn" };
+    }
+
+    function getSelectionContext() {
+      const sel = window.getSelection ? window.getSelection() : null;
+      if (!sel || sel.rangeCount === 0 || sel.isCollapsed) return null;
+      const text = compactText(sel.toString() || "");
+      if (!text) return null;
+      const range = sel.getRangeAt(0);
+      let node = range.startContainer;
+      if (!node) return null;
+      if (node.nodeType === Node.TEXT_NODE) node = node.parentElement;
+      if (!node || !node.closest) return null;
+      let p = node.closest('p[data-block="1"]');
+      if (!p) {
+        const ko = node.closest(".ko-inline");
+        if (ko && ko.previousElementSibling && ko.previousElementSibling.matches('p[data-block="1"]')) {
+          p = ko.previousElementSibling;
+        }
+      }
+      const inReader = node.closest("#reader");
+      if (!inReader || !p) return null;
+      return { text, p };
+    }
+
+    function makePlaceFromCurrent(type, selectedText = "") {
+      if (!selectedHref) return null;
+      const pEl = getCurrentTopParagraphEl();
+      const info = paragraphInfoFromEl(pEl) || { num: "", anchor: "" };
+      const preview = getBookmarkPreviewFromParagraph(pEl);
+      const quoteText = compactText(selectedText || "");
+      const now = Date.now();
+      const title = type === "quote"
+        ? (quoteText.length > 28 ? `${quoteText.slice(0, 28)}...` : quoteText || "문구")
+        : (preview.previewText || "북마크");
+      return {
+        id: makePlaceId(),
+        type,
+        title: title || "저장 지점",
+        file: selectedFile || toCanonicalSourceFileName(selectedHref),
+        href: selectedHref,
+        sectionLabel: selectedSectionLabel || "",
+        paragraphNum: info.num || "",
+        anchorText: info.anchor || "",
+        selectedText: quoteText,
+        previewText: preview.previewText || "",
+        previewLang: preview.previewLang || "romn",
+        scrollTop: Math.max(0, Math.floor(els.reader.scrollTop || 0)),
+        createdAt: now,
+        updatedAt: now
+      };
+    }
+
+    function makePlaceFromParagraphEl(pEl, type = "bookmark", selectedText = "") {
+      if (!selectedHref || !pEl) return null;
+      const info = paragraphInfoFromEl(pEl) || { num: "", anchor: "" };
+      const preview = getBookmarkPreviewFromParagraph(pEl);
+      const quoteText = compactText(selectedText || "");
+      const now = Date.now();
+      const title = type === "quote"
+        ? (quoteText.length > 28 ? `${quoteText.slice(0, 28)}...` : quoteText || "문구")
+        : (preview.previewText || "북마크");
+      return {
+        id: makePlaceId(),
+        type,
+        title: title || "저장 지점",
+        file: selectedFile || toCanonicalSourceFileName(selectedHref),
+        href: selectedHref,
+        sectionLabel: selectedSectionLabel || "",
+        paragraphNum: info.num || "",
+        anchorText: info.anchor || "",
+        selectedText: quoteText,
+        previewText: preview.previewText || "",
+        previewLang: preview.previewLang || "romn",
+        scrollTop: Math.max(0, Math.floor(els.reader.scrollTop || 0)),
+        createdAt: now,
+        updatedAt: now
+      };
+    }
+
+    function addPlace(place) {
+      if (!place) return;
+      const idx = places.findIndex((p) => {
+        if (!p) return false;
+        if ((p.type || "") !== (place.type || "")) return false;
+        if ((p.href || "") !== (place.href || "")) return false;
+        if (normalizeSectionLabel(p.sectionLabel || "") !== normalizeSectionLabel(place.sectionLabel || "")) return false;
+        if (parseTreeText(String(p.paragraphNum || "")) !== parseTreeText(String(place.paragraphNum || ""))) return false;
+        if ((p.anchorText || "") !== (place.anchorText || "")) return false;
+        if ((place.type || "") === "quote") {
+          return compactText(p.selectedText || "") === compactText(place.selectedText || "");
+        }
+        return true;
+      });
+      if (idx >= 0) {
+        places[idx] = { ...places[idx], ...place, id: places[idx].id || place.id, createdAt: places[idx].createdAt || place.createdAt, updatedAt: Date.now() };
+        const updated = places[idx];
+        places.splice(idx, 1);
+        places.unshift(updated);
+      } else {
+        places.unshift(place);
+      }
+      if (places.length > 500) places = places.slice(0, 500);
+      persistPlaces();
+      renderPlacesList();
+      syncParagraphSaveButtons();
+    }
+
+    async function goToPlace(placeId) {
+      const place = places.find((x) => x.id === placeId);
+      if (!place || !place.href) return;
+      await openFile(place.href, place.sectionLabel || "", { restoreScroll: 0 });
+      const num = parseTreeText(place.paragraphNum || "");
+      let target = null;
+      if (num) {
+        target = els.reader.querySelector(`p[data-block="1"][data-num="${CSS.escape(num)}"]`);
+      }
+      if (!target && place.anchorText) {
+        const anchor = place.anchorText.slice(0, 40);
+        const paras = Array.from(els.reader.querySelectorAll('p[data-block="1"]'));
+        target = paras.find((p) => (p.textContent || "").includes(anchor)) || null;
+      }
+      if (target) {
+        target.scrollIntoView({ block: "center", behavior: "smooth" });
+      } else if (Number.isFinite(Number(place.scrollTop))) {
+        els.reader.scrollTop = Math.max(0, Number(place.scrollTop));
+      }
+    }
+
+    function removePlace(placeId) {
+      places = places.filter((x) => x.id !== placeId);
+      persistPlaces();
+      renderPlacesList();
+      syncParagraphSaveButtons();
+    }
+
+    function isBookmarkedParagraph(href, sectionLabel, num, anchorText) {
+      const h = String(href || "");
+      const s = normalizeSectionLabel(sectionLabel || "");
+      const n = parseTreeText(String(num || ""));
+      const a = String(anchorText || "");
+      return places.some((p) => {
+        if (!p || p.type !== "bookmark") return false;
+        if ((p.href || "") !== h) return false;
+        if (normalizeSectionLabel(p.sectionLabel || "") !== s) return false;
+        if (parseTreeText(String(p.paragraphNum || "")) !== n) return false;
+        return (p.anchorText || "") === a;
+      });
+    }
+
+    function syncParagraphSaveButtons() {
+      const paras = Array.from(els.reader.querySelectorAll('p[data-block="1"]'));
+      paras.forEach((p) => {
+        const btn = p.querySelector(".save-para-btn");
+        if (!btn) return;
+        const info = paragraphInfoFromEl(p) || { num: "", anchor: "" };
+        const on = isBookmarkedParagraph(selectedHref, selectedSectionLabel, info.num, info.anchor);
+        btn.classList.toggle("active", on);
+        btn.textContent = on ? "★" : "☆";
+        btn.title = on ? "단락 북마크 해제" : "단락 저장하기";
+        btn.setAttribute("aria-label", btn.title);
+      });
+    }
+
+    function renderPlacesList() {
+      if (!places.length) {
+        els.placesList.innerHTML = '<div class="muted">저장된 항목이 없습니다.</div>';
+        return;
+      }
+      els.placesList.innerHTML = places.map((p) => {
+        const kind = p.type === "quote" ? "문구" : "북마크";
+        const isBookmark = p.type === "bookmark";
+        const titleRaw = isBookmark
+          ? (p.previewText || p.anchorText || p.title || "북마크")
+          : (p.title || "문구");
+        const paraMeta = p.paragraphNum ? `단락 ${escapeHtml(String(p.paragraphNum))}` : "";
+        const meta = `${paraMeta}${p.sectionLabel ? `${paraMeta ? " · " : ""}${escapeHtml(p.sectionLabel)}` : ""}`;
+        const quote = p.selectedText ? `<div class="place-quote">${escapeHtml(p.selectedText)}</div>` : "";
+        return `
+          <div class="place-item" data-place-id="${escapeHtml(p.id)}">
+            <div class="place-top">
+              <span class="place-kind">${kind}</span>
+              <button class="place-del" data-place-del="${escapeHtml(p.id)}">삭제</button>
+            </div>
+            <div class="place-title">${escapeHtml(titleRaw)}</div>
+            <div class="place-meta">${meta}</div>
+            ${quote}
+            <div class="place-meta">${escapeHtml(fmtDate(p.updatedAt || p.createdAt))}</div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function openPlacesPanel() {
+      els.placesPanel.classList.remove("hidden");
+      els.placesPanel.setAttribute("aria-hidden", "false");
+      renderPlacesList();
+    }
+
+    function closePlacesPanel() {
+      els.placesPanel.classList.add("hidden");
+      els.placesPanel.setAttribute("aria-hidden", "true");
     }
 
     function filterBlocksBySection(items, sectionLabel) {
@@ -669,17 +1128,19 @@
       }
     }
 
-    function renderTreeNodes(nodes, container, q, depth) {
-      nodes.forEach((node) => {
+    function renderTreeNodes(nodes, container, q, depth, parentNodeKey = "root") {
+      nodes.forEach((node, idx) => {
         if (!nodeMatchesFilter(node, q)) return;
         const children = Array.isArray(node.children) ? node.children : [];
         const href = node.a_attr && node.a_attr.href ? node.a_attr.href : "";
         const mappedPath = mapHrefToCorpusPath(href);
         const label = parseTreeText(node.text || "Untitled");
+        const nodeKey = `${parentNodeKey}/${getNodeKeyPart(label, idx)}`;
 
         if (children.length) {
           const details = document.createElement("details");
           details.className = "toc-section";
+          details.dataset.nodeKey = nodeKey;
           details.open = Boolean(q);
           const summary = document.createElement("summary");
           summary.className = "toc-head";
@@ -687,10 +1148,11 @@
           details.appendChild(summary);
           const body = document.createElement("div");
           body.className = "toc-files toc-children";
-          renderTreeNodes(children, body, q, depth + 1);
+          renderTreeNodes(children, body, q, depth + 1, nodeKey);
           details.appendChild(body);
           details.addEventListener("toggle", () => {
             if (details.open) fillKoBadgesForDirectFiles(body);
+            schedulePersistReaderState();
           });
           container.appendChild(details);
         } else {
@@ -716,6 +1178,17 @@
       btn.dataset.koStateReady = "1";
     }
 
+    function ensureSelectedTocVisible() {
+      if (!selectedHref) return;
+      const btn = els.toc.querySelector(`.file-btn[data-href="${CSS.escape(selectedHref)}"]`);
+      if (!btn) return;
+      let cur = btn.parentElement;
+      while (cur) {
+        if (cur.tagName === "DETAILS") cur.open = true;
+        cur = cur.parentElement;
+      }
+    }
+
     function renderToc(treeNodes) {
       els.toc.innerHTML = "";
       if (!Array.isArray(treeNodes) || !treeNodes.length) {
@@ -723,7 +1196,7 @@
         return;
       }
       const q = "";
-      renderTreeNodes(treeNodes, els.toc, q, 0);
+      renderTreeNodes(treeNodes, els.toc, q, 0, "root");
     }
 
     function updateActiveTocNode() {
@@ -816,17 +1289,23 @@
       if (!node || node.nodeType !== Node.ELEMENT_NODE) return null;
       const tag = node.tagName.toLowerCase();
       const rend = node.getAttribute("rend") || "";
+      const transAttr = (node.getAttribute("trans") || "").toLowerCase();
+      const trans = transAttr === "true";
       const html = compactText(nodeToHtml(node)).replace(/\s*<br>\s*/g, "<br>");
       const plain = compactText(nodeToText(node));
       if (!plain) return null;
       const cls = getRendClass(tag, rend);
 
       if (tag === "head") {
-        return { type: "head", num: "", text: plain, key: `head:${idx}`, rend, cls, html };
+        return { type: "head", num: "", text: plain, key: `head:${idx}`, rend, cls, html, trans };
+      }
+
+      if (tag === "trailer") {
+        return { type: "trailer", num: "", text: plain, key: `trailer:${idx}`, rend, cls, html, trans };
       }
 
       const { num, text } = normalizeParagraph(node);
-      return { type: "p", num, text, key: num ? `p:n:${num}` : `p:i:${idx}`, rend, cls, html };
+      return { type: "p", num, text, key: num ? `p:n:${num}` : `p:i:${idx}`, rend, cls, html, trans };
     }
 
     function compactText(text) {
@@ -861,11 +1340,15 @@
         return escaped.replace(/\[([^\]]+)\]/g, '<span class="note">[$1]</span>');
       }
       const parts = [];
-      items.forEach((b) => {
+      items.forEach((b, idx) => {
         const safe = b.html || escapeHtml(b.text).replaceAll("\n", "<br>");
         const koSafe = b.koText ? formatKoInlineText(b.koText) : "";
         const koNumSafe = b.koNum ? escapeHtml(String(b.koNum)) : "";
-        parts.push(`<p class="${escapeHtml(b.cls || "bodytext")}">${safe}</p>`);
+        const numAttr = b.num ? ` data-num="${escapeHtml(String(b.num))}"` : "";
+        const saveBtn = b.type === "p"
+          ? `<button class="save-para-btn" data-save-idx="${idx}" title="단락 저장하기" aria-label="단락 저장하기">☆</button>`
+          : "";
+        parts.push(`<p class="${escapeHtml(b.cls || "bodytext")}" data-block="1" data-idx="${idx}"${numAttr}>${saveBtn}${safe}</p>`);
         if (koSafe) {
           const koNumHtml = koNumSafe ? `<span class="ko-num">${koNumSafe}.</span>` : "";
           parts.push(`<div class="ko-inline">${koNumHtml}${koSafe}</div>`);
@@ -936,140 +1419,35 @@
       return { error: "", items };
     }
 
+    function hasParaNum(item) {
+      if (!item || item.type !== "p") return false;
+      const raw = parseTreeText(String(item.num || ""));
+      if (!raw) return false;
+      return /^\d+/.test(raw);
+    }
+
     function mergeKoIntoRoman(romanItems, koItems) {
       if (!Array.isArray(romanItems) || !romanItems.length) return { items: koItems || [], translated: 0, total: 0 };
       if (!Array.isArray(koItems) || !koItems.length) {
-        const total = romanItems.filter((x) => x.type === "p").length;
+        const total = romanItems.filter((x) => x.type === "p" && hasParaNum(x)).length;
         return { items: romanItems, translated: 0, total };
       }
-
-      const byNum = new Map();
-      const koNumIndex = new Map();
-      function normParaNum(n) {
-        const raw = parseTreeText(String(n || ""));
-        if (!raw) return "";
-        const leadDigits = raw.match(/^\d+/);
-        if (leadDigits) return leadDigits[0];
-        return raw.replace(/[^\d]/g, "");
-      }
-      function itemTypeKey(item) {
-        if (!item) return "";
-        if (item.type === "head") return `head:${item.rend || ""}`;
-        if (item.type === "p") return `p:${item.rend || ""}`;
-        if (item.type === "trailer") return `trailer:${item.rend || ""}`;
-        return `${item.type || "x"}:${item.rend || ""}`;
-      }
-      function isNumberedParagraph(item) {
-        return !!(item && item.type === "p" && normParaNum(item.num));
-      }
-      function isMappableNonNumber(item) {
-        if (!item) return false;
-        if (item.type === "head") return true;
-        if (item.type === "p" && !normParaNum(item.num)) return true;
-        return false;
-      }
-      koItems.forEach((k) => {
-        if (!k || !k.text) return;
-        if (k.type !== "p") {
-          return;
-        }
-        const key = normParaNum(k.num);
-        if (key) {
-          byNum.set(key, k);
-        }
-      });
-      koItems.forEach((k, idx) => {
-        const key = normParaNum(k && k.num ? k.num : "");
-        if (key && !koNumIndex.has(key)) koNumIndex.set(key, idx);
-      });
-
-      const matchedKoByRomanIndex = new Map();
-
-      // 1) Strict number-based match for numbered paragraphs.
-      romanItems.forEach((r, idx) => {
-        if (!isNumberedParagraph(r)) return;
-        const key = normParaNum(r.num);
-        const k = key ? byNum.get(key) : null;
-        if (k && k.text) {
-          matchedKoByRomanIndex.set(idx, { koText: k.text, koNum: key || r.num || "" });
-        }
-      });
-
-      // 2) For non-number blocks (head/title/subhead/bodytext without n), map by
-      // anchor window (prev/next numbered paragraph) + structure + order.
-      const romanPrevNum = new Array(romanItems.length).fill("");
-      const romanNextNum = new Array(romanItems.length).fill("");
-      let prev = "";
-      for (let i = 0; i < romanItems.length; i += 1) {
-        const it = romanItems[i];
-        if (isNumberedParagraph(it)) prev = normParaNum(it.num);
-        romanPrevNum[i] = prev;
-      }
-      let next = "";
-      for (let i = romanItems.length - 1; i >= 0; i -= 1) {
-        const it = romanItems[i];
-        if (isNumberedParagraph(it)) next = normParaNum(it.num);
-        romanNextNum[i] = next;
-      }
-
-      const romanWindowGroups = new Map();
-      romanItems.forEach((r, idx) => {
-        if (!isMappableNonNumber(r)) return;
-        if (matchedKoByRomanIndex.has(idx)) return;
-        const key = `${romanPrevNum[idx]}|${romanNextNum[idx]}`;
-        if (!romanWindowGroups.has(key)) romanWindowGroups.set(key, []);
-        romanWindowGroups.get(key).push({ idx, item: r });
-      });
-
-      function koWindowRange(prevNumKey, nextNumKey) {
-        const start = prevNumKey && koNumIndex.has(prevNumKey) ? koNumIndex.get(prevNumKey) + 1 : 0;
-        const end = nextNumKey && koNumIndex.has(nextNumKey) ? koNumIndex.get(nextNumKey) : koItems.length;
-        return { start: Math.max(0, start), end: Math.max(0, end) };
-      }
-
-      romanWindowGroups.forEach((romanGroup, windowKey) => {
-        const [prevNumKey, nextNumKey] = windowKey.split("|");
-        const hasPrevAnchor = !!(prevNumKey && koNumIndex.has(prevNumKey));
-        const hasNextAnchor = !!(nextNumKey && koNumIndex.has(nextNumKey));
-        // Without any KO-side anchor, this window is out of translated scope.
-        // Skip to avoid leaking early KO blocks into later untranslated chapters.
-        if (!hasPrevAnchor && !hasNextAnchor) return;
-
-        const { start, end } = koWindowRange(prevNumKey || "", nextNumKey || "");
-        if (end <= start) return;
-        const koCandidates = [];
-        for (let i = start; i < end; i += 1) {
-          const k = koItems[i];
-          if (!isMappableNonNumber(k)) continue;
-          koCandidates.push({ idx: i, item: k, used: false, kind: itemTypeKey(k), type: k.type || "" });
-        }
-
-        function pickCandidate(kind, type) {
-          let found = koCandidates.find((c) => !c.used && c.kind === kind);
-          if (!found) found = koCandidates.find((c) => !c.used && c.type === type);
-          if (!found) found = koCandidates.find((c) => !c.used);
-          if (!found) return null;
-          found.used = true;
-          return found.item;
-        }
-
-        romanGroup.forEach(({ idx, item }) => {
-          const k = pickCandidate(itemTypeKey(item), item.type || "");
-          if (k && k.text) {
-            matchedKoByRomanIndex.set(idx, { koText: k.text, koNum: "" });
-          }
-        });
-      });
 
       let translated = 0;
       let total = 0;
       const out = romanItems.map((r, idx) => {
         if (!r) return r;
-        if (r.type === "p") total += 1;
-        const m = matchedKoByRomanIndex.get(idx);
-        if (!m || !m.koText) return r;
-        if (r.type === "p") translated += 1;
-        return { ...r, koText: m.koText, koNum: m.koNum || "" };
+        if (r.type === "p" && hasParaNum(r)) total += 1;
+
+        const k = koItems[idx];
+        if (!k) return r;
+        if ((k.type || "") !== (r.type || "")) return r;
+        if ((k.rend || "") !== (r.rend || "")) return r;
+
+        if (k.trans !== true || !k.text) return r;
+
+        if (r.type === "p" && hasParaNum(r)) translated += 1;
+        return { ...r, koText: k.text, koNum: k.num || "" };
       });
       return { items: out, translated, total };
     }
@@ -1084,19 +1462,13 @@
     }
 
     function getTranslationStats(items) {
-      function hasParaNum(item) {
-        if (!item || item.type !== "p") return false;
-        const raw = parseTreeText(String(item.num || ""));
-        if (!raw) return false;
-        return /^\d+/.test(raw);
-      }
       const list = Array.isArray(items) ? items : [];
       const total = list.filter((x) => hasParaNum(x)).length;
       const translated = list.filter((x) => hasParaNum(x) && x.koText).length;
       return { translated, total };
     }
 
-    async function openFile(file, sectionLabel = "") {
+    async function openFile(file, sectionLabel = "", opts = {}) {
       els.reader.innerHTML = '<p class="muted">불러오는 중...</p>';
       try {
         selectedFile = toCanonicalSourceFileName(file);
@@ -1106,6 +1478,7 @@
         const canUseKo = await probeKoTranslation(file);
         const viewLang = (selectedViewLang === KO_LANG && canUseKo) ? KO_LANG : FIXED_LANG;
         updateActiveTocNode();
+        ensureSelectedTocVisible();
         updateLanguageControls();
         if (!canUseKo) setSelectedTocKoState("none");
         const romanUrl = `${CONTENT_ROOT}/${FIXED_LANG}/${file}`;
@@ -1184,7 +1557,14 @@
           els.translationStatus.textContent = "";
           setSelectedTocKoState("none");
         }
-        els.reader.scrollTop = 0;
+        const restoreScroll = Number(opts && opts.restoreScroll);
+        if (Number.isFinite(restoreScroll) && restoreScroll >= 0) {
+          els.reader.scrollTop = restoreScroll;
+        } else {
+          els.reader.scrollTop = 0;
+        }
+        syncParagraphSaveButtons();
+        schedulePersistReaderState();
       } catch (err) {
         els.reader.innerHTML = `<p class="muted">파일 로드 실패: ${escapeHtml(String(err.message || err))}</p>`;
       }
@@ -1195,6 +1575,23 @@
       renderToc(currentTree);
       updateFileNameDisplay();
       updateLanguageControls();
+      places = loadPlaces();
+      renderPlacesList();
+
+      const restored = loadReaderState();
+      if (restored && restored.tocHidden) {
+        els.toc.style.display = "none";
+      }
+      if (restored && Array.isArray(restored.openTocKeys)) {
+        restoreOpenTocKeys(restored.openTocKeys);
+      }
+      if (restored && restored.selectedHref) {
+        await openFile(
+          restored.selectedHref,
+          restored.selectedSectionLabel || "",
+          { restoreScroll: Number(restored.scrollTop) || 0 }
+        );
+      }
 
       els.copyFileNameBtn.addEventListener("click", () => {
         copySelectedFileName();
@@ -1208,6 +1605,73 @@
       els.tocToggle.addEventListener("click", () => {
         const hidden = els.toc.style.display === "none";
         els.toc.style.display = hidden ? "block" : "none";
+        schedulePersistReaderState();
+      });
+
+      els.savePlaceBtn.addEventListener("click", () => {
+        if (!selectedHref) return;
+        const selCtx = getSelectionContext();
+        if (selCtx && selCtx.text) {
+          const info = paragraphInfoFromEl(selCtx.p) || { num: "", anchor: "" };
+          const place = makePlaceFromCurrent("quote", selCtx.text);
+          if (place) {
+            place.paragraphNum = info.num || place.paragraphNum;
+            place.anchorText = info.anchor || place.anchorText;
+            addPlace(place);
+            if (window.getSelection) {
+              const sel = window.getSelection();
+              if (sel) sel.removeAllRanges();
+            }
+          }
+        } else {
+          addPlace(makePlaceFromCurrent("bookmark", ""));
+        }
+      });
+
+      els.openPlacesBtn.addEventListener("click", () => {
+        openPlacesPanel();
+      });
+      els.closePlacesBtn.addEventListener("click", () => {
+        closePlacesPanel();
+      });
+      els.placesList.addEventListener("click", async (ev) => {
+        const t = ev.target;
+        if (!(t instanceof HTMLElement)) return;
+        const delId = t.getAttribute("data-place-del");
+        if (delId) {
+          ev.stopPropagation();
+          removePlace(delId);
+          return;
+        }
+        const item = t.closest(".place-item[data-place-id]");
+        if (!item) return;
+        const pid = item.getAttribute("data-place-id");
+        if (!pid) return;
+        closePlacesPanel();
+        await goToPlace(pid);
+      });
+
+      els.reader.addEventListener("click", (ev) => {
+        const t = ev.target;
+        if (!(t instanceof HTMLElement)) return;
+        const btn = t.closest(".save-para-btn");
+        if (!btn) return;
+        const p = btn.closest('p[data-block="1"]');
+        if (!p) return;
+        const info = paragraphInfoFromEl(p) || { num: "", anchor: "" };
+        const existing = places.find((x) =>
+          x &&
+          x.type === "bookmark" &&
+          (x.href || "") === (selectedHref || "") &&
+          normalizeSectionLabel(x.sectionLabel || "") === normalizeSectionLabel(selectedSectionLabel || "") &&
+          parseTreeText(String(x.paragraphNum || "")) === parseTreeText(String(info.num || "")) &&
+          (x.anchorText || "") === (info.anchor || "")
+        );
+        if (existing) {
+          removePlace(existing.id);
+        } else {
+          addPlace(makePlaceFromParagraphEl(p, "bookmark", ""));
+        }
       });
 
       function setFullscreenMode(next) {
@@ -1225,6 +1689,14 @@
         if (ev.key === "Escape" && isFullscreenMode) {
           setFullscreenMode(false);
         }
+      });
+
+      els.reader.addEventListener("scroll", () => {
+        schedulePersistReaderState();
+      });
+
+      window.addEventListener("beforeunload", () => {
+        persistReaderState();
       });
 
     }
