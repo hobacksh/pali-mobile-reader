@@ -1096,7 +1096,7 @@
         if (stats.translated === 0) state = "none";
         else if (stats.translated >= stats.total) state = "full";
         else state = "partial";
-      } else if (scoped.some((x) => x && x.koText)) {
+      } else if (scoped.some((x) => x && x.koTrans === true)) {
         state = "partial";
       }
       koSectionStatusCache.set(key, state);
@@ -1444,10 +1444,11 @@
         if ((k.type || "") !== (r.type || "")) return r;
         if ((k.rend || "") !== (r.rend || "")) return r;
 
-        if (k.trans !== true || !k.text) return r;
-
-        if (r.type === "p" && hasParaNum(r)) translated += 1;
-        return { ...r, koText: k.text, koNum: k.num || "" };
+        const koTrans = k.trans === true;
+        if (r.type === "p" && hasParaNum(r) && koTrans) translated += 1;
+        if (!koTrans) return { ...r, koTrans: false };
+        // trans=true is the source of truth for completion; text is optional for stats.
+        return { ...r, koText: k.text || "", koNum: k.num || "", koTrans: true };
       });
       return { items: out, translated, total };
     }
@@ -1464,7 +1465,7 @@
     function getTranslationStats(items) {
       const list = Array.isArray(items) ? items : [];
       const total = list.filter((x) => hasParaNum(x)).length;
-      const translated = list.filter((x) => hasParaNum(x) && x.koText).length;
+      const translated = list.filter((x) => hasParaNum(x) && x.koTrans === true).length;
       return { translated, total };
     }
 
@@ -1508,7 +1509,7 @@
           const scopedRomnItems = filterBlocksBySection(romnBlocks.items, selectedSectionLabel);
 
           if (!koRes.ok) {
-            els.translationStatus.textContent = "번역 매칭 0/" + scopedRomnItems.filter((x) => x.type === "p").length;
+            els.translationStatus.textContent = "번역 매칭 0/" + scopedRomnItems.filter((x) => hasParaNum(x)).length;
             els.reader.innerHTML = blocksToReaderHtml(scopedRomnItems);
             setSelectedTocKoState("none");
           } else {
@@ -1536,7 +1537,7 @@
                 if (stats.translated === 0) state = "none";
                 else if (stats.translated >= stats.total) state = "full";
                 else state = "partial";
-              } else if (scopedMergedItems.some((x) => x && x.koText)) {
+              } else if (scopedMergedItems.some((x) => x && x.koTrans === true)) {
                 state = "partial";
               }
               setSelectedTocKoState(state);
