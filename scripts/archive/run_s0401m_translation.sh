@@ -3,17 +3,17 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ROOT_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
-PY_SCRIPT="${SCRIPT_DIR}/translate_vin02m2_trans_batches.py"
+PY_SCRIPT="${SCRIPT_DIR}/translate_s0401m_trans_batches.py"
 
 usage() {
   cat <<'EOF'
 Usage:
-  ./scripts/run_vin02m2_translation.sh --items <N> [--start-line <LINE>] [--batch-size 5] [--sleep-seconds 2] [--model gpt-5.3-codex] [--dry-run]
+  ./scripts/run_s0401m_translation.sh --items <N> [--start-line <LINE>] [--batch-size 5] [--sleep-seconds 2] [--model gpt-5.4] [--dry-run]
 
 Examples:
-  ./scripts/run_vin02m2_translation.sh --items 10
-  ./scripts/run_vin02m2_translation.sh --items 20 --start-line 2501
-  ./scripts/run_vin02m2_translation.sh --items 10 --dry-run
+  ./scripts/run_s0401m_translation.sh --items 10
+  ./scripts/run_s0401m_translation.sh --items 20 --start-line 2501
+  ./scripts/run_s0401m_translation.sh --items 10 --dry-run
 EOF
 }
 
@@ -21,7 +21,7 @@ ITEMS=""
 START_LINE="1"
 BATCH_SIZE="5"
 SLEEP_SECONDS="2"
-MODEL="gpt-5.3-codex"
+MODEL="gpt-5.4"
 DRY_RUN="false"
 
 while [[ $# -gt 0 ]]; do
@@ -89,13 +89,17 @@ if ! [[ "${SLEEP_SECONDS}" =~ ^[0-9]+([.][0-9]+)?$ ]]; then
 fi
 
 CODEX_BIN="$(command -v codex || true)"
-if [[ -z "${CODEX_BIN}" && -x "/Users/jb.park/.vscode/extensions/openai.chatgpt-0.4.79-darwin-arm64/bin/macos-aarch64/codex" ]]; then
-  CODEX_BIN="/Users/jb.park/.vscode/extensions/openai.chatgpt-0.4.79-darwin-arm64/bin/macos-aarch64/codex"
+if [[ -z "${CODEX_BIN}" ]]; then
+  for candidate in /Users/jb.park/.vscode/extensions/openai.chatgpt-*/bin/macos-aarch64/codex; do
+    if [[ -x "${candidate}" ]]; then
+      CODEX_BIN="${candidate}"
+    fi
+  done
 fi
 
 if [[ -z "${CODEX_BIN}" ]]; then
   echo "ERROR: codex 실행 파일을 찾지 못했습니다." >&2
-  echo "확인 경로: PATH, /Users/jb.park/.vscode/extensions/openai.chatgpt-0.4.79-darwin-arm64/bin/macos-aarch64/codex" >&2
+  echo "확인 경로: PATH, /Users/jb.park/.vscode/extensions/openai.chatgpt-*/bin/macos-aarch64/codex" >&2
   exit 1
 fi
 

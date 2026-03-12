@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tipitaka-latn.xsl"?>
+<TEI.2>
+<teiHeader></teiHeader>
+<text>
+<front></front><body xml:space="preserve">
+
+
+<p rend="centre" trans="true">세존이시며 아라한이시며 정등각자이신 그분께 예경합니다</p>
+
+
+
+<p rend="nikaya" trans="true">앙굿따라니까야(Aṅguttaranikāyo)</p>
+
+<div id="an1" n="an1" type="book">
+
+
+<head rend="book" trans="true">에까까니빠따빨리(Ekakanipātapāḷi)</head>
+
+<div id="an1_1" n="an1_1" type="vagga">
+
+
+<head rend="chapter" trans="true">1. 색 등 품(Rūpādivaggo)</head>
+
+
+
+<p rend="bodytext" n="1" trans="true"><hi rend="paranum">1</hi><hi rend="dot">.</hi>이와 같이<pb ed="T" n="1.0001" /><pb ed="V" n="1.0001" /><pb ed="P" n="1.0001" /><pb ed="M" n="1.0001" />나는 들었다 - 한때 세존께서는 사왓티(Sāvatthī)에서 제따와나(Jetavana), 아나타삔디까(Anāthapiṇḍika)의 원림에 머무셨다. 그곳에서 참으로 세존께서 비구들을 불러 말씀하셨다 - '비구들이여'라고. '존자시여'라고 그 비구들은 세존께 응답하였다. 세존께서 이것을 말씀하셨다 -</p>
+
+
+
+<p rend="bodytext" trans="true">“비구들이여, 나는 다른 어떤 한 가지 형색(rūpa)도 보지 못한다. 그것이 이와 같이 남자의 마음을 사로잡아 머무는 것은, 비구들이여, 곧 여인의 형색(itthirūpa)이다. 비구들이여, 여인의 형색은 남자의 마음을 사로잡아 머문다”라고. 첫째.</p>
+
+
+
+<p rend="bodytext" n="2" trans="true"><hi rend="paranum">2</hi><hi rend="dot">.</hi>“비구들이여, 나는 다른 어떤 한 가지 소리(sadda)도 보지 못한다. 그것이 이와 같이 남자의 마음을 사로잡아<pb ed="V" n="1.0002" />머무는 것은, 비구들이여, 곧 여인의 소리(itthisaddo)이다. 비구들이여, 여인의 소리는 남자의 마음을 사로잡아 머문다”라고. 둘째.</p>
+
+
+
+<p rend="bodytext" n="3" trans="true"><hi rend="paranum">3</hi><hi rend="dot">.</hi>“비구들이여, 나는 다른 어떤 한 가지 냄새(gandha)도 보지 못한다. 그것이 이와 같이 남자의 마음을 사로잡아 머무는 것은, 비구들이여, 곧 여인의 냄새(itthigandho)이다. 비구들이여, 여인의 냄새는 남자의 마음을 사로잡아 머문다”라고. 셋째.</p>
+
+
+
+<p rend="bodytext" n="4" trans="true"><hi rend="paranum">4</hi><hi rend="dot">.</hi>“나는<pb ed="T" n="1.0002" /><pb ed="P" n="1.0002" />, 비구들이여, 다른 어떤 한 가지 맛(rasa)도 보지 못한다. 그것이 이와 같이 남자의 마음을 사로잡아 머무는 것은, 비구들이여, 곧 여인의 맛(itthiraso)이다. 비구들이여, 여인의 맛은 남자의 마음을 사로잡아 머문다”라고. 넷째.</p>
+
+
+
+<p rend="bodytext" n="5" trans="true"><hi rend="paranum">5</hi><hi rend="dot">.</hi>“나는<pb ed="M" n="1.0002" />, 비구들이여, 다른 어떤 한 가지 접촉(phoṭṭhabba)도 보지 못한다. 그것이 이와 같이 남자의 마음을 사로잡아 머무는 것은, 비구들이여, 곧 여인의 접촉(itthiphoṭṭhabbo)이다. 비구들이여, 여인의 접촉은 남자의 마음을 사로잡아 머문다”라고. 다섯째.</p>
+
+
+
+<p rend="bodytext" n="6" trans="true"><hi rend="paranum">6</hi><hi rend="dot">.</hi>“‘비구들이여, 나는 다른 어떤 한 가지 형색도, 이와 같이 여자의 마음을 사로잡아 머무는 것을 보지 못한다. 곧 이것이다, 비구들이여, 남자의 형색이다. 남자의 형색은, 비구들이여, 여자의 마음을 사로잡아 머문다’”라고. 여섯째.</p>
+
+
+
+<p rend="bodytext" n="7" trans="true"><hi rend="paranum">7</hi><hi rend="dot">.</hi>“‘비구들이여, 나는 다른 어떤 한 가지 소리도, 이와 같이 여자의 마음을 사로잡아 머무는 것을 보지 못한다. 곧 이것이다, 비구들이여, 남자의 소리이다. 남자의 소리는, 비구들이여, 여자의 마음을 사로잡아 머문다’”라고. 일곱째.</p>
+
+
+
+<p rend="bodytext" n="8" trans="true"><hi rend="paranum">8</hi><hi rend="dot">.</hi>“‘비구들이여, 나는 다른 어떤 한 가지 냄새도, 이와 같이 여자의 마음을 사로잡아 머무는 것을 보지 못한다. 곧 이것이다, 비구들이여, 남자의 냄새이다. 남자의 냄새는, 비구들이여, 여자의 마음을 사로잡아 머문다’”라고. 여덟째.</p>
+
+
+
+<p rend="bodytext" n="9" trans="true"><hi rend="paranum">9</hi><hi rend="dot">.</hi>“‘비구들이여, 나는 다른 어떤 한 가지 맛도, 이와 같이 여자의 마음을 사로잡아<pb ed="V" n="1.0003" />머무는 것을 보지 못한다. 곧 이것이다, 비구들이여, 남자의 맛이다. 남자의 맛은, 비구들이여, 여자의 마음을 사로잡아 머문다’”라고. 아홉째.</p>
+
+
+
+<p rend="bodytext" n="10" trans="true"><hi rend="paranum">10</hi><hi rend="dot">.</hi>“‘비구들이여, 나는 다른 어떤 한 가지 감촉도, 이와 같이<pb ed="T" n="1.0003" />여자의 마음을 사로잡아 머무는 것을 보지 못한다. 곧 이것이다, 비구들이여, 남자의 감촉이다. 남자의 감촉은, 비구들이여, 여자의 마음을 사로잡아 머문다’”라고. 열째.</p>
+
+
+
+<trailer rend="centre" trans="true">색(色) 등 품, 첫째.</trailer>
+</div>
+
+<div id="an1_2" n="an1_2" type="vagga">
+
+
+<head rend="chapter" trans="true">2. 장애(蓋)의 버림 품</head>
+
+
+
+<p rend="bodytext" n="11" trans="true"><hi rend="paranum">11</hi><hi rend="dot">.</hi>‘‘나는<pb ed="V" n="1.0004" /><pb ed="P" n="1.0003" />, 비구들이여, 아직 일어나지 않은 감각적 욕망(kāmacchando)이 일어나게 하거나, 이미 일어난 감각적 욕망이 더욱 커지고 넓어짐으로 나아가게 하는, 이와 같은 다른 어떤 하나의 법도 나는 보지 않는다. 곧 이것이니, 비구들이여, 아름다움의 상(subhanimittaṃ)이다. 비구들이여, 아름다움의 상을 비여리작(ayoniso)으로 마음에 짓는 자에게는 아직 일어나지 않은 감각적 욕망이 일어나고, 이미 일어난 감각적 욕망은 더욱 커지고 넓어짐으로 나아간다’’라고 하셨다. 첫째.</p>
+
+
+
+<p rend="bodytext" n="12" trans="true"><hi rend="paranum">12</hi><hi rend="dot">.</hi>‘‘나는<pb ed="M" n="1.0003" />, 비구들이여, 아직 일어나지 않은 악의(byāpādo)가 일어나게 하거나, 이미 일어난 악의가 더욱 커지고 넓어짐으로 나아가게 하는, 이와 같은 다른 어떤 하나의 법도 나는 보지 않는다. 곧 이것이니, 비구들이여, 혐오의 상(paṭighanimittaṃ)이다. 비구들이여, 혐오의 상을 비여리작(ayoniso)으로 마음에 짓는 자에게는 아직 일어나지 않은 악의가 일어나고, 이미 일어난 악의는 더욱 커지고 넓어짐으로 나아간다’’라고 하셨다. 둘째.</p>
+
+
+
+<p rend="bodytext" n="13" trans="true"><hi rend="paranum">13</hi><hi rend="dot">.</hi>‘‘나는, 비구들이여, 아직 일어나지 않은 혼침과 수면(thinamiddhaṃ)이<note trans="true">혼침과 수면(thīnamiddhaṃ) (sī. syā. kaṃ. pī.)</note>일어나게 하거나, 이미 일어난 혼침과 수면이 더욱 커지고 넓어짐으로 나아가게 하는, 이와 같은 다른 어떤 하나의 법도 나는 보지 않는다. 곧 이것이니, 비구들이여, 즐기지 못함(arati), 권태(tandī)<note trans="true">권태(tandi) (ka.)</note>하품(vijambhitā)<note trans="true">하품(vijambhikā) (sī. syā. kaṃ. pī.)</note>와 식후의 혼미(bhattasammado), 그리고 마음의 침체이다. 비구들이여, 마음이 침체된 자에게는 아직 일어나지 않은 혼침과 수면이<pb ed="T" n="1.0004" />일어나고, 이미 일어난 혼침과 수면은 더욱 커지고 넓어짐으로 나아간다’’라고 하셨다. 셋째.</p>
+
+
+
+<p rend="bodytext" n="14" trans="true"><hi rend="paranum">14</hi><hi rend="dot">.</hi>“비구들이여, 나는 아직 일어나지 않은 들뜸과 후회(uddhaccakukkucca)가 일어나게 하고, 이미 일어난 들뜸과 후회가 더욱 증대하고 광대해지게 하는, 이와 같은 다른 어떤 한 가지 법도 보지 못한다. 곧, 비구들이여, 마음의 가라앉지 않음(cetaso avūpasamo)이다. 비구들이여, 마음이 가라앉지 않은 자에게는 아직 일어나지 않은 들뜸과 후회가 일어나고, 이미 일어난 들뜸과 후회는 더욱 증대하고 광대해진다.” 네 번째.</p>
+
+
+
+<p rend="bodytext" n="15" trans="true"><hi rend="paranum">15</hi><hi rend="dot">.</hi>“나는<pb ed="V" n="1.0005" /><pb ed="P" n="1.0004" />비구들이여, 나는 아직 일어나지 않은 의심(vicikicchā)이 일어나게 하고, 이미 일어난 의심이 더욱 증대하고 광대해지게 하는, 이와 같은 다른 어떤 한 가지 법도 보지 못한다. 곧, 비구들이여, 비여리작의(ayonisomanasikāra)이다. 비구들이여, 여리하지 않게 마음에 두는 자에게는 아직 일어나지 않은 의심이 일어나고, 이미 일어난 의심은 더욱 증대하고 광대해진다.” 다섯 번째.</p>
+
+
+
+<p rend="bodytext" n="16" trans="true"><hi rend="paranum">16</hi><hi rend="dot">.</hi>“비구들이여, 나는 아직 일어나지 않은 욕탐(kāmacchanda)이 일어나지 않게 하고, 이미 일어난 욕탐이 버려지게 하는, 이와 같은 다른 어떤 한 가지 법도 보지 못한다. 곧, 비구들이여, 부정상(asubhanimitta)이다. 비구들이여, 부정상을 여리하게 마음에 두는 자에게는 아직 일어나지 않은 욕탐이 일어나지 않고, 이미 일어난 욕탐은 버려진다.” 여섯 번째.</p>
+
+
+
+<p rend="bodytext" n="17" trans="true"><hi rend="paranum">17</hi><hi rend="dot">.</hi>“비구들이여, 나는 아직 일어나지 않은 악의(byāpāda)가 일어나지 않게 하고, 이미 일어난 악의가 버려지게 하는<pb ed="T" n="1.0005" />곧, 비구들이여, 자애의<pb ed="M" n="1.0004" />마음해탈(cetovimutti)이다. 비구들이여, 자애의 마음해탈을 여리하게 마음에 두는 자에게는 아직 일어나지 않은 악의가 일어나지 않고, 이미 일어난 악의는 버려진다.” 일곱 번째.</p>
+
+
+
+<p rend="bodytext" n="18" trans="true"><hi rend="paranum">18</hi><hi rend="dot">.</hi>“비구들이여, 나는 아직 일어나지 않은 혼침과 수면(thinamiddha)이 일어나지 않게 하고, 이미 일어난 혼침과 수면이 버려지게 하는, 이와 같은 다른 어떤 한 가지 법도 보지 못한다. 곧, 비구들이여, 착수의 요소(ārambhadhātu), 분발의 요소(nikkamadhātu), 정진의 요소(parakkamadhātu)이다. 비구들이여, 정진이 시작된 자에게는 아직 일어나지 않은 혼침과 수면이 일어나지 않고, 이미 일어난 혼침과 수면은 버려진다.” 여덟 번째.</p>
+
+
+
+<p rend="bodytext" n="19" trans="true"><hi rend="paranum">19</hi><hi rend="dot">.</hi>“비구들이여, 아직 일어나지 않은 들뜸과 후회(uddhaccakukkucca)가 일어나지 않고, 이미 일어난 들뜸과 후회가 버려지는 데에, 이것 곧 마음의 가라앉음(cetaso vūpasamo)과 같은 다른 어떤 한 가지 법도 나는 보지 못한다. 비구들이여, 마음이 가라앉은 자에게는 아직 일어나지 않은 들뜸과 후회가 일어나지 않고, 이미 일어난 들뜸과 후회가 버려진다”라고. 아홉째.</p>
+
+
+
+<p rend="bodytext" n="20" trans="true"><hi rend="paranum">20</hi><hi rend="dot">.</hi>“나는, 비구들이여, 다른 어떤 한 가지 법도 보지 못한다<pb ed="P" n="1.0005" />그것에 의해 아직 일어나지 않은 의심(vicikicchā)이 일어나지 않고 이미 일어난 의심이 버려지는, 이것 곧 비구들이여, 여실한 마음기울임(yonisomanasikāro)<pb ed="V" n="1.0006" />. 비구들이여, 여실하게 마음에 두는 자에게는 아직 일어나지 않은 의심이 일어나지 않고 이미 일어난 의심이 버려진다”라고. 열째.</p>
+
+
+
+<trailer rend="centre" trans="true">다섯 장애의 제거의 품, 둘째.</trailer>
+</div>
+
+<div id="an1_3" n="an1_3" type="vagga">
+
+
+<head rend="chapter" trans="true">3. 부적임의 품</head>
+
+
+
+<p rend="bodytext" n="21" trans="true"><hi rend="paranum">21</hi><hi rend="dot">.</hi>“나는<pb ed="V" n="1.0007" />, 비구들이여, 이처럼 닦이지 않은 것으로서 다른 어떤 한 가지 법도 보지 못한다<pb ed="T" n="1.0006" />부적임하게 되는, 이것 곧 비구들이여, 마음이다<note trans="true">이것 곧 마음이다 (sī. pī.) 위에서도 이와 같다</note>. 비구들이여, 닦이지 않은 마음은 부적임하게 된다”라고. 첫째.</p>
+
+
+
+<p rend="bodytext" n="22" trans="true"><hi rend="paranum">22</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 닦여서 다루기 쉬운 것이 되는, 이와 같은 다른 어떤 한 가지 법도 관찰하지 못한다. 즉 이것은, 비구들이여, 마음(citta)이다. 비구들이여, 닦인 마음은 다루기 쉬운 것이 된다’’라고. 둘째.</p>
+
+
+
+<p rend="bodytext" n="23" trans="true"><hi rend="paranum">23</hi><hi rend="dot">.</hi>‘‘나는 보지 못한다<pb ed="M" n="1.0005" />, 비구들이여, 이와 같이 닦이지 않아서 큰 해악으로 이어지는, 이와 같은 다른 어떤 한 가지 법도. 즉 이것은, 비구들이여, 마음(citta)이다. 비구들이여, 닦이지 않은 마음은 큰 해악으로 이어진다’’라고. 셋째.</p>
+
+
+
+<p rend="bodytext" n="24" trans="true"><hi rend="paranum">24</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 닦여서 큰 이익으로 이어지는, 이와 같은 다른 어떤 한 가지 법도 관찰하지 못한다. 즉 이것은, 비구들이여, 마음(citta)이다. 비구들이여, 닦인 마음은 큰 이익으로 이어진다’’라고. 넷째.</p>
+
+
+
+<p rend="bodytext" n="25" trans="true"><hi rend="paranum">25</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 닦이지 않고 드러나지 않아서 큰 해악으로 이어지는, 이와 같은 다른 어떤 한 가지 법도 관찰하지 못한다. 즉 이것은, 비구들이여, 마음(citta)이다. 비구들이여, 닦이지 않고 드러나지 않은 마음은 큰 해악으로 이어진다’’라고. 다섯째.</p>
+
+
+
+<p rend="bodytext" n="26" trans="true"><hi rend="paranum">26</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같은 다른 어떤 한 가지 법도 관찰하지 못한다<pb ed="P" n="1.0006" />이와 같이 닦여서 드러나 큰 이익으로 이어지는, 즉 이것을, 비구들이여, 마음(citta)이라고 한다. 비구들이여, 닦인 마음은 드러나 큰 이익으로 이어진다’’라고. 여섯째.</p>
+
+
+
+<p rend="bodytext" n="27" trans="true"><hi rend="paranum">27</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 닦이지 않고 많이 익혀지지 않은 어떤 다른 하나의 법도<pb ed="V" n="1.0008" />큰 해로 이어지는 것을, 곧 이것 즉 마음(citta)과 같은 것을, 보지 못한다. 비구들이여, 마음은 닦이지 않고 많이 익혀지지 않으면 큰 해로 이어진다’’라고. 일곱째.</p>
+
+
+
+<p rend="bodytext" n="28" trans="true"><hi rend="paranum">28</hi><hi rend="dot">.</hi>‘‘나는<pb ed="T" n="1.0007" />, 비구들이여, 이와 같이 닦이고 많이 익혀진 어떤 다른 하나의 법도 큰 이익으로 이어지는 것을, 곧 이것 즉 마음(citta)과 같은 것을, 보지 못한다. 비구들이여, 마음은 닦이고 많이 익혀지면 큰 이익으로 이어진다’’라고. 여덟째.</p>
+
+
+
+<p rend="bodytext" n="29" trans="true"><hi rend="paranum">29</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 닦이지 않고 많이 익혀지지 않은 어떤 다른 하나의 법도 괴로움을 가져오는 것이 되는 것을, 곧 이것 즉 마음(citta)과 같은 것을, 보지 못한다. 비구들이여, 마음은 닦이지 않고 많이 익혀지지 않으면 괴로움을 가져오는 것이 된다’’라고. 아홉째.</p>
+
+
+
+<p rend="bodytext" n="30" trans="true"><hi rend="paranum">30</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 닦이고 많이 익혀진 어떤 다른 하나의 법도 즐거움을 가져오는 것이 되는 것을, 곧 이것 즉 마음(citta)과 같은 것을, 보지 못한다. 비구들이여, 마음은 닦이고 많이 익혀지면 즐거움을 가져오는 것이 된다’’라고. 열째.</p>
+
+
+
+<trailer rend="centre" trans="true">아깜마니야(Akammaniya) 품, 세 번째.</trailer>
+</div>
+
+<div id="an1_4" n="an1_4" type="vagga">
+
+
+<head rend="chapter" trans="true">4. 길들여지지 않음의 장(Adantavaggo)</head>
+
+
+
+<p rend="bodytext" n="31" trans="true"><hi rend="paranum">31</hi><hi rend="dot">.</hi>‘‘나는<pb ed="V" n="1.0009" /><pb ed="M" n="1.0006" />비구들이여, 이와 같이 길들여지지 않아 큰 해로움으로 이끄는 어떤 다른 한 가지 법도 보지 못한다. 곧 이것이다, 비구들이여, 마음이다. 비구들이여, 마음은 길들여지지 않아 큰 해로움으로 이끈다’’라고. 첫째.</p>
+
+
+
+<p rend="bodytext" n="32" trans="true"><hi rend="paranum">32</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 길들여져 큰 이익으로 이끄는 어떤 다른 한 가지 법도 보지 못한다. 곧 이것이다, 비구들이여, 마음이다. 비구들이여, 마음은 길들여져 큰 이익으로 이끈다’’라고. 둘째.</p>
+
+
+
+<p rend="bodytext" n="33" trans="true"><hi rend="paranum">33</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 어떤 다른 한 가지 법도 보지 못한다<pb ed="P" n="1.0007" />그것이 이와 같이 보호되지 않아 큰 해로움으로 이끄는 것을, 곧 이것이다, 비구들이여, 마음이다. 비구들이여, 마음은 보호되지 않아 큰 해로움으로 이끈다’’라고. 셋째.</p>
+
+
+
+<p rend="bodytext" n="34" trans="true"><hi rend="paranum">34</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 어떤 다른 한 가지 법도 보지 못한다<pb ed="T" n="1.0008" />그것이 이와 같이 보호되어 큰 이익으로 이끄는 것을, 곧 이것이다, 비구들이여, 마음이다. 비구들이여, 마음은 보호되어 큰 이익으로 이끈다’’라고. 넷째.</p>
+
+
+
+<p rend="bodytext" n="35" trans="true"><hi rend="paranum">35</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 지켜지지 않은 것이 큰 해로 이어지는 다른 어떤 하나의 법이라도 보지 못한다. 그것은 곧, 비구들이여, 마음(cittaṃ)이다. 비구들이여, 마음은 지켜지지 않으면 큰 해로 이어진다’’라고. 다섯째.</p>
+
+
+
+<p rend="bodytext" n="36" trans="true"><hi rend="paranum">36</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 지켜진 것이 큰 이익으로 이어지는 다른 어떤 하나의 법이라도 보지 못한다. 그것은 곧, 비구들이여, 마음(cittaṃ)이다. 비구들이여, 마음은 지켜지면 큰 이익으로 이어진다’’라고. 여섯째.</p>
+
+
+
+<p rend="bodytext" n="37" trans="true"><hi rend="paranum">37</hi><hi rend="dot">.</hi>‘‘나는<pb ed="V" n="1.0010" />, 비구들이여, 나는 이와 같이 제어되지 않은 것이 큰 해로 이어지는 다른 어떤 하나의 법이라도 보지 못한다. 그것은 곧, 비구들이여, 마음(cittaṃ)이다. 비구들이여, 마음은 제어되지 않으면 큰 해로 이어진다’’라고. 일곱째.</p>
+
+
+
+<p rend="bodytext" n="38" trans="true"><hi rend="paranum">38</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 제어된 것이 큰 이익으로 이어지는 다른 어떤 하나의 법이라도 보지 못한다. 그것은 곧, 비구들이여, 마음(cittaṃ)이다. 비구들이여, 마음은 제어되면 큰 이익으로 이어진다’’라고. 여덟째.</p>
+
+
+
+<p rend="bodytext" n="39" trans="true"><hi rend="paranum">39</hi><hi rend="dot">.</hi>‘‘나는<pb ed="M" n="1.0007" />, 비구들이여, 나는 이와 같이 조복되지 않고(adantaṃ) 보호되지 않으며(aguttaṃ) 지켜지지 않고(arakkhitaṃ) 제어되지 않은(asaṃvutaṃ) 것이 큰 해로 이어지는 다른 어떤 하나의 법이라도 보지 못한다. 그것은 곧, 비구들이여, 마음(cittaṃ)이다. 비구들이여, 마음은 조복되지 않고 보호되지 않으며 지켜지지 않고 제어되지 않으면 큰 해로 이어진다’’라고. 아홉째.</p>
+
+
+
+<p rend="bodytext" n="40" trans="true"><hi rend="paranum">40</hi><hi rend="dot">.</hi>“비구들이여, 나는 다른 어떤 한 법도 이것처럼 길들여지고, 보호되고, 지켜지고, 막아진 것이 큰 이익을 위하여 이끄는 것을 보지 않는다. 곧 이것이다, 비구들이여, 마음(citta)이다”,<pb ed="T" n="1.0009" />. “비구들이여, 마음(citta)은 길들여지고, 보호되고, 지켜지고, 막아진 것이 큰 이익을 위하여 이끈다”라고. 열째.</p>
+
+
+
+<trailer rend="centre" trans="true">길들여지지 않음의 품(adantavagga) 넷째.</trailer>
+</div>
+
+<div id="an1_5" n="an1_5" type="vagga">
+
+
+<head rend="chapter" trans="true">5. 향해 두어진 것과 겨의 품</head>
+
+
+
+<p rend="bodytext" n="41" trans="true"><hi rend="paranum">41</hi><hi rend="dot">.</hi>“비구들이여, 비유하자면<pb ed="V" n="1.0011" /><pb ed="P" n="1.0008" />, 비구들이여, 벼의 까끄라기(sālisūka) 또는 보리의 까끄라기(yavasūka)가 잘못 향해 두어져 있어 손이나 발로 밟힌다면 손이나 발을 꿰뚫을 것이다<note trans="true">부서질 것이다 (syā. kaṃ. ka.), 꿰뚫는다 (sī.) 목갈라나 문법서(Moggallānabyākaraṇa)를 보아야 한다</note>피를 내게 할 것이라는 그런 경우는 있지 않다. 그것은 무슨 이유 때문인가? 비구들이여, 까끄라기(sūka)가 잘못 향해 두어져 있기 때문이다. 이와 마찬가지로 참으로, 비구들이여, 그 비구가 잘못 향해 두어진 마음으로 무명(avijjā)을 꿰뚫고, 명(vijjā)을 일으키고, 열반(nibbāna)을 현증할 것이라는 그런 경우는 있지 않다. 그것은 무슨 이유 때문인가? 비구들이여, 마음(citta)이 잘못 향해 두어져 있기 때문이다”라고. 첫째.</p>
+
+
+
+<p rend="bodytext" n="42" trans="true"><hi rend="paranum">42</hi><hi rend="dot">.</hi>“비구들이여, 비유하자면, 벼의 까끄라기(sālisūka) 또는 보리의 까끄라기(yavasūka)가 바르게 향해 두어져 있어 손이나 발로 밟힌다면 손이나 발을 꿰뚫고 피를 내게 할 것이라는 그런 경우는 있다. 그것은 무슨 이유 때문인가? 비구들이여, 까끄라기(sūka)가 바르게 향해 두어져 있기 때문이다. 이와 마찬가지로 참으로, 비구들이여, 그 비구가 바르게 향해 두어진 마음으로 무명(avijjā)을 꿰뚫고, 명(vijjā)을 일으키고, 열반(nibbāna)을 현증할 것이라는 그런 경우는 있다. 그것은 무슨 이유 때문인가? 비구들이여, 마음(citta)이 바르게 향해 두어져 있기 때문이다”라고. 둘째.</p>
+
+
+
+<p rend="bodytext" n="43" trans="true"><hi rend="paranum">43</hi><hi rend="dot">.</hi>‘‘여기에서 나는<pb ed="M" n="1.0008" /> <note trans="true">이제 나는 (sī.)</note>, 비구들이여, 어떤 한 사람을 마음이 오염된 자로서, 이와 같이 마음으로 그의 마음을 꿰뚫어 알아차린다. ‘만일 이때 이 사람이 목숨을 마친다면, 마치 옮겨 놓인 것이 그대로 놓이듯이, 그와 같이 지옥에 [태어날 것이다].’ 그것은 무슨 이유인가? 그의 마음이<pb ed="T" n="1.0010" />, 비구들이여, 오염되었기 때문이다. ‘‘그러나 비구들이여, 마음의 오염을 원인으로 하여, 이와 같이 여기 어떤 중생들은 몸이 부서진 뒤 죽음 이후에 악처, 나쁜 곳, 타락, 지옥에 태어난다’’라고. 세 번째.</p>
+
+
+
+<p rend="bodytext" n="44" trans="true"><hi rend="paranum">44</hi><hi rend="dot">.</hi>‘‘여기에서 나는, 비구들이여, 어떤 한 사람을 마음이 청정한 자로서, 이와 같이 마음으로 그의 마음을 꿰뚫어 알아차린다. ‘만일 이<pb ed="P" n="1.0009" />때 이 사람이 목숨을 마친다면, 마치 옮겨 놓인 것이 그대로 놓이듯이, 그와 같이 하늘에 [태어날 것이다].’ 그것은 무슨 이유인가? 그의 마음이, 비구들이여, 청정하기 때문이다. ‘‘그러나 비구들이여, 마음의 맑음을 원인으로 하여, 이와 같이 여기 어떤 중생들은 몸이 부서진 뒤 죽음 이후에 선처, 하늘, 천상 세계에 태어난다’’라고. 네 번째.</p>
+
+
+
+<p rend="bodytext" n="45" trans="true"><hi rend="paranum">45</hi><hi rend="dot">.</hi>‘‘비유하자면<pb ed="V" n="1.0012" />, 비구들이여, 물웅덩이가 흐리고 흔들리고 진흙탕이 되어 있으면, 거기서 눈 밝은 사람이 물가에 서서 조개껍데기나<note trans="true">조개껍데기나 (ka.)</note>자갈과 조약돌이나 물고기 떼가 움직이는 것이나 서 있는 것이나 보지 못할 것이다. 그것은 무슨 이유인가? 비구들이여, 물이 흐리기 때문이다. 이와 같이 참으로, 비구들이여, 저 비구는 흐린 마음으로는 자기의 이익을 알지도 못할 것이고 남의 이익을 알지도 못할 것이며 둘의 이익을 알지도 못할 것이고, 또한 인간의 법을 뛰어넘는 고귀한 지혜와 견해의 탁월함을 실현할 것이라고 하는 것, 이것은 있을 수 없는 일이다. 그것은 무슨 이유인가? 비구들이여, 마음이 흐리기 때문이다’’라고. 다섯 번째.</p>
+
+
+
+<p rend="bodytext" n="46" trans="true"><hi rend="paranum">46</hi><hi rend="dot">.</hi>‘‘비유하자면, 비구들이여, 물웅덩이가 맑고 투명하고 흐리지 않으면, 거기서 눈 밝은 사람이 물가에 서서 조개껍데기나 자갈과 조약돌이나 물고기 떼가 움직이는 것이나 서 있는 것이나 볼 것이다. 그것은 무슨 이유인가? 비구들이여, 물이 흐리지 않기 때문이다. 이와 같이 참으로, 비구들이여, 저 비구는 흐리지 않은<pb ed="T" n="1.0011" />마음으로는 자기의 이익을 알 것이고 남의 이익을 알 것이며 둘의 이익을 알 것이고, 또한 인간의 법을 뛰어넘는 고귀한 지혜와 견해의 탁월함을 실현할 것이라고 하는 것, 이것은 가능한 일이다. 그것은 무슨 이유인가? 비구들이여, 마음이 흐리지 않기 때문이다’’라고. 여섯 번째.</p>
+
+
+
+<p rend="bodytext" n="47" trans="true"><hi rend="paranum">47</hi><hi rend="dot">.</hi>‘‘비유하자면, 비구들이여, 어떤 나무 종류들이든 그것들의 휘어짐이, 곧 부드러움과 다루기 쉬움 때문에 그것들의 으뜸이라고 일컬어진다. 이와 같이 참으로 나는, 비구들이여<pb ed="M" n="1.0009" />, 이 마음과 같이 그렇게 닦이고 많이 익혀져서 부드럽고 다루기 쉬워지는 다른 어떤 하나의 법도 보지 못한다. 비구들이여, 마음은 닦이고 많이 익혀지면 부드럽고 또한 다루기 쉬워진다’’라고. 일곱 번째.</p>
+
+
+
+<p rend="bodytext" n="48" trans="true"><hi rend="paranum">48</hi><hi rend="dot">.</hi>‘‘나는<pb ed="P" n="1.0010" />, 비구들이여, 이 마음(citta)처럼 이토록 빨리 변하는 다른 어떤 하나의 법도 보지 못한다. 비구들이여, 마음이 얼마나 빨리 변하는지, 그만큼 비유조차도 만들기 쉽지 않다’’라고. 여덟째.</p>
+
+
+
+<p rend="bodytext" n="49" trans="true"><hi rend="paranum">49</hi><hi rend="dot">.</hi>‘‘비구들이여, 이 마음(citta)은 광명하다. 그런데 그것은 실로 외래의 오염들에 의해 오염되어 있다’’라고. 아홉째.</p>
+
+
+
+<p rend="bodytext" n="50" trans="true"><hi rend="paranum">50</hi><hi rend="dot">.</hi>‘‘비구들이여, 이 마음(citta)은 광명하다. 그런데 그것은 실로 외래의 오염들로부터 벗어나 있다’’라고. 열째.</p>
+
+
+
+<trailer rend="centre" trans="true">Paṇihitaaccha 품, 다섯째.</trailer>
+</div>
+
+<div id="an1_6" n="an1_6" type="vagga">
+
+
+<head rend="chapter" trans="true">6. Accharāsaṅghāta(손가락 튕김) 품</head>
+
+
+
+<p rend="bodytext" n="51" trans="true"><hi rend="paranum">51</hi><hi rend="dot">.</hi>‘‘이것은 빛나는 것이다<pb ed="V" n="1.0013" />, 비구들이여, 마음은. 그리고 그것은 실로 외래의 번뇌들에 의해 더럽혀진 것이다. 그것을 배우지 못한 범부는 있는 그대로 알지 못한다. 그러므로 ‘배우지 못한 범부에게는 마음 닦음이 없다’라고 나는 말한다’’라고. 첫째.</p>
+
+
+
+<p rend="bodytext" n="52" trans="true"><hi rend="paranum">52</hi><hi rend="dot">.</hi>‘‘이것은 빛나는 것이다<pb ed="T" n="1.0012" />, 비구들이여, 마음은. 그리고 그것은 실로 외래의 번뇌들로부터 벗어난 것이다. 그것을 배운 성스러운 제자는 있는 그대로 안다. 그러므로 ‘배운 성스러운 제자에게는 마음 닦음이 있다’라고 나는 말한다’’라고. 둘째.</p>
+
+
+
+<p rend="bodytext" n="53" trans="true"><hi rend="paranum">53</hi><hi rend="dot">.</hi>‘‘만일 손가락 튕김만 한 순간만이라도, 비구들이여, 비구가 자애의 마음을<note trans="true">자애로운 마음 (sī.), 자애의 마음 (syā. kaṃ. pī. ka.)</note>익힌다면; 이 비구를 두고, 비구들이여, ‘비구는 헛되이 선정을 닦지 않고 머무르며 스승의 가르침을 행하는 자, 교훈을 따르는 자이며, 나라의 보시 음식을 헛되이 먹지 않는다’라고 말한다. 하물며 그것을 많이 닦는 이들이야 어떠하겠는가’’라고! 셋째.</p>
+
+
+
+<p rend="bodytext" n="54" trans="true"><hi rend="paranum">54</hi><hi rend="dot">.</hi>‘‘손가락 튕김만 한 순간만이라도<pb ed="M" n="1.0010" />만일, 비구들이여, 비구가 자애의 마음을 닦는다면; 이 비구를 두고, 비구들이여, ‘비구는 헛되이 선정을 닦지 않고 머무르며 스승의 가르침을 행하는 자, 교훈을 따르는 자이며, 나라의 보시 음식을 헛되이 먹지 않는다’라고 말한다. 하물며 그것을 많이 닦는 이들이야 어떠하겠는가’’라고! 넷째.</p>
+
+
+
+<p rend="bodytext" n="55" trans="true"><hi rend="paranum">55</hi><hi rend="dot">.</hi>‘‘손가락 튕김만 한 순간만이라도<pb ed="P" n="1.0011" />만일, 비구들이여, 비구가 자애의 마음을 마음에 둔다면; 이 비구를 두고, 비구들이여, ‘비구는 헛되이 선정을 닦지 않고 머무르며 스승의 가르침을 행하는 자, 교훈을 따르는 자이며 헛되이 나라의 보시 음식을 먹지 않는다’라고 말한다. 하물며 그것을 많이 닦는 이들이야 어떠하겠는가’’라고! 다섯째.</p>
+
+
+
+<p rend="bodytext" n="56" trans="true"><hi rend="paranum">56</hi><hi rend="dot">.</hi>‘‘비구들이여, 어떤 것들이든 법들이 불선(akusalā)이고, 불선의 부분(akusalabhāgiyā)이며, 불선의 편(akusalapakkhikā)이라면, 그 모든 것은 마음이 앞서간다(manopubbaṅgamā). 그 법들의 마음이 먼저 일어나고, 그 뒤를 따라 바로 불선한 법들이 [일어난다]’’라고. 여섯째.</p>
+
+
+
+<p rend="bodytext" n="57" trans="true"><hi rend="paranum">57</hi><hi rend="dot">.</hi>‘‘어떤<pb ed="V" n="1.0014" />것들이든, 비구들이여, 법들이 선(kusalā)이고, 선의 부분(kusalabhāgiyā)이며, 선의 편(kusalapakkhikā)이라면, 그 모든 것은 마음이 앞서간다(manopubbaṅgamā). 그 법들의 마음이 먼저 일어나고, 그 뒤를 따라 바로<pb ed="T" n="1.0013" />선한 법들이 [일어난다]’’라고. 일곱째.</p>
+
+
+
+<p rend="bodytext" n="58" trans="true"><hi rend="paranum">58</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 아직 일어나지 않은 불선한 법들이 일어나게 하고, 이미 일어난 선한 법들이 쇠퇴하게 하는, 이것 곧 비구들이여, 방일(pamādo)과 같은 다른 어떤 한 가지 법도 보지 못한다. 비구들이여, 방일한 자에게는 아직 일어나지 않은 불선한 법들이 일어나고, 이미 일어난 선한 법들은 쇠퇴한다’’라고. 여덟째.</p>
+
+
+
+<p rend="bodytext" n="59" trans="true"><hi rend="paranum">59</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 아직 일어나지 않은 선한 법들이 일어나게 하고, 이미 일어난 불선한 법들이 쇠퇴하게 하는, 이것 곧 비구들이여, 불방일(appamādo)과 같은 다른 어떤 한 가지 법도 보지 못한다. 비구들이여, 불방일한 자에게는 아직 일어나지 않은 선한 법들이 일어나고, 이미 일어난 불선한 법들은 쇠퇴한다’’라고. 아홉째.</p>
+
+
+
+<p rend="bodytext" n="60" trans="true"><hi rend="paranum">60</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 아직 일어나지 않은 불선한 법들이 일어나게 하고, 이미 일어난 선한 법들이 쇠퇴하게 하는, 이것 곧 비구들이여, 게으름(kosajjaṃ)과 같은 다른 어떤 한 가지 법도 보지 못한다. 비구들이여, 게으른 자에게는 아직 일어나지 않은 불선한 법들이 일어나고, 이미 일어난 선한 법들은 쇠퇴한다’’라고. 열째.</p>
+
+
+
+<trailer rend="bodytext" trans="true">아차라상가타 품 여섯째.</trailer>
+</div>
+
+<div id="an1_7" n="an1_7" type="vagga">
+
+
+<head rend="chapter" trans="true">7. 정진의 시작 등의 품</head>
+
+
+
+<p rend="bodytext" n="61" trans="true"><hi rend="paranum">61</hi><hi rend="dot">.</hi>‘‘나는<pb ed="V" n="1.0015" /><pb ed="P" n="1.0012" /><pb ed="M" n="1.0011" />, 비구들이여, 아직 일어나지 않은 선한 법들이 일어나고 이미 일어난 불선한 법들이 쇠퇴하게 하는, 이와 같은 다른 어떤 하나의 법도 보지 못한다. 곧 이것이니, 비구들이여, 정진의 시작이다<note trans="true">정진의 시작 viriyārambho (sī. syā. kaṃ. pī.)</note>. 비구들이여, 정진이 시작된 자에게는, 아직 일어나지 않은 선한 법들이 실제로 일어나고 이미 일어난 불선한<pb ed="T" n="1.0014" />법들이 쇠퇴한다’’라고. 첫째.</p>
+
+
+
+<p rend="bodytext" n="62" trans="true"><hi rend="paranum">62</hi><hi rend="dot">.</hi>‘‘나는, 비구들이여, 아직 일어나지 않은 불선한 법들이 일어나고 이미 일어난 선한 법들이 쇠퇴하게 하는, 이와 같은 다른 어떤 하나의 법도 보지 못한다. 곧 이것이니, 비구들이여, 많은 욕심(mahicchatā)이다. 비구들이여, 많은 욕심을 가진 자에게는, 아직 일어나지 않은 바로 그 불선한 법들이 일어나고 이미 일어난 선한 법들이 쇠퇴한다’’라고. 둘째.</p>
+
+
+
+<p rend="bodytext" n="63" trans="true"><hi rend="paranum">63</hi><hi rend="dot">.</hi>‘‘나는, 비구들이여, 아직 일어나지 않은 선한 법들이 일어나고 이미 일어난 불선한 법들이 쇠퇴하게 하는, 이와 같은 다른 어떤 하나의 법도 보지 못한다. 곧 이것이니, 비구들이여, 적은 욕심(appicchatā)이다. 비구들이여, 적은 욕심을 가진 자에게는, 아직 일어나지 않은 바로 그 선한 법들이 일어나고 이미 일어난 불선한 법들이 쇠퇴한다’’라고. 셋째.</p>
+
+
+
+<p rend="bodytext" n="64" trans="true"><hi rend="paranum">64</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이를테면 이것, 곧 불만족(asantuṭṭhitā)과 같은, 그로 말미암아 아직 일어나지 않은 불선한 법들은 일어나고 이미 일어난 선한 법들은 쇠퇴하는, 다른 어떤 하나의 법이라도 보지 못한다. 비구들이여, 불만족한 자에게는 아직 일어나지 않은 불선한 법들이 일어나고 이미 일어난 선한 법들이 쇠퇴한다’’라고. 넷째.</p>
+
+
+
+<p rend="bodytext" n="65" trans="true"><hi rend="paranum">65</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이를테면 이것, 곧 만족(santuṭṭhitā)과 같은, 그로 말미암아 아직 일어나지 않은 선한 법들은 일어나고 이미 일어난 불선한 법들은 쇠퇴하는, 다른 어떤 하나의 법이라도 보지 못한다. 비구들이여, 만족한 자에게는 아직 일어나지 않은 선한 법들이 일어나고 이미 일어난 불선한 법들이<pb ed="T" n="1.0015" />쇠퇴한다’’라고. 다섯째.</p>
+
+
+
+<p rend="bodytext" n="66" trans="true"><hi rend="paranum">66</hi><hi rend="dot">.</hi>‘‘나는<pb ed="V" n="1.0016" /><pb ed="P" n="1.0013" />, 비구들이여, 이를테면 이것, 곧 비여리작의(ayonisomanasikāro)와 같은, 그로 말미암아 아직 일어나지 않은 불선한 법들은 일어나고 이미 일어난 선한 법들은 쇠퇴하는, 다른 어떤 하나의 법이라도 보지 못한다. 비구들이여, 이치에 맞지 않게 마음에 두는 자에게는 아직 일어나지 않은 불선한 법들이 일어나고 이미 일어난 선한 법들이 쇠퇴한다’’라고. 여섯째.</p>
+
+
+
+<p rend="bodytext" n="67" trans="true"><hi rend="paranum">67</hi><hi rend="dot">.</hi>‘‘나는<pb ed="M" n="1.0012" />, 비구들이여, 이를테면 이것, 곧 여리작의(yonisomanasikāro)와 같은, 그로 말미암아 아직 일어나지 않은 선한 법들은 일어나고 이미 일어난 불선한 법들은 쇠퇴하는, 다른 어떤 하나의 법이라도 보지 못한다. 비구들이여, 이치에 맞게 마음에 두는 자에게는 아직 일어나지 않은 선한 법들이 일어나고 이미 일어난 불선한 법들이 쇠퇴한다’’라고. 일곱째.</p>
+
+
+
+<p rend="bodytext" n="68" trans="true"><hi rend="paranum">68</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이를테면 이것, 곧 분명한 앎이 없음(asampajaññaṃ)과 같은, 그로 말미암아 아직 일어나지 않은 불선한 법들은 일어나고 이미 일어난 선한 법들은 쇠퇴하는, 다른 어떤 하나의 법이라도 보지 못한다. 비구들이여, 분명히 알지 못하는 자에게는 아직 일어나지 않은 불선한 법들이 일어나고 이미 일어난 선한 법들이 쇠퇴한다’’라고. 여덟째.</p>
+
+
+
+<p rend="bodytext" n="69" trans="true"><hi rend="paranum">69</hi><hi rend="dot">.</hi>“비구들이여, 아직 일어나지 않은 선한 법들이 일어나고 이미 일어난 불선한 법들이 쇠퇴하는, 이러한 것과 같은 다른 어떤 한 가지 법도 나는 보지 못한다. 곧 비구들이여, 분명한 앎(sampajañña)이다. 비구들이여, 분명히 아는 자에게는 아직 일어나지 않은 선한 법들이 참으로 일어나고 이미 일어난 불선한<pb ed="T" n="1.0016" />법들이 쇠퇴한다”라고. 아홉째.</p>
+
+
+
+<p rend="bodytext" n="70" trans="true"><hi rend="paranum">70</hi><hi rend="dot">.</hi>“비구들이여, 아직 일어나지 않은 불선한 법들이 일어나고 이미 일어난 선한 법들이 쇠퇴하는, 이러한 것과 같은 다른 어떤 한 가지 법도 나는 보지 못한다. 곧 비구들이여, 나쁜 벗됨(pāpamittatā)이다. 비구들이여, 나쁜 벗을 가진 자에게는 아직 일어나지 않은 불선한 법들이 참으로 일어나고 이미 일어난 선한 법들이 쇠퇴한다”라고. 열째.</p>
+
+
+
+<trailer rend="centre" trans="true">정진의 착수 등 품이 일곱째.</trailer>
+</div>
+
+<div id="an1_8" n="an1_8" type="vagga">
+
+
+<head rend="chapter" trans="true">8. 선한 벗 등 품</head>
+
+
+
+<p rend="bodytext" n="71" trans="true"><hi rend="paranum">71</hi><hi rend="dot">.</hi>“비구들이여, 나는<pb ed="V" n="1.0017" /><pb ed="P" n="1.0014" />, 비구들이여, 아직 일어나지 않은 선한 법들이 일어나고 이미 일어난 불선한 법들이 쇠퇴하는, 이러한 것과 같은 다른 어떤 한 가지 법도 보지 못한다. 곧 비구들이여, 선한 벗됨(kalyāṇamittatā)이다. 선한 벗을 가진 자에게는, 비구들이여, 아직 일어나지 않은 선한 법들이 참으로 일어나고 이미 일어난 불선한 법들이 쇠퇴한다”라고. 첫째.</p>
+
+
+
+<p rend="bodytext" n="72" trans="true"><hi rend="paranum">72</hi><hi rend="dot">.</hi>“비구들이여, 나는 아직 생겨나지 않은 불선한 법들이 생겨나고, 이미 생겨난 선한 법들이 쇠퇴하게 되는 그런 다른 어떤 하나의 법도 보지 못한다. 이를테면, 비구들이여, 불선한 법들에 대한 몰두(anuyoga), 선한 법들에 대한 비몰두(ananuyoga)이다.<pb ed="M" n="1.0013" />법들에 대한. 비구들이여, 불선한 법들에 대한 몰두와 선한 법들에 대한 비몰두로 말미암아, 아직 생겨나지 않은 불선한 법들이 생겨나고 이미 생겨난 선한 법들이 쇠퇴한다.” 둘째.</p>
+
+
+
+<p rend="bodytext" n="73" trans="true"><hi rend="paranum">73</hi><hi rend="dot">.</hi>“비구들이여, 나는 아직 생겨나지 않은 선한 법들이 생겨나고, 이미 생겨난 불선한 법들이<pb ed="T" n="1.0017" />쇠퇴하게 되는 그런 다른 어떤 하나의 법도 보지 못한다. 이를테면, 비구들이여, 선한 법들에 대한 몰두, 불선한 법들에 대한 비몰두이다. 비구들이여, 선한 법들에 대한 몰두와 불선한 법들에 대한 비몰두로 말미암아, 아직 생겨나지 않은 선한 법들이 생겨나고 이미 생겨난 불선한 법들이 쇠퇴한다.” 셋째.</p>
+
+
+
+<p rend="bodytext" n="74" trans="true"><hi rend="paranum">74</hi><hi rend="dot">.</hi>“비구들이여, 나는 아직 생겨나지 않은 깨달음의 구성요소들(bojjhaṅgā)이 생겨나지 않고, 이미 생겨난 깨달음의 구성요소들이 닦음의 완성(bhāvanāpāripūri)에 이르지 않게 되는 그런 다른 어떤 하나의 법도 보지 못한다. 이를테면, 비구들이여, 비여리작의(ayonisomanasikāra)이다. 비구들이여, 부적절하게 마음에 두는 자에게는, 아직 생겨나지 않은 깨달음의 구성요소들이 생겨나지 않고 이미 생겨난 깨달음의 구성요소들도 닦음의 완성에 이르지 않는다.” 넷째.</p>
+
+
+
+<p rend="bodytext" n="75" trans="true"><hi rend="paranum">75</hi><hi rend="dot">.</hi>“비구들이여, 나는 아직 생겨나지 않은 깨달음의 구성요소들이 생겨나고, 이미 생겨난 깨달음의 구성요소들이 닦음의 완성에 이르게 되는 그런 다른 어떤 하나의 법도 보지 못한다. 이를테면, 비구들이여, 여리작의(yonisomanasikāro)<pb ed="V" n="1.0018" />이다. 여리하게<pb ed="P" n="1.0015" />, 비구들이여, 마음에 두는 자에게는, 아직 생겨나지 않은 깨달음의 구성요소들이 생겨나고 이미 생겨난 깨달음의 구성요소들도 닦음의 완성에 이른다.” 다섯째.</p>
+
+
+
+<p rend="bodytext" n="76" trans="true"><hi rend="paranum">76</hi><hi rend="dot">.</hi>“비구들이여, 이것은 작은 쇠퇴이다. 즉 친족의 쇠퇴(ñātiparihāni)이다. 비구들이여, 쇠퇴들 가운데 이것이 가장 비열한 것이다. 즉 지혜의 쇠퇴(paññāparihānī)이다.” 여섯째.</p>
+
+
+
+<p rend="bodytext" n="77" trans="true"><hi rend="paranum">77</hi><hi rend="dot">.</hi>“비구들이여, 이것은 작은 증장이다. 곧 친족의 증장이다. 비구들이여, 이것이 증장들 가운데 으뜸이니, 곧 지혜의 증장이다. 그러므로 여기서, 비구들이여, 이와 같이 배워야 한다. ‘우리는 지혜의 증장으로 증장하리라’라고. 참으로 너희는, 비구들이여<pb ed="T" n="1.0018" />, 이와 같이 배워야 한다.” 일곱째.</p>
+
+
+
+<p rend="bodytext" n="78" trans="true"><hi rend="paranum">78</hi><hi rend="dot">.</hi>“비구들이여, 이것은 작은 쇠퇴이다. 곧 재물의 쇠퇴이다. 비구들이여, 이것이 쇠퇴들 가운데 가장 열등한 것이니, 곧 지혜의 쇠퇴이다.” 여덟째.</p>
+
+
+
+<p rend="bodytext" n="79" trans="true"><hi rend="paranum">79</hi><hi rend="dot">.</hi>“작은<pb ed="M" n="1.0014" />이것은, 비구들이여, 증장이다. 곧 재물의 증장이다. 비구들이여, 이것이 증장들 가운데 으뜸이니, 곧 지혜의 증장이다. 그러므로 여기서, 비구들이여, 이와 같이 배워야 한다. ‘우리는 지혜의 증장으로 증장하리라’라고. 참으로 너희는, 비구들이여, 이와 같이 배워야 한다.” 아홉째.</p>
+
+
+
+<p rend="bodytext" n="80" trans="true"><hi rend="paranum">80</hi><hi rend="dot">.</hi>“비구들이여, 이것은 작은 쇠퇴이다. 곧 명성의 쇠퇴이다. 비구들이여, 이것이 쇠퇴들 가운데 가장 열등한 것이니, 곧 지혜의 쇠퇴이다.” 열째.</p>
+
+
+
+<trailer rend="centre" trans="true">선한 벗 등 품(vagga) 여덟째.</trailer>
+</div>
+
+<div id="an1_9" n="an1_9" type="vagga">
+
+
+<head rend="chapter" trans="true">9. 방일 등 품(Pamādādivaggo)</head>
+
+
+
+<p rend="bodytext" n="81" trans="true"><hi rend="paranum">81</hi><hi rend="dot">.</hi>‘‘작은<pb ed="V" n="1.0019" />이것이다, 비구들이여, 성장(vuddhi), 곧 명성의 성장(yasovuddhi)이다. 비구들이여, 이것이 성장들 가운데 최상이니, 곧 지혜의 성장(paññāvuddhi)이다. 그러므로 여기에서, 비구들이여, 이와 같이 배워야 한다 – ‘우리는 지혜의 성장으로 자라날 것이다’라고. 실로 비구들이여, 그대들은 이와 같이 배워야 한다’’라고. 첫째.</p>
+
+
+
+<p rend="bodytext" n="82" trans="true"><hi rend="paranum">82</hi><hi rend="dot">.</hi>‘‘나는<pb ed="P" n="1.0016" />, 비구들이여, 이와 같이 큰 해악(anattha)으로 이끄는 다른 어떤 한 가지 법(dhamma)도 보지 못한다. 곧 이것이다, 비구들이여, 방일(pamāda)이다. 비구들이여, 방일은 큰 해악으로 이끈다’’라고. 둘째.</p>
+
+
+
+<p rend="bodytext" n="83" trans="true"><hi rend="paranum">83</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 큰 이익(attha)으로 이끄는 다른 어떤 한 가지 법(dhamma)도 보지 못한다. 곧 이것이다, 비구들이여, 불방일(appamāda)이다. 비구들이여, 불방일은 큰 이익으로 이끈다’’라고. 셋째.</p>
+
+
+
+<p rend="bodytext" n="84" trans="true"><hi rend="paranum">84</hi><hi rend="dot">.</hi>‘‘나는<pb ed="T" n="1.0019" />, 비구들이여, 이와 같이 큰 해악(anattha)으로 이끄는 다른 어떤 한 가지 법(dhamma)도 보지 못한다. 곧 이것이다, 비구들이여, 게으름(kosajja)이다. 비구들이여, 게으름은 큰 해악으로 이끈다’’라고. 넷째.</p>
+
+
+
+<p rend="bodytext" n="85" trans="true"><hi rend="paranum">85</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 큰 이익을 위하여 이끄는 다른 어떤 하나의 법도 보지 못한다. 즉 이것이니, 비구들이여, 정진의 착수(vīriyārambho)이다. 비구들이여, 정진의 착수(vīriyārambho)는 큰 이익을 위하여 이끈다’’라고. 다섯째.</p>
+
+
+
+<p rend="bodytext" n="86" trans="true"><hi rend="paranum">86</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 큰 불이익을 위하여 이끄는 다른 어떤 하나의 법도 보지 못한다. 즉 이것이니, 비구들이여, 다욕(mahicchatā)이다. 비구들이여, 다욕(mahicchatā)은 큰 불이익을 위하여 이끈다’’라고. 여섯째.</p>
+
+
+
+<p rend="bodytext" n="87" trans="true"><hi rend="paranum">87</hi><hi rend="dot">.</hi>‘‘나는<pb ed="V" n="1.0020" /><pb ed="M" n="1.0015" />, 비구들이여, 이와 같이 큰 이익을 위하여 이끄는 다른 어떤 하나의 법도 보지 못한다. 즉 이것이니, 비구들이여, 소욕(appicchatā)이다. 비구들이여, 소욕(appicchatā)은 큰 이익을 위하여 이끈다’’라고. 일곱째.</p>
+
+
+
+<p rend="bodytext" n="88" trans="true"><hi rend="paranum">88</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 큰 불이익을 위하여 이끄는 다른 어떤 하나의 법도 보지 못한다. 즉 이것이니, 비구들이여, 불만족(asantuṭṭhitā)이다. 비구들이여, 불만족(asantuṭṭhitā)은 큰 불이익을 위하여 이끈다’’라고. 여덟째.</p>
+
+
+
+<p rend="bodytext" n="89" trans="true"><hi rend="paranum">89</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 큰 이익을 위하여 이끄는 다른 어떤 하나의 법도 보지 못한다. 즉 이것이니, 비구들이여, 만족(santuṭṭhitā)이다. 비구들이여, 만족(santuṭṭhitā)은 큰 이익을 위하여 이끈다’’라고. 아홉째.</p>
+
+
+
+<p rend="bodytext" n="90" trans="true"><hi rend="paranum">90</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 큰 무익으로 귀결되는 다른 어떤 한 가지 법도 보지 못하니, 곧 이것이다. 비구들이여, 비여리작의(ayoniso manasikāro)이다. 비여리작의는<pb ed="T" n="1.0020" />, 비구들이여, 큰 무익으로 귀결된다’’라고. 열째.</p>
+
+
+
+<p rend="bodytext" n="91" trans="true"><hi rend="paranum">91</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 큰 이익으로 귀결되는 다른 어떤 한 가지 법도 보지 못하니, 곧 이것이다. 비구들이여, 여리작의(yoniso manasikāro)이다. 여리작의는, 비구들이여, 큰 이익으로 귀결된다’’라고. 열한째.</p>
+
+
+
+<p rend="bodytext" n="92" trans="true"><hi rend="paranum">92</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 큰 무익으로 귀결되는 다른 어떤 한 가지 법도 보지 못하니, 곧 이것이다. 비구들이여, 분명한 앎이 없음(asampajaññaṃ)이다. 분명한 앎이 없음은, 비구들이여, 큰 무익으로 귀결된다’’라고. 열두째.</p>
+
+
+
+<p rend="bodytext" n="93" trans="true"><hi rend="paranum">93</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 큰 이익으로 귀결되는 다른 어떤 한 가지 법도 보지 못하니, 곧 이것이다. 비구들이여, 분명한 앎(sampajaññaṃ)이다. 분명한 앎은, 비구들이여, 큰 이익으로 귀결된다’’라고. 열셋째.</p>
+
+
+
+<p rend="bodytext" n="94" trans="true"><hi rend="paranum">94</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 큰 무익으로 귀결되는 다른 어떤 한 가지 법도 보지 못하니<pb ed="V" n="1.0021" />곧 이것이다. 비구들이여, 악한 벗됨(pāpamittatā)이다. 악한 벗됨은, 비구들이여, 큰 무익으로 귀결된다’’라고. 열넷째.</p>
+
+
+
+<p rend="bodytext" n="95" trans="true"><hi rend="paranum">95</hi><hi rend="dot">.</hi>‘‘나는<pb ed="M" n="1.0016" />비구들이여, 이와 같이 큰 이익을 가져오는 다른 어떤 하나의 법도 나는 보지 않는다. 곧 이것이니, 비구들이여, 좋은 벗됨(kalyāṇamittatā)이다. 좋은 벗됨(kalyāṇamittatā)은, 비구들이여, 큰 이익을 가져온다’’라고. 열다섯째.</p>
+
+
+
+<p rend="bodytext" n="96" trans="true"><hi rend="paranum">96</hi><hi rend="dot">.</hi>‘‘나는, 비구들이여, 이와 같이 큰 불이익을 가져오는 다른 어떤 하나의 법도 보지 않는다. 곧 이것이니, 비구들이여, 불선한 법들(akusalānaṃ dhammānaṃ)에의 전념(anuyogo), 선한 법들(kusalānaṃ dhammānaṃ)에의 비전념(ananuyogo)이다. 비구들이여, 불선한 법들에의 전념, 선한 법들에의 비전념은 큰 불이익을 가져온다’’라고. 열여섯째.</p>
+
+
+
+<p rend="bodytext" n="97" trans="true"><hi rend="paranum">97</hi><hi rend="dot">.</hi>‘‘나는<pb ed="T" n="1.0021" />비구들이여, 이와 같이 큰 이익을 가져오는 다른 어떤 하나의 법도 나는 보지 않는다. 곧 이것이니, 비구들이여, 선한 법들(kusalānaṃ dhammānaṃ)에의 전념(anuyogo), 불선한 법들(akusalānaṃ dhammānaṃ)에의 비전념(ananuyogo)이다. 비구들이여, 선한 법들에의 전념, 불선한 법들에의 비전념은 큰 이익을 가져온다’’라고. 열일곱째.</p>
+
+
+
+<trailer rend="centre" trans="true">방일 등의 품, 아홉째.</trailer>
+</div>
+
+<div id="an1_10" n="an1_10" type="vagga">
+
+
+<head rend="chapter" trans="true">10. 두 번째 방일 등 품</head>
+
+
+
+<p rend="bodytext" n="98" trans="true"><hi rend="paranum">98</hi><hi rend="dot">.</hi>‘‘내적인 것(ajjhattikaṃ)<pb ed="V" n="1.0022" />을, 비구들이여, 요소(aṅga)라고 할 때, 나는 이것, 즉 비구들이여, 방일(pamādo)과 같이 이처럼 큰 불이익으로 이어지는 다른 어떤 하나의 요소도 보지 못한다. 방일은, 비구들이여, 큰 불이익으로 이어진다’’라고. 첫째.</p>
+
+
+
+<p rend="bodytext" n="99" trans="true"><hi rend="paranum">99</hi><hi rend="dot">.</hi>‘‘내적인 것(ajjhattikaṃ)을, 비구들이여, 요소(aṅga)라고 할 때, 나는 이것, 즉 비구들이여, 불방일(appamādo)과 같이 이처럼 큰 이익으로 이어지는 다른 어떤 하나의 요소도 보지 못한다. 불방일은<pb ed="P" n="1.0017" />, 비구들이여, 큰 이익으로 이어진다’’라고. 둘째.</p>
+
+
+
+<p rend="bodytext" n="100" trans="true"><hi rend="paranum">100</hi><hi rend="dot">.</hi>‘‘내적인 것(ajjhattikaṃ)을, 비구들이여, 요소(aṅga)라고 할 때, 나는 이것, 즉 비구들이여, 게으름(kosajjaṃ)과 같이 이처럼 큰 불이익으로 이어지는 다른 어떤 하나의 요소도 보지 못한다. 게으름은, 비구들이여, 큰 불이익으로 이어진다’’라고. 셋째.</p>
+
+
+
+<p rend="bodytext" n="101" trans="true"><hi rend="paranum">101</hi><hi rend="dot">.</hi>‘‘내적인 것(ajjhattikaṃ)을, 비구들이여, 요소(aṅga)라고 할 때, 나는 이것, 즉 비구들이여, 정진의 일으킴(vīriyārambho)과 같이 이처럼 큰 이익으로 이어지는 다른 어떤 하나의 요소도 보지 못한다. 정진의 일으킴은, 비구들이여, 큰 이익으로 이어진다’’라고. 넷째.</p>
+
+
+
+<p rend="bodytext" n="102-109" trans="true"><hi rend="paranum">102-109</hi><hi rend="dot">.</hi>‘‘내적인 것(ajjhattikaṃ)<pb ed="M" n="1.0017" />을, 비구들이여, 요소(aṅga)라고 할 때, 나는 이것, 즉 비구들이여, 다욕(mahicchatā)…pe…<pb ed="T" n="1.0022" />소욕(appicchatā)… 불만족(asantuṭṭhitā)… 만족(santuṭṭhitā)… 비여리작의(ayonisomanasikāro)… 여리작의(yonisomanasikāro)… 불분명한 앎(asampajaññaṃ)… 분명한 앎(sampajaññaṃ)… 열두째.</p>
+
+
+
+<p rend="bodytext" n="110" trans="true"><hi rend="paranum">110</hi><hi rend="dot">.</hi>‘‘외적인<pb ed="V" n="1.0023" />, 비구들이여, 요소라고 하여 나는 이것과 같이 큰 불이익으로 귀결되는 다른 어떤 한 가지 요소조차도 보지 못하니, 곧 이것이다, 비구들이여, 악한 벗됨(pāpamittatā)이다. 악한 벗됨(pāpamittatā)은, 비구들이여, 큰 불이익으로 귀결된다’’ti. 열세 번째.</p>
+
+
+
+<p rend="bodytext" n="111" trans="true"><hi rend="paranum">111</hi><hi rend="dot">.</hi>‘‘외적인, 비구들이여, 요소라고 하여 나는 이것과 같이 큰 이익으로 귀결되는 다른 어떤 한 가지 요소조차도 보지 못하니, 곧 이것이다, 비구들이여, 선한 벗됨(kalyāṇamittatā)이다. 선한 벗됨(kalyāṇamittatā)은, 비구들이여, 큰 이익으로 귀결된다’’ti. 열네 번째.</p>
+
+
+
+<p rend="bodytext" n="112" trans="true"><hi rend="paranum">112</hi><hi rend="dot">.</hi>‘‘내적인<pb ed="T" n="1.0023" />, 비구들이여, 요소라고 하여 나는 이것과 같이 큰 불이익으로 귀결되는 다른 어떤 한 가지 요소조차도 보지 못하니, 곧 이것이다, 비구들이여, 불선한 법들(akusalānaṃ dhammānaṃ)에 대한 전념(anuyogo), 선한 법들(kusalānaṃ dhammānaṃ)에 대한 비전념(ananuyogo)이다. 비구들이여, 불선한 법들에 대한 전념, 선한 법들에 대한 비전념은 큰 불이익으로 귀결된다’’ti. 열다섯 번째.</p>
+
+
+
+<p rend="bodytext" n="113" trans="true"><hi rend="paranum">113</hi><hi rend="dot">.</hi>‘‘내적인, 비구들이여, 요소라고 하여 나는 이것과 같이 큰 이익으로 귀결되는 다른 어떤 한 가지 요소조차도 보지 못하니, 곧 이것이다, 비구들이여, 선한 법들(kusalānaṃ dhammānaṃ)에 대한 전념(anuyogo), 불선한 법들(akusalānaṃ dhammānaṃ)에 대한 비전념(ananuyogo)이다. 비구들이여, 선한 법들에 대한 전념, 불선한 법들에 대한 비전념은 큰 이익으로 귀결된다’’ti. 열여섯 번째.</p>
+
+
+
+<p rend="bodytext" n="114" trans="true"><hi rend="paranum">114</hi><hi rend="dot">.</hi>‘‘나는, 비구들이여, 이와 같이 정법(saddhamma)의 혼란(sammosa)과 소멸(antaradhāna)로 귀결되는 다른 어떤 하나의 법(ekadhamma)도 보지 못하니, 곧 이것이다, 비구들이여, 방일(pamādo)이다. 방일(pamādo)은, 비구들이여, 정법의 혼란과 소멸로 귀결된다’’ti. 열일곱 번째.</p>
+
+
+
+<p rend="bodytext" n="115" trans="true"><hi rend="paranum">115</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 정법의 존속을 위하여, 망실되지 않음을 위하여, 곧 사라지지 않음을 위하여 이끄는 다른 어떤 한 가지 법도 보지 못한다. 곧 이것이니, 비구들이여, 불방일이다. 불방일은<pb ed="P" n="1.0018" />비구들이여, 정법의 존속을 위하여, 망실되지 않음을 위하여, 곧 사라지지 않음을 위하여 이끈다’’라고 하였다. 열여덟 번째.</p>
+
+
+
+<p rend="bodytext" n="116" trans="true"><hi rend="paranum">116</hi><hi rend="dot">.</hi>‘‘나는<pb ed="M" n="1.0018" />비구들이여, 이와 같이<pb ed="T" n="1.0024" />정법의 망실을 위하여<pb ed="V" n="1.0024" />소멸을 위하여 이끄는 다른 어떤 한 가지 법도 보지 못한다. 곧 이것이니, 비구들이여, 게으름이다. 게으름은, 비구들이여, 정법의 망실을 위하여 소멸을 위하여 이끈다’’라고 하였다. 열아홉 번째.</p>
+
+
+
+<p rend="bodytext" n="117" trans="true"><hi rend="paranum">117</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 정법의 존속을 위하여, 망실되지 않음을 위하여, 곧 사라지지 않음을 위하여 이끄는 다른 어떤 한 가지 법도 보지 못한다. 곧 이것이니, 비구들이여, 정진의 일으킴이다. 정진의 일으킴은, 비구들이여, 정법의 존속을 위하여, 망실되지 않음을 위하여, 곧 사라지지 않음을 위하여 이끈다’’라고 하였다. 스무 번째.</p>
+
+
+
+<p rend="bodytext" n="118-128" trans="true"><hi rend="paranum">118-128</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 정법의 망실을 위하여 소멸을 위하여 이끄는 다른 어떤 한 가지 법도 보지 못한다. 곧 이것이니, 비구들이여, 다욕…pe… 소욕… 불만족… 만족… 비여리작의… 여리작의… 불분명한 알아차림… 분명한 알아차림<pb ed="T" n="1.0025" />… 악한 벗됨… 선한 벗됨… 불선한 법들에의 전념, 선한 법들에의 비전념이다. 비구들이여, 불선한 법들에의 전념, 선한 법들에의 비전념은 정법의 망실을 위하여 소멸을 위하여 이끈다’’라고 하였다. 서른한 번째.</p>
+
+
+
+<p rend="bodytext" n="129" trans="true"><hi rend="paranum">129</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 정법의 존속을 위하여, 망실되지 않음을 위하여, 곧 사라지지 않음을 위하여 이끄는 다른 어떤 한 가지 법도 보지 못한다. 곧 이것이니, 비구들이여, 선한 법들에의 전념, 불선한 법들에의 비전념이다. 비구들이여, 선한 법들에의 전념, 불선한 법들에의 비전념은 정법의 존속을 위하여, 망실되지 않음을 위하여, 곧 사라지지 않음을 위하여 이끈다’’라고 하였다. 사구분이 끝났다. 서른두 번째.</p>
+
+
+
+<p rend="bodytext" n="130" trans="true"><hi rend="paranum">130</hi><hi rend="dot">.</hi>‘‘비구들이여, 저 비구들은 비법(adhamma)을 법(dhamma)이라고 밝히니, 비구들이여, 그 비구들은 많은 사람들의 이익이 아님을 위하여, 많은 사람들의 행복이 아님을 위하여, 많은 사람들의 무익과 불이익과 괴로움을 위하여, 천신들과 인간들의<pb ed="V" n="1.0025" />. 그리고 비구들이여, 그 비구들은 많은 비복(apuñña)을 낳고, 그들은 이<note trans="true">tepimaṃ (sī.)</note>정법(saddhamma)을 사라지게 한다’’라고. 서른셋째.</p>
+
+
+
+<p rend="bodytext" n="131" trans="true"><hi rend="paranum">131</hi><hi rend="dot">.</hi>‘‘비구들이여, 저 비구들은 법(dhamma)을 비법(adhamma)이라고 밝히니, 비구들이여, 그 비구들은 많은 사람들의 이익이 아님을 위하여, 많은 사람들의 행복이 아님을 위하여, 많은 사람들의 무익을 위하여<pb ed="M" n="1.0019" />천신들과 인간들의 해로움과 괴로움을 위하여. 그리고 그대들, 비구들이여, 많은 비구들이 공덕 아님(apuñña)을 낳으니, 그들이 이 정법(saddhamma)을 사라지게 한다’”라고. 서른넷째.</p>
+
+
+
+<p rend="bodytext" n="132-139" trans="true"><hi rend="paranum">132-139</hi><hi rend="dot">.</hi>“비구들이여, 저 비구들은 비율 아님(avinaya)을<pb ed="T" n="1.0026" />비율(vinaya)이라고 드러내고…pe… 비율(vinaya)을 비율 아님(avinaya)이라고 드러내고…pe… 여래에 의해 설해지지 않고 말해지지 않은 것(abhāsitaṃ alapitaṃ tathāgatena)을 설해지고<pb ed="P" n="1.0019" />말해진 것(lapitaṃ)으로 여래에 의해 되었다고 드러내고…pe… 설해지고 말해진 것(bhāsitaṃ lapitaṃ)을 여래에 의해 설해지지 않고 말해지지 않은 것(abhāsitaṃ alapitaṃ)으로 여래에 의해 되었다고 드러내고…pe… 여래에 의해 행해지지 않은 것(anāciṇṇaṃ)을 여래에 의해 행해진 것(āciṇṇaṃ)이라고 드러내고…pe… 여래에 의해 행해진 것(āciṇṇaṃ)을 여래에 의해 행해지지 않은 것(anāciṇṇaṃ)이라고 드러내고…pe… 여래에 의해 제정되지 않은 것(apaññattaṃ)을 여래에 의해 제정된 것(paññattaṃ)이라고 드러내고…pe… 여래에 의해 제정된 것(paññattaṃ)을 여래에 의해 제정되지 않은 것(apaññattaṃ)이라고 드러내는 저 비구들은, 비구들이여, 많은 사람들의 이익 아님을 위하여, 많은 사람들의 안락 아님을 위하여, 많은 사람들의 무익과 해로움과 천신들과 인간들의 괴로움을 위하여 행하는 자들이다. 그리고 그대들, 비구들이여, 그 많은 비구들은 공덕 아님(apuñña)을 낳으니, 그들이 이 정법(saddhamma)을 사라지게 한다’”라고. 마흔두째.</p>
+
+
+
+<trailer rend="centre" trans="true">제2 방일 등 품, 열째.</trailer>
+</div>
+
+<div id="an1_11" n="an1_11" type="vagga">
+
+
+<head rend="chapter" trans="true">11. 비법(Adhamma) 품</head>
+
+
+
+<p rend="bodytext" n="140" trans="true"><hi rend="paranum">140</hi><hi rend="dot">.</hi>‘‘그<pb ed="V" n="1.0026" />수행승들은, 비구들이여, 비법을 비법이라고 밝히는 그 수행승들은, 비구들이여, 많은 사람들의 이익을 위하여, 많은 사람들의 행복을 위하여, 많은 사람들의 이익과 복리와 행복을 위하여, 천신들과 인간들을 위하여 실천하고 있다. 그리고 그 수행승들은, 비구들이여, 많은 공덕을 만들어 내며, 그들은 이 바른 법(saddhamma)을 확립한다’’라고<note trans="true">확립한다’라고 (각주본)</note>. 첫째.</p>
+
+
+
+<p rend="bodytext" n="141" trans="true"><hi rend="paranum">141</hi><hi rend="dot">.</hi>‘‘그 수행승들은, 비구들이여, 법을 법이라고 밝히는 그 수행승들은, 비구들이여, 많은 사람들의 이익을 위하여, 많은 사람들의 행복을 위하여, 많은 사람들의 이익과 복리와 행복을 위하여, 천신들과 인간들을 위하여 실천하고 있다. 그리고 그 수행승들은, 비구들이여, 많은 공덕을 만들어 내며, 그들은 이 바른 법(saddhamma)을 확립한다’’라고. 둘째.</p>
+
+
+
+<p rend="bodytext" n="142-149" trans="true"><hi rend="paranum">142-149</hi><hi rend="dot">.</hi>‘‘그 수행승들은, 비구들이여, 비율(avinaya)을 비율이라고 밝힌다…pe… 율(vinaya)을 율이라고 밝힌다…pe… 여래에 의해 설해지지 않고 말해지지 않은 것을 여래에 의해 설해지지 않고 말해지지 않은 것이라고 밝힌다…pe… 설해지고<pb ed="M" n="1.0020" />말해진 것을 여래에 의해 설해지고 말해진 것이라고 밝힌다…pe… 여래에 의해 행해지지 않은 것을<pb ed="P" n="1.0020" />여래에 의해 행해지지 않은 것이라고 밝힌다…pe… 여래에 의해 행해진 것을 여래에 의해 행해진 것이라고 밝힌다…pe…<pb ed="T" n="1.0027" />여래에 의해 제정되지 않은 것을 여래에 의해 제정되지 않은 것이라고 밝힌다…pe… 여래에 의해 제정된 것을 여래에 의해 제정된 것이라고 밝히는 그 수행승들은, 비구들이여, 많은 사람들의 이익을 위하여, 많은 사람들의 행복을 위하여, 많은 사람들의 이익과 복리와 행복을 위하여, 천신들과 인간들을 위하여 실천하고 있다. 그리고 그 수행승들은, 비구들이여, 많은 공덕을 만들어 내며, 그들은 이 바른 법(saddhamma)을 확립한다’’라고. 열째.</p>
+
+
+
+<trailer rend="centre" trans="true">비법품이 열한째.</trailer>
+</div>
+
+<div id="an1_12" n="an1_12" type="vagga">
+
+
+<head rend="chapter" trans="true">12. 무범품</head>
+
+
+
+<p rend="bodytext" n="150" trans="true"><hi rend="paranum">150</hi><hi rend="dot">.</hi>‘‘그<pb ed="V" n="1.0027" />비구들이여, 비구들은 무죄(anāpatti)를 죄(āpatti)라고 밝히는데, 그 비구들이여, 그 비구들은 많은 사람의 비이익을 위하여, 많은 사람의 비안락을 위하여, 많은 사람과 신들과 인간들의 무익과 비이익과 고통을 위하여 행하고 있다. 그리고 그 비구들이여, 그 비구들은 많은 비복(apuñña)을 낳고, 그들은 이 바른 법(saddhamma)을 사라지게 한다’’ti. 첫째.</p>
+
+
+
+<p rend="bodytext" n="151" trans="true"><hi rend="paranum">151</hi><hi rend="dot">.</hi>‘‘그 비구들이여, 비구들은 죄(āpatti)를 무죄(anāpatti)라고 밝히는데, 그 비구들이여, 그 비구들은 많은 사람의 비이익을 위하여, 많은 사람의 비안락을 위하여, 많은 사람과 신들과 인간들의 무익과 비이익과 고통을 위하여 행하고 있다. 그리고 그 비구들이여, 그 비구들은 많은 비복(apuñña)을 낳고, 그들은 이 바른 법(saddhamma)을 사라지게 한다’’ti. 둘째.</p>
+
+
+
+<p rend="bodytext" n="152-159" trans="true"><hi rend="paranum">152-159</hi><hi rend="dot">.</hi>‘‘그 비구들이여, 비구들은 가벼운 죄(lahukaṃ āpattiṃ)를 무거운 죄(garukā āpatti)라고 밝히고…pe… 무거운 죄(garukaṃ āpattiṃ)를 가벼운 죄(lahukā āpatti)라고 밝히고…pe… 중한 죄(duṭṭhullaṃ āpattiṃ)를 중하지 않은 죄(aduṭṭhullā āpatti)라고 밝히고…pe… 중하지 않은 죄(aduṭṭhullaṃ āpattiṃ)를 중한 죄(duṭṭhullā āpatti)라고 밝히고…pe… 잔여가 있는 죄(sāvasesaṃ āpattiṃ)를 잔여가 없는 죄(anavasesā āpatti)라고 밝히고…pe… 잔여가 없는<pb ed="P" n="1.0021" />죄(anavasesaṃ āpattiṃ)를 잔여가 있는 죄(sāvasesā āpatti)라고 밝히고…pe… 대처가 있는 죄(sappaṭikammaṃ āpattiṃ)를 대처가 없는 죄(appaṭikammā āpatti)라고 밝히고…pe… 대처가 없는 죄(appaṭikammaṃ āpattiṃ)를 대처가 있는 죄(sappaṭikammā āpatti)라고 밝히는데, 그 비구들이여, 그 비구들은 많은 사람의 비이익을 위하여, 많은 사람의 비안락을 위하여, 많은 사람과 신들과 인간들의 무익과 비이익과 고통을 위하여 행하고 있다. 그리고 많은<pb ed="M" n="1.0021" />그 비구들이여, 비구들은 비복(apuñña)을 낳고, 그들은 이 바른 법(saddhamma)을 사라지게 한다’’ti. 열째.</p>
+
+
+
+<p rend="bodytext" n="160" trans="true"><hi rend="paranum">160</hi><hi rend="dot">.</hi>‘‘그 비구들이여, 비구들은 무죄(anāpatti)를 무죄(anāpatti)라고 밝히는데, 그 비구들이여, 그 비구들은 많은 사람의 이익을 위하여, 많은 사람의 안락을 위하여, 많은 사람과 신들과 인간들의 이익과 유익과 안락을 위하여 행하고 있다. 그리고 그 비구들이여, 그 비구들은 많은<pb ed="T" n="1.0028" />공덕(puñña)을 낳고, 그들은 이 바른 법(saddhamma)을 서 있게 한다’’ti. 열한째.</p>
+
+
+
+<p rend="bodytext" n="161" trans="true"><hi rend="paranum">161</hi><hi rend="dot">.</hi>‘‘그<pb ed="V" n="1.0028" />비구들이여, 비구들은 죄(āpatti)를 죄(āpatti)라고 밝히는데, 그 비구들이여, 그 비구들은 많은 사람의 이익을 위하여, 많은 사람의 안락을 위하여, 많은 사람과 신들과 인간들의 이익과 유익과 안락을 위하여 행하고 있다. 그리고 그 비구들이여, 그 비구들은 많은 공덕(puñña)을 낳고, 그들은 이 바른 법(saddhamma)을 서 있게 한다’’ti. 열두째.</p>
+
+
+
+<p rend="bodytext" n="162-169" trans="true"><hi rend="paranum">162-169</hi><hi rend="dot">.</hi>‘‘비구들이여, 저 비구들은 가벼운 죄(lahukaṃ āpattiṃ)를 가벼운 죄들(lahukā āpattī)이라고 밝히고… 무거운 죄(garukaṃ āpattiṃ)를 무거운 죄들(garukā āpattī)이라고 밝히고… 중죄(duṭṭhullaṃ āpattiṃ)를 중죄들(duṭṭhullā āpattī)이라고 밝히고… 비중죄(aduṭṭhullaṃ āpattiṃ)를 비중죄들(aduṭṭhullā āpattī)이라고 밝히고… 잔여가 있는 죄(sāvasesaṃ āpattiṃ)를 잔여가 있는 죄들(sāvasesā āpattī)이라고 밝히고… 잔여가 없는 죄(anavasesaṃ āpattiṃ)를 잔여가 없는 죄들(anavasesā āpattī)이라고 밝히고… 대치가 있는 죄(sappaṭikammaṃ āpattiṃ)를 대치가 있는 죄들(sappaṭikammā āpattī)이라고 밝히고… 대치가 없는 죄(appaṭikammaṃ āpattiṃ)를 대치가 없는 죄들(appaṭikammā āpattī)이라고 밝히는, 비구들이여, 그 비구들은 많은 사람들의 이익을 위하여, 많은 사람들의 행복을 위하여, 많은 사람들의 이익과 복리와 행복을 위하여, 신들과 인간들을 위하여 실천하는 자들이다. 그리고, 비구들이여, 그 비구들은 많은 공덕을 산출하고, 그들은 이 바른 법(saddhamma)을 확립한다’’라고. 스무 번째.</p>
+
+
+
+<trailer rend="centre" trans="true">무죄품(Anāpattivaggo) 열두 번째.</trailer>
+</div>
+
+<div id="an1_13" n="an1_13" type="vagga">
+
+
+<head rend="chapter" trans="true">13. 한 사람의 품(Ekapuggalavaggo)</head>
+
+
+
+<p rend="bodytext" n="170" trans="true"><hi rend="paranum">170</hi><hi rend="dot">.</hi>‘‘한 사람(Ekapuggalo)이<pb ed="V" n="1.0029" /><pb ed="P" n="1.0022" />비구들이여, 세상에 생겨날 때에는 많은 사람들의 이익을 위하여, 많은 사람들의 행복을 위하여, 세상에 대한 연민을 위하여, 신들과 인간들의 이익과 복리와 행복을 위하여 생겨난다<pb ed="T" n="1.0029" />. 어떤 한 사람인가? 여래(Tathāgata), 아라한, 정등각자(sammāsambuddha)이다. 비구들이여, 이 한 사람은 세상에 생겨날 때 많은 사람들의 이익을 위하여<pb ed="M" n="1.0022" />많은 사람들의 행복을 위하여, 세상에 대한 연민을 위하여, 신들과 인간들의 이익과 복리와 행복을 위하여 생겨난다’’라고.</p>
+
+
+
+<p rend="bodytext" n="171" trans="true"><hi rend="paranum">171</hi><hi rend="dot">.</hi>‘‘비구들이여, 한 사람의 출현은 세상에서 얻기 어렵다. 어떤 한 사람의 출현인가? 여래, 아라한, 정등각자의 출현이다. 비구들이여, 이 한 사람의 출현은 세상에서 얻기 어렵다’’라고.</p>
+
+
+
+<p rend="bodytext" n="172" trans="true"><hi rend="paranum">172</hi><hi rend="dot">.</hi>‘‘한 사람, 비구들이여, 세상에 생겨나면서 생겨나는 이는 경이로운 사람이다. 어떤 한 사람인가? 여래, 아라한, 정등각자이다. 이 한 사람은, 비구들이여, 세상에 생겨나면서 생겨나는 경이로운 사람이다’’라고.</p>
+
+
+
+<p rend="bodytext" n="173" trans="true"><hi rend="paranum">173</hi><hi rend="dot">.</hi>‘‘한 사람의, 비구들이여, 죽음은 많은 사람에게 후회를<note trans="true">후회를 (sī.)</note>일으킨다. 어떤 한 사람의인가? 여래, 아라한, 정등각자의 것이다. 이 한 사람의, 비구들이여, 죽음은 많은 사람에게 후회를 일으킨다’’라고.</p>
+
+
+
+<p rend="bodytext" n="174" trans="true"><hi rend="paranum">174</hi><hi rend="dot">.</hi>‘‘한 사람, 비구들이여, 세상에 생겨나면서 생겨나는 이는 둘이 없는 자, 짝이 없는 자, 견줄 이 없는 자, 대등한 이 없는 자, 대응되는 부분이 없는 자, 대응되는 사람이 없는 자, 같은 이 없는 자, 같은 이 가운데도 같은 이 없는 자, 두 발 가진 것들 가운데 으뜸이다. 어떤 한 사람인가? 여래, 아라한, 정등각자이다. 이 한 사람은, 비구들이여, 세상에 생겨나면서 생겨나는 둘이 없는 자, 짝이 없는 자, 견줄 이 없는 자, 대등한 이 없는 자, 대응되는 부분이 없는 자, 대응되는 사람이 없는 자, 같은 이 없는 자, 같은 이 가운데도 같은 이 없는 자, 두 발 가진 것들 가운데 으뜸이다’’라고.</p>
+
+
+
+<p rend="bodytext" n="175-186" trans="true"><hi rend="paranum">175-186</hi><hi rend="dot">.</hi>‘‘한 사람의<pb ed="T" n="1.0030" /><pb ed="V" n="1.0030" />, 비구들이여, 출현으로 큰 눈의 출현이 있게 되고, 큰 빛의 출현이 있게 되며, 큰 광명의 출현이 있게 되고, 여섯 가지 무상한 것들의 출현이 있게 되며, 네 가지 분석지(paṭisambhidā)의 현증이 있게 되고, 많은 계(界)의 통찰이 있게 되며, 여러 계(界)의 통찰이 있게 되고, 명과 해탈의 과의 현증이<pb ed="P" n="1.0023" />있게 되며, 예류과의 현증이 있게 되고, 일래과의 현증이 있게 되며, 불환과의 현증이 있게 되고, 아라한과의 현증이<pb ed="M" n="1.0023" />있게 된다. 어떤 한 사람의인가? 여래, 아라한, 정등각자의 것이다. 이 한 사람의, 비구들이여, 출현으로 큰 눈의 출현이 있게 되고, 큰 빛의 출현이 있게 되며, 큰 광명의 출현이 있게 되고, 여섯 가지 무상한 것들의 출현이 있게 되며, 네 가지 분석지(paṭisambhidā)의 현증이 있게 되고, 많은 계(界)의 통찰이 있게 되며, 여러 계(界)의 통찰이 있게 되고, 명과 해탈의 과의 현증이 있게 되며, 예류과의 현증이 있게 되고, 일래과의 현증이 있게 되며, 불환과의 현증이 있게 되고, 아라한과의 현증이 있게 된다’’라고.</p>
+
+
+
+<p rend="bodytext" n="187" trans="true"><hi rend="paranum">187</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 여래에 의해 위없는 법륜이 굴려졌을 때 그것을 이와 같이 참으로 뒤이어 굴리는 다른 어느 한 사람이라도 보지 못한다. 곧 이것이다, 비구들이여, 사리뿟따(Sāriputta)이다. 사리뿟따는, 비구들이여, 여래에 의해 위없는 법륜이 굴려졌을 때 그것을 참으로 뒤이어 굴린다’’라고.</p>
+
+
+
+<trailer rend="centre" trans="true">에까뿍갈라왁가(Ekapuggalavaggo), 열세 번째.</trailer>
+</div>
+
+<div id="an1_14" n="an1_14" type="vagga">
+
+
+<head rend="chapter" trans="true">14. 이것이 으뜸의 품(Etadaggavaggo)</head>
+
+
+
+<p rend="subhead" trans="true">1. 첫째 품(Paṭhamavaggo)</p>
+
+
+
+<p rend="bodytext" n="188" trans="true"><hi rend="paranum">188</hi><hi rend="dot">.</hi>‘‘이것이 으뜸이다<pb ed="V" n="1.0031" /><pb ed="T" n="1.0031" />, 비구들이여, 나의 제자 비구들 가운데 비구들 중 오래됨을 아는 자들(rattaññūnaṃ), 곧 안냐시꼰단냐(aññāsikoṇḍañño)이다’’<note trans="true">안냐따꼰단냐라고(aññātakoṇḍaññoti) (ka.), 안냐꼰단냐(aññākoṇḍañño) (sī. syā. kaṃ. pī.)</note>.</p>
+
+
+
+<p rend="bodytext" n="189" trans="true"><hi rend="paranum">189</hi><hi rend="dot">.</hi>… 큰 지혜를 가진 자들 가운데, 곧 사리뿟따(sāriputto)이다.</p>
+
+
+
+<p rend="bodytext" n="190" trans="true"><hi rend="paranum">190</hi><hi rend="dot">.</hi>… 신통력을 지닌 이들 가운데 곧 마하목갈라나(Mahāmoggallāno)이다.</p>
+
+
+
+<p rend="bodytext" n="191" trans="true"><hi rend="paranum">191</hi><hi rend="dot">.</hi>… 두타를 말하는 이들<note trans="true">두타행을 지닌 이들 (어떤 곳에서는)</note>가운데 곧 마하깟사빠(Mahākassapo)이다.</p>
+
+
+
+<p rend="bodytext" n="192" trans="true"><hi rend="paranum">192</hi><hi rend="dot">.</hi>… 천안을 지닌 이들 가운데 곧 아누룻다(Anuruddho)이다.</p>
+
+
+
+<p rend="bodytext" n="193" trans="true"><hi rend="paranum">193</hi><hi rend="dot">.</hi>… 높은 가문의 이들 가운데 곧 밧디야 깔리고다야의 아들(Bhaddiyo Kāḷigodhāyaputto)이다.</p>
+
+
+
+<p rend="bodytext" n="194" trans="true"><hi rend="paranum">194</hi><hi rend="dot">.</hi>… 아름다운 음성의 이들 가운데 곧 라꾼다까<note trans="true">라꾼따까 (syā. kaṃ.)</note>밧디요(Bhaddiyo)이다.</p>
+
+
+
+<p rend="bodytext" n="195" trans="true"><hi rend="paranum">195</hi><hi rend="dot">.</hi>… 사자후하는 이들 가운데<pb ed="M" n="1.0024" />즉 빈돌라바라드바조이다.</p>
+
+
+
+<p rend="bodytext" n="196" trans="true"><hi rend="paranum">196</hi><hi rend="dot">.</hi>… 법을 설하는 이들 가운데 즉 푼노 만따니뿟또이다.</p>
+
+
+
+<p rend="bodytext" n="197" trans="true"><hi rend="paranum">197</hi><hi rend="dot">.</hi>… 간략하게 말해진 것의 뜻을 자세하게 분별하는 이들 가운데 즉 마하깟짜노이다.</p>
+
+
+
+<p rend="centre" trans="true">첫 번째 품.</p>
+
+
+
+<p rend="subhead" trans="true">2. 두 번째 품</p>
+
+
+
+<p rend="bodytext" n="198" trans="true"><hi rend="paranum">198</hi><hi rend="dot">.</hi>‘‘이것이 으뜸이다<pb ed="V" n="1.0032" /><pb ed="P" n="1.0024" />, 비구들이여, 나의 제자인 비구들 가운데 마음으로 이루어진 몸을 현현시키는 이들, 곧 쭐라빤타까(cūḷapanthako)이다’’<note trans="true">쭐라빤타까(cullapanthako) (sī. syā. kaṃ. pī.)</note>.</p>
+
+
+
+<p rend="bodytext" n="199" trans="true"><hi rend="paranum">199</hi><hi rend="dot">.</hi>… 마음의 전환에 능숙한 이들 가운데, 곧 쭐라빤타까(cūḷapanthako)이다.</p>
+
+
+
+<p rend="bodytext" n="200" trans="true"><hi rend="paranum">200</hi><hi rend="dot">.</hi>… 지각의 전환에 능숙한 이들 가운데, 곧 마하빤타까(mahāpanthako)이다.</p>
+
+
+
+<p rend="bodytext" n="201" trans="true"><hi rend="paranum">201</hi><hi rend="dot">.</hi>… 아라나에 머무는 이들 가운데, 곧 수부띠(subhūti)이다.</p>
+
+
+
+<p rend="bodytext" n="202" trans="true"><hi rend="paranum">202</hi><hi rend="dot">.</hi>… 공양받기에 합당한 이들 가운데, 곧 수부띠(subhūti)이다.</p>
+
+
+
+<p rend="bodytext" n="203" trans="true"><hi rend="paranum">203</hi><hi rend="dot">.</hi>… 숲속 수행자들 가운데, 이를테면 카디라 숲의 레바따(Revata).</p>
+
+
+
+<p rend="bodytext" n="204" trans="true"><hi rend="paranum">204</hi><hi rend="dot">.</hi>… 선정에 드는 이들 가운데, 이를테면 깡카레바따(Kaṅkhārevata).</p>
+
+
+
+<p rend="bodytext" n="205" trans="true"><hi rend="paranum">205</hi><hi rend="dot">.</hi>… 정진이 확립된 이들 가운데, 이를테면 소나 꼴리위사(Soṇa Koḷivisa).</p>
+
+
+
+<p rend="bodytext" n="206" trans="true"><hi rend="paranum">206</hi><hi rend="dot">.</hi>… 훌륭하게 말하는 이들 가운데, 이를테면 소나 꾸띠깐나(Soṇa Kuṭikaṇṇa).</p>
+
+
+
+<p rend="bodytext" n="207" trans="true"><hi rend="paranum">207</hi><hi rend="dot">.</hi>… 이득을 얻는 이들 가운데, 이를테면 시왈리(Sīvali).</p>
+
+
+
+<p rend="bodytext" n="208" trans="true"><hi rend="paranum">208</hi><hi rend="dot">.</hi>… 신심으로 향한 이들 가운데, 곧 왁깔리(Vakkali)이다.</p>
+
+
+
+<p rend="centre" trans="true">두 번째 품.</p>
+
+
+
+<p rend="subhead" trans="true">3. 세 번째 품</p>
+
+
+
+<p rend="bodytext" n="209" trans="true"><hi rend="paranum">209</hi><hi rend="dot">.</hi>‘‘이것이 으뜸이다<pb ed="V" n="1.0033" />, 비구들이여, 나의 제자들인 비구들 가운데 배움을 원하는 이들 중에서, 곧<pb ed="T" n="1.0032" />라훌라이다’’.</p>
+
+
+
+<p rend="bodytext" n="210" trans="true"><hi rend="paranum">210</hi><hi rend="dot">.</hi>… 신심으로 출가한 이들 가운데<pb ed="M" n="1.0025" />곧 라타팔라(Raṭṭhapāla)이다.</p>
+
+
+
+<p rend="bodytext" n="211" trans="true"><hi rend="paranum">211</hi><hi rend="dot">.</hi>… 첫 번째 표찰을 받는 자들 가운데, 즉 쿤다다노(kuṇḍadhāno).</p>
+
+
+
+<p rend="bodytext" n="212" trans="true"><hi rend="paranum">212</hi><hi rend="dot">.</hi>… 재변 있는 자들 가운데, 즉 방기소(vaṅgīso).</p>
+
+
+
+<p rend="bodytext" n="213" trans="true"><hi rend="paranum">213</hi><hi rend="dot">.</hi>… 두루 사람을 기쁘게 하는 자들 가운데, 즉 우파세노 방간타뿟또(upaseno vaṅgantaputto).</p>
+
+
+
+<p rend="bodytext" n="214" trans="true"><hi rend="paranum">214</hi><hi rend="dot">.</hi>… 좌소를 배정하는 자들 가운데, 즉 다뽀 말라뿟또(dabbo mallaputto).</p>
+
+
+
+<p rend="bodytext" n="215" trans="true"><hi rend="paranum">215</hi><hi rend="dot">.</hi>… 천신들에게 사랑스럽고 마음에 드는 자들 가운데, 즉 필린다왓차(pilindavaccho).</p>
+
+
+
+<p rend="bodytext" n="216" trans="true"><hi rend="paranum">216</hi><hi rend="dot">.</hi>… 빠른 깨달음들(khippābhiññānaṃ) 가운데, 즉 바히야 다루치리야(Bāhiyo Dārucīriyo).</p>
+
+
+
+<p rend="bodytext" n="217" trans="true"><hi rend="paranum">217</hi><hi rend="dot">.</hi>… 법담론의 화자들(cittakathikānaṃ) 가운데, 즉 꾸마라깟사빠(Kumārakassapo).</p>
+
+
+
+<p rend="bodytext" n="218" trans="true"><hi rend="paranum">218</hi><hi rend="dot">.</hi>… 빠띠삼비다를 성취한 이들(paṭisambhidāpattānaṃ) 가운데, 즉 마하꼿티타(Mahākoṭṭhito)<note trans="true">마하꼿티히꼬(Mahākoṭṭhikoti) (다른 경들에서는 마람마 포트타케(marammapotthake))</note>.</p>
+
+
+
+<p rend="centre" trans="true">세 번째 품목.</p>
+
+
+
+<p rend="subhead" trans="true">4. 네 번째 품목</p>
+
+
+
+<p rend="bodytext" n="219" trans="true"><hi rend="paranum">219</hi><hi rend="dot">.</hi>“비구들이여, 나의 제자인 비구들, 많이 들은 자들 가운데서 이것이 으뜸이다. 곧 아난다(ānando)이다.”</p>
+
+
+
+<p rend="bodytext" n="220" trans="true"><hi rend="paranum">220</hi><hi rend="dot">.</hi>… 마음챙김을 지닌 자들 가운데서<pb ed="V" n="1.0034" />곧 아난다(ānando)이다.</p>
+
+
+
+<p rend="bodytext" n="221" trans="true"><hi rend="paranum">221</hi><hi rend="dot">.</hi>… 분별력을 지닌 자들 가운데서<pb ed="P" n="1.0025" />곧 아난다(ānando)이다.</p>
+
+
+
+<p rend="bodytext" n="222" trans="true"><hi rend="paranum">222</hi><hi rend="dot">.</hi>… 확고함을 지닌 자들 가운데서 곧 아난다(ānando)이다.</p>
+
+
+
+<p rend="bodytext" n="223" trans="true"><hi rend="paranum">223</hi><hi rend="dot">.</hi>… 시봉하는 자들 가운데서 곧 아난다(ānando)이다.</p>
+
+
+
+<p rend="bodytext" n="224" trans="true"><hi rend="paranum">224</hi><hi rend="dot">.</hi>… 큰 무리들의 것들 가운데 이것은 우루벨라깟사빠(Uruvelakassapa)이다.</p>
+
+
+
+<p rend="bodytext" n="225" trans="true"><hi rend="paranum">225</hi><hi rend="dot">.</hi>… 가문에 대한 청정한 믿음을 일으키는 자들 가운데 이것은 깔루다이(Kāḷudāyī)이다.</p>
+
+
+
+<p rend="bodytext" n="226" trans="true"><hi rend="paranum">226</hi><hi rend="dot">.</hi>… 병이 적은 자들 가운데 이것은 바꿀로(Bākulo)이다<note trans="true">밧쿨로(Bakkulo) (sī. syā. kaṃ. pī.)</note>.</p>
+
+
+
+<p rend="bodytext" n="227" trans="true"><hi rend="paranum">227</hi><hi rend="dot">.</hi>… 이전 거처들을 기억하는 자들 가운데 이것은 소비또(Sobhito)이다.</p>
+
+
+
+<p rend="bodytext" n="228" trans="true"><hi rend="paranum">228</hi><hi rend="dot">.</hi>… 율장 지닌 자들 가운데 이것은 우빨리(Upāli)이다.</p>
+
+
+
+<p rend="bodytext" n="229" trans="true"><hi rend="paranum">229</hi><hi rend="dot">.</hi>… 비구니 교계자들 가운데서는, 곧 난다꼬(nandako)이다.<pb ed="M" n="1.0026" />곧 난다(nando)이다.</p>
+
+
+
+<p rend="bodytext" n="230" trans="true"><hi rend="paranum">230</hi><hi rend="dot">.</hi>… 감관들에 있어서 문을 수호한 자들 가운데서는, 곧 난다(nando)이다.</p>
+
+
+
+<p rend="bodytext" n="231" trans="true"><hi rend="paranum">231</hi><hi rend="dot">.</hi>… 비구 교계자들 가운데서는, 곧 마하깝삐나(mahākappino)이다.</p>
+
+
+
+<p rend="bodytext" n="232" trans="true"><hi rend="paranum">232</hi><hi rend="dot">.</hi>… 화계(Tejodhātu)에 능숙한 자들 가운데서는, 곧 사고따(sāgato)이다.</p>
+
+
+
+<p rend="bodytext" n="233" trans="true"><hi rend="paranum">233</hi><hi rend="dot">.</hi>… 즉답할 만한 자들 가운데서는, 곧 라드호(rādho)이다.</p>
+
+
+
+<p rend="bodytext" n="234" trans="true"><hi rend="paranum">234</hi><hi rend="dot">.</hi>… 거친 가사를 입는 이들 중의<pb ed="V" n="1.0035" />곧 모가라자(Mogharāja)이다.</p>
+
+
+
+<p rend="centre" trans="true">네 번째 품.</p>
+
+
+
+<p rend="subhead" trans="true">5. 다섯째 품</p>
+
+
+
+<p rend="bodytext" n="235" trans="true"><hi rend="paranum">235</hi><hi rend="dot">.</hi>‘‘이것이 으뜸이다<pb ed="T" n="1.0033" />, 비구들이여, 나의 여성 제자들인 비구니들 가운데 밤을 아는 이들(rattaññūnaṃ) 중에서, 곧 마하빠자빠띠 고따미(Mahāpajāpatigotamī)이다’’.</p>
+
+
+
+<p rend="bodytext" n="236" trans="true"><hi rend="paranum">236</hi><hi rend="dot">.</hi>… 큰 지혜를 가진 이들 중에서, 곧 케마(Khemā)이다.</p>
+
+
+
+<p rend="bodytext" n="237" trans="true"><hi rend="paranum">237</hi><hi rend="dot">.</hi>… 신통력을 지닌 이들 가운데, 이를테면 웃빨라완나(Uppalavaṇṇā).</p>
+
+
+
+<p rend="bodytext" n="238" trans="true"><hi rend="paranum">238</hi><hi rend="dot">.</hi>… 율(律)을 지닌 이들 가운데, 이를테면 빠따짜라(Paṭācārā).</p>
+
+
+
+<p rend="bodytext" n="239" trans="true"><hi rend="paranum">239</hi><hi rend="dot">.</hi>… 법을 설하는 이들 가운데, 이를테면 담마다나(Dhammadinnā).</p>
+
+
+
+<p rend="bodytext" n="240" trans="true"><hi rend="paranum">240</hi><hi rend="dot">.</hi>… 선정을 하는 이들 가운데, 이를테면 난다(Nandā).</p>
+
+
+
+<p rend="bodytext" n="241" trans="true"><hi rend="paranum">241</hi><hi rend="dot">.</hi>… 확립된 정진을 지닌 이들 가운데, 이를테면 소나(Soṇā).</p>
+
+
+
+<p rend="bodytext" n="242" trans="true"><hi rend="paranum">242</hi><hi rend="dot">.</hi>… 천안(天眼)을 가진 이들 가운데, 곧 바쿨라(Bakulā)<note trans="true">사쿨라(Sakulā) (sī. syā. kaṃ. pī.)</note>.</p>
+
+
+
+<p rend="bodytext" n="243" trans="true"><hi rend="paranum">243</hi><hi rend="dot">.</hi>… 재빨리 아비냐(abhijñā)를 얻은 이들 가운데, 곧 밧다 쿠ṇḍalakesā(Bhaddā Kuṇḍalakesā).</p>
+
+
+
+<p rend="bodytext" n="244" trans="true"><hi rend="paranum">244</hi><hi rend="dot">.</hi>… 전생의 거처를 기억하는 이들 가운데, 곧 밧다 카필라니(Bhaddā Kāpilānī).</p>
+
+
+
+<p rend="bodytext" n="245" trans="true"><hi rend="paranum">245</hi><hi rend="dot">.</hi>… 대아비냐(mahābhiññā)에 도달한 이들 가운데, 곧 밧다카차나(Bhaddakaccānā).</p>
+
+
+
+<p rend="bodytext" n="246" trans="true"><hi rend="paranum">246</hi><hi rend="dot">.</hi>… 거친 가사를 입는 이들 가운데, 곧 키사고타미(Kisāgotamī).</p>
+
+
+
+<p rend="bodytext" n="247" trans="true"><hi rend="paranum">247</hi><hi rend="dot">.</hi>… 신심으로 전념한 이들의<pb ed="V" n="1.0036" />이를 말하니 싱갈라까의 어머니(Siṅgālakamātā)이다<note trans="true">싱갈라까의 어머니라고 한다 (sī. syā. kaṃ. pī.)</note>.</p>
+
+
+
+<p rend="centre" trans="true">다섯 번째 품.</p>
+
+
+
+<p rend="subhead" trans="true">6. 여섯째 품</p>
+
+
+
+<p rend="bodytext" n="248" trans="true"><hi rend="paranum">248</hi><hi rend="dot">.</hi>‘‘이것이 으뜸이다<pb ed="M" n="1.0027" />, 비구들이여, 나의 제자들인 우바새들 가운데 처음으로 귀의처에 가는 자들에 있어서, 이를 말하니<pb ed="P" n="1.0026" />타뿟사와 발리까(Tapussa-Bhallikā)<note trans="true">tapassu와 bhallikā라고 한다 (sī. pī.)</note>상인들이다’’.</p>
+
+
+
+<p rend="bodytext" n="249" trans="true"><hi rend="paranum">249</hi><hi rend="dot">.</hi>… 보시자들의 경우, 이를 말하니 수닷따 가주, 아나타삔디까이다.</p>
+
+
+
+<p rend="bodytext" n="250" trans="true"><hi rend="paranum">250</hi><hi rend="dot">.</hi>… 법을 설하는 이들 가운데, 즉 마키카산다(Macchikāsaṇḍa)의 재가자 찟따(Citto gahapati).</p>
+
+
+
+<p rend="bodytext" n="251" trans="true"><hi rend="paranum">251</hi><hi rend="dot">.</hi>… 네 가지 포섭사(攝事)로 무리를 거두는 이들 가운데, 즉 알라와까(Āḷavaka) 핫타까(Hatthako).</p>
+
+
+
+<p rend="bodytext" n="252" trans="true"><hi rend="paranum">252</hi><hi rend="dot">.</hi>… 훌륭한 것을 보시하는 이들 가운데, 즉 삭까(Sakka) 마하나마(Mahānāmo).</p>
+
+
+
+<p rend="bodytext" n="253" trans="true"><hi rend="paranum">253</hi><hi rend="dot">.</hi>… 마음에 드는 것을 보시하는 이들 가운데, 즉 웨살리(Vesālī)의 재가자 웃가(Uggo).</p>
+
+
+
+<p rend="bodytext" n="254" trans="true"><hi rend="paranum">254</hi><hi rend="dot">.</hi>… 승가를 시봉하는 이들 가운데, 즉 핫티가마(Hatthigāma)의 재가자 웃가따(Uggato).</p>
+
+
+
+<p rend="bodytext" n="255" trans="true"><hi rend="paranum">255</hi><hi rend="dot">.</hi>… 확신으로 확고한 신심을 지닌 자들 가운데, 즉 수람밧타(Sūrambaṭṭha).<note trans="true">수로 암밧타(sūro ambaṭṭho) (sī. syā. kaṃ. pī.) 수레반도(surebandho) (ka.)</note>.</p>
+
+
+
+<p rend="bodytext" n="256" trans="true"><hi rend="paranum">256</hi><hi rend="dot">.</hi>… 인물에 대한 신심을 지닌 자들 가운데, 즉 지바까 꼬마라밧짜(Jīvaka Komārabhacca).</p>
+
+
+
+<p rend="bodytext" n="257" trans="true"><hi rend="paranum">257</hi><hi rend="dot">.</hi>… 신뢰하는 자들 가운데<pb ed="V" n="1.0037" />즉 나꿀라삐따 재가자(Nakulapitā gahapati)이다.</p>
+
+
+
+<p rend="centre" trans="true">여섯째 품.</p>
+
+
+
+<p rend="subhead" trans="true">7. 일곱째 품</p>
+
+
+
+<p rend="bodytext" n="258" trans="true"><hi rend="paranum">258</hi><hi rend="dot">.</hi>‘‘이것이 으뜸이다<pb ed="T" n="1.0034" />, 비구들이여, 나의 여성 제자들인 우바시카들 가운데 처음으로 귀의처로 가는 이들, 곧 수자타 세니야의 딸이다’’<note trans="true">장군의 딸 (sī. syā. kaṃ. pī.)</note>.</p>
+
+
+
+<p rend="bodytext" n="259" trans="true"><hi rend="paranum">259</hi><hi rend="dot">.</hi>… 보시하는 이들 가운데, 곧 비사카 미가라의 어머니.</p>
+
+
+
+<p rend="bodytext" n="260" trans="true"><hi rend="paranum">260</hi><hi rend="dot">.</hi>… 많이 들은 이들 가운데, 곧 쿠줏타라.</p>
+
+
+
+<p rend="bodytext" n="261" trans="true"><hi rend="paranum">261</hi><hi rend="dot">.</hi>… 자애에 머무는 이들 가운데, 곧 사마와띠.</p>
+
+
+
+<p rend="bodytext" n="262" trans="true"><hi rend="paranum">262</hi><hi rend="dot">.</hi>… 선정하는 이들 가운데, 곧 웃따라난다의 어머니.</p>
+
+
+
+<p rend="bodytext" n="263" trans="true"><hi rend="paranum">263</hi><hi rend="dot">.</hi>… 훌륭한 보시를 하는 이들 가운데, 곧 꼴리야의 딸 숩빠와사(Suppavāsā)이다.</p>
+
+
+
+<p rend="bodytext" n="264" trans="true"><hi rend="paranum">264</hi><hi rend="dot">.</hi>… 병자를 시중드는 이들 가운데<pb ed="M" n="1.0028" />곧 우바시까 숩삐야(Suppiyā)이다.</p>
+
+
+
+<p rend="bodytext" n="265" trans="true"><hi rend="paranum">265</hi><hi rend="dot">.</hi>… 검증된 확신을 지닌 이들 가운데, 곧 까띠야니(Kātiyānī)이다.</p>
+
+
+
+<p rend="bodytext" n="266" trans="true"><hi rend="paranum">266</hi><hi rend="dot">.</hi>… 신뢰하는 이들 가운데, 곧 가주 부인 나꿀라마따(Nakulamātā)이다.</p>
+
+
+
+<p rend="bodytext" n="267" trans="true"><hi rend="paranum">267</hi><hi rend="dot">.</hi>… 전해 들음으로 확신한 이들 가운데, 곧 명문가의 여신도 깔리(Kāḷī)<note trans="true">명문가의 여신도(kulagharikā) (ka.)</note>라고.</p>
+
+
+
+<p rend="centre" trans="true">일곱째 품.</p>
+
+
+
+<trailer rend="centre" trans="true">에따닥가 품(Etadaggavaggo), 열넷째.</trailer>
+</div>
+
+<div id="an1_15" n="an1_15" type="vagga">
+
+
+<head rend="chapter" trans="true">15. 앗타나빨리(Aṭṭhānapāḷi)</head>
+
+
+
+<p rend="subhead" trans="true">1. 첫째 품.</p>
+
+
+
+<p rend="bodytext" n="268" trans="true"><hi rend="paranum">268</hi><hi rend="dot">.</hi>‘‘이것은 불가능하다<pb ed="V" n="1.0038" />, 비구들이여, 여지가 없으니, 견해를 성취한 사람이 어떤<note trans="true">무엇이든지 (ka.)</note>상카라(saṅkhāra)를 영원한 것으로 여길 것이다. 이러한 경우는 존재하지 않는다. 그러나 이것은, 비구들이여, 존재하니<pb ed="P" n="1.0027" />곧 범부가 어떤 상카라(saṅkhāra)를 영원한 것으로 여길 것이다. 이러한 경우는 존재한다’’라고.</p>
+
+
+
+<p rend="bodytext" n="269" trans="true"><hi rend="paranum">269</hi><hi rend="dot">.</hi>“‘비구들이여, 이것은 불가능한 일이고 있을 수 없는 일이다. 견해를 성취한 사람(diṭṭhisampanno puggalo)이 어떤 형성된 것(saṅkhāra)을 낙으로 여길 수 있다는 것은 있을 수 없다. 이런 경우는 존재하지 않는다. 그러나 비구들이여, 범부(puthujjano)가 어떤 형성된 것(saṅkhāra)을 낙으로 여길 수 있다는 이런 경우는 존재한다. 이런 경우는 존재한다’라고.</p>
+
+
+
+<p rend="bodytext" n="270" trans="true"><hi rend="paranum">270</hi><hi rend="dot">.</hi>“‘비구들이여, 이것은 불가능한 일이고 있을 수 없는 일이다. 견해를 성취한 사람(diṭṭhisampanno puggalo)이<pb ed="T" n="1.0035" />어떤 법(dhamma)을 자아로 여길 수 있다는 것은 있을 수 없다. 이런 경우는 존재하지 않는다. 그러나 비구들이여, 범부(puthujjano)가 어떤 법(dhamma)을 자아로 여길 수 있다는 이런 경우는 존재한다. 이런 경우는 존재한다’라고.</p>
+
+
+
+<p rend="bodytext" n="271" trans="true"><hi rend="paranum">271</hi><hi rend="dot">.</hi>“‘비구들이여, 이것은 불가능한 일이고 있을 수 없는 일이다. 견해를 성취한 사람(diṭṭhisampanno puggalo)이 어머니를 목숨에서 빼앗을 수 있다는 것은 있을 수 없다. 이런 경우는 존재하지 않는다. 그러나 비구들이여, 범부(puthujjano)가 어머니를 목숨에서 빼앗을 수 있다는 이런 경우는 존재한다. 이런 경우는 존재한다’라고.</p>
+
+
+
+<p rend="bodytext" n="272" trans="true"><hi rend="paranum">272</hi><hi rend="dot">.</hi>“‘이것은 불가능한 일이다<pb ed="M" n="1.0029" />, 비구들이여, 있을 수 없는 일이다. 견해를 성취한 사람(diṭṭhisampanno puggalo)이 아버지를 목숨에서 빼앗을 수 있다는 것은 있을 수 없다. 이런 경우는 존재하지 않는다. 그러나 비구들이여, 범부(puthujjano)가 아버지를 목숨에서 빼앗을 수 있다는 이런 경우는 존재한다. 이런 경우는 존재한다’라고.</p>
+
+
+
+<p rend="bodytext" n="273" trans="true"><hi rend="paranum">273</hi><hi rend="dot">.</hi>“‘이것은 불가능한 일이다<pb ed="V" n="1.0039" />, 비구들이여, 있을 수 없는 일이다. 견해를 성취한 사람(diṭṭhisampanno puggalo)이 아라한(arahanta)을 목숨에서 빼앗을 수 있다는 것은 있을 수 없다. 이런 경우는 존재하지 않는다. 그러나 비구들이여, 범부(puthujjano)가 아라한(arahanta)을 목숨에서 빼앗을 수 있다는 이런 경우는 존재한다. 이런 경우는 존재한다’라고.</p>
+
+
+
+<p rend="bodytext" n="274" trans="true"><hi rend="paranum">274</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것은 불가능한 일이며 여지가 없는 일이다. 곧 견해를 성취한 사람이 여래에게 악한 마음을 품고 피를 내게 할 것이라는 것은 있을 수 없다. 이것은 성립하지 않는다. 그러나 비구들이여, 범부가 여래에게 악한 마음을 품고 피를 내게 할 것이라는 이러한 경우는 성립한다. 이러한 경우는 성립한다’’라고.</p>
+
+
+
+<p rend="bodytext" n="275" trans="true"><hi rend="paranum">275</hi><hi rend="dot">.</hi>‘‘이것은 불가능한 일이다<pb ed="T" n="1.0036" />, 비구들이여, 견해를 성취한 사람이 승가를 분열시킬 것이라는 것은 여지가 없다. 이것은 성립하지 않는다. 그러나 비구들이여, 범부가 승가를 분열시킬 것이라는 이러한 경우는 성립한다. 이러한 경우는 성립한다’’라고.</p>
+
+
+
+<p rend="bodytext" n="276" trans="true"><hi rend="paranum">276</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것은 불가능한 일이며 여지가 없는 일이다. 곧 견해를 성취한 사람이 다른 스승을 지목할 것이라는 것은 있을 수 없다. 이것은 성립하지 않는다. 그러나 비구들이여, 범부가 다른 스승을 지목할 것이라는 이러한 경우는 성립한다. 이러한 경우는 성립한다’’라고.</p>
+
+
+
+<p rend="bodytext" n="277" trans="true"><hi rend="paranum">277</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것은 불가능한 일이며 여지가 없는 일이다. 곧 한 세계계(lokadhātu)에 두 분의 아라한 정등각자(sammāsambuddha)가 먼저도 없이 나중도 없이<pb ed="P" n="1.0028" />생겨날 것이라는 것은 있을 수 없다. 이것은 성립하지 않는다. 그러나 비구들이여, 한 세계계에 오직 한 분의 아라한 정등각자만이 생겨날 것이라는 이러한 경우는 성립한다. 이러한 경우는 성립한다’’라고.</p>
+
+
+
+<p rend="centre" trans="true">첫 번째 품.</p>
+
+
+
+<p rend="subhead" trans="true">2. 둘째 품</p>
+
+
+
+<p rend="bodytext" n="278" trans="true"><hi rend="paranum">278</hi><hi rend="dot">.</hi>‘‘이것은 있을 수 없는 일이다<pb ed="V" n="1.0040" />비구들이여, 곧 하나의 세계계(lokadhātu)에 두 명의 전륜왕(cakkavattī)들이 먼저도 아니고 나중도 아니게 함께 출현할 것이라는 것은. 이러한 경우는 존재하지 않는다<pb ed="M" n="1.0030" />. 그러나 비구들이여, 하나의 세계계에 한 명의 전륜왕이 출현할 것이라는 이러한 경우는 존재한다. 이러한 경우는 존재한다’’라고 했다.</p>
+
+
+
+<p rend="bodytext" n="279" trans="true"><hi rend="paranum">279</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것은 있을 수 없는 일이다. 곧 여인이 아라한이며 정등각자(sammāsambuddha)일 것이라는 것은. 이러한 경우는 존재하지 않는다. 그러나 비구들이여, 이러한 경우는 존재한다. 곧 남자가 아라한이며 정등각자일 것이라는 것은. 이러한 경우는 존재한다’’라고 했다.</p>
+
+
+
+<p rend="bodytext" n="280" trans="true"><hi rend="paranum">280</hi><hi rend="dot">.</hi>‘‘이것은 있을 수 없는 일이다<pb ed="T" n="1.0037" />비구들이여, 곧 여인이 왕이며 전륜왕일 것이라는 것은. 이러한 경우는 존재하지 않는다. 그러나 비구들이여, 이러한 경우는 존재한다. 곧 남자가 왕이며 전륜왕일 것이라는 것은. 이러한 경우는 존재한다’’라고 했다.</p>
+
+
+
+<p rend="bodytext" n="281-283" trans="true"><hi rend="paranum">281-283</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것은 있을 수 없는 일이다. 곧 여인이 제석의 상태(sakkatta)를 행할 것이다…pe… 마라의 상태(māratta)를 행할 것이다…pe… 범천의 상태(brahmatta)를 행할 것이라는 것은. 이러한 경우는 존재하지 않는다. 그러나 비구들이여, 이러한 경우는 존재한다. 곧 남자가 제석의 상태를 행할 것이다…pe… 마라의 상태를 행할 것이다…pe… 범천의 상태를 행할 것이라는 것은. 이러한 경우는 존재한다’’라고 했다.</p>
+
+
+
+<p rend="bodytext" n="284" trans="true"><hi rend="paranum">284</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것은 있을 수 없는 일이고, 여지가 없다. 신체의 악행(kāyaduccarita)으로부터 바라고 사랑스럽고 마음에 드는 과보(vipāka)가 생겨날 것이라는 것은. 이러한 경우는 존재하지 않는다. 그러나 비구들이여, 신체의 악행(kāyaduccarita)으로부터 바라지 않는 사랑스럽지 않은 마음에 들지 않는 과보(vipāka)가 생겨날 것이라는 이러한 경우는 존재한다. 이러한 경우는 존재한다’’라고.</p>
+
+
+
+<p rend="bodytext" n="285-286" trans="true"><hi rend="paranum">285-286</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것은 있을 수 없는 일이고, 여지가 없다. 언어의 악행(vacīduccarita)으로부터…pe… 정신의 악행(manoduccarita)으로부터 바라고 사랑스럽고 마음에 드는 과보(vipāka)가 생겨날 것이라는 것은. 이러한 경우는 존재하지 않는다. 그러나 비구들이여, 정신의 악행(manoduccarita)으로부터 바라지 않는 사랑스럽지 않은 마음에 들지 않는 과보(vipāka)가 생겨날 것이라는 이러한 경우는 존재한다. 이러한 경우는 존재한다’’라고.</p>
+
+
+
+<p rend="centre" trans="true">두 번째 품.</p>
+
+
+
+<p rend="subhead" trans="true">3. 세 번째 품</p>
+
+
+
+<p rend="bodytext" n="287" trans="true"><hi rend="paranum">287</hi><hi rend="dot">.</hi>‘‘이것은 있을 수 없는 일이다<pb ed="V" n="1.0041" />, 비구들이여, 여지가 없다. 신체의 선행(kāyasucarita)으로부터 바라지 않는 사랑스럽지 않은 마음에 들지 않는 과보(vipāka)가 생겨날 것이라는 것은. 이러한 경우는 존재하지 않는다. 그러나<pb ed="T" n="1.0038" /><pb ed="M" n="1.0031" />참으로 이러한 경우는, 비구들이여, 존재한다. 신체의 선행(kāyasucarita)으로부터 바라고 사랑스럽고 마음에 드는 과보(vipāka)가 생겨날 것이라는. 이러한 경우는 존재한다’’라고.</p>
+
+
+
+<p rend="bodytext" n="288-289" trans="true"><hi rend="paranum">288-289</hi><hi rend="dot">.</hi>‘‘이것은 있을 수 없는 일이다(Aṭṭhānametaṃ)<pb ed="P" n="1.0029" />비구들이여, 어행의 선행(vacīsucarita)의…pe… 의행의 선행(manosucarita)으로부터 바람직하지 않은, 사랑스럽지 않은, 마음에 들지 않는 과보(vipāka)가 생겨날 것이라는 것은 불가능하고 여지는 없다(anavakāso). 이런 경우는 존재하지 않는다. 그러나 비구들이여, 의행의 선행(manosucarita)으로부터 바람직한, 사랑스러운, 마음에 드는 과보(vipāka)가 생겨날 것이라는 경우는 존재한다. 이러한 경우는 존재한다’’ti.</p>
+
+
+
+<p rend="bodytext" n="290" trans="true"><hi rend="paranum">290</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것은 있을 수 없는 일이다(Aṭṭhānametaṃ), 몸의 악행(kāyaduccarita)을 갖춘 자가 그것을 원인으로 하고 그것을 조건으로 하여, 몸이 무너진 뒤 죽음 이후에 선처(sugati), 하늘(sagga), 세상(loka)에 태어날 것이라는 것은 불가능하고 여지는 없다. 이런 경우는 존재하지 않는다. 그러나 비구들이여, 몸의 악행(kāyaduccarita)을 갖춘 자가 그것을 원인으로 하고 그것을 조건으로 하여, 몸이 무너진 뒤 죽음 이후에 악처(apāya), 나쁜 곳(duggati), 파멸처(vinipāta), 지옥(niraya)에 태어날 것이라는 경우는 존재한다. 이러한 경우는 존재한다’’ti.</p>
+
+
+
+<p rend="bodytext" n="291-292" trans="true"><hi rend="paranum">291-292</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것은 있을 수 없는 일이다(Aṭṭhānametaṃ), 말의 악행(vacīduccarita)을 갖춘 자가…pe… 의 악행(manoduccarita)을 갖춘 자가 그것을 원인으로 하고 그것을 조건으로 하여, 몸이 무너진 뒤 죽음 이후에 선처(sugati), 하늘(sagga), 세상(loka)에 태어날 것이라는 것은 불가능하고 여지는 없다. 이런 경우는 존재하지 않는다. 그러나 비구들이여, 의 악행(manoduccarita)을 갖춘 자가 그것을 원인으로 하고 그것을 조건으로 하여, 몸이 무너진 뒤 죽음 이후에 악처(apāya), 나쁜 곳(duggati), 파멸처(vinipāta), 지옥(niraya)에 태어날 것이라는 경우는 존재한다. 이러한 경우는 존재한다’’ti<pb ed="T" n="1.0039" />.</p>
+
+
+
+<p rend="bodytext" n="293" trans="true"><hi rend="paranum">293</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것은 있을 수 없는 일이다(Aṭṭhānametaṃ), 몸의 선행(kāyasucarita)을 갖춘 자가 그것을 원인으로 하고 그것을 조건으로 하여, 몸이 무너진 뒤 죽음 이후에 악처(apāya), 나쁜 곳(duggati), 파멸처(vinipāta), 지옥(niraya)에 태어날 것이라는 것은 불가능하고 여지는 없다. 이런 경우는 존재하지 않는다. 그러나 비구들이여, 몸의 선행(kāyasucarita)을 갖춘 자가 그것을 원인으로 하고 그것을 조건으로 하여<pb ed="V" n="1.0042" />몸이 무너진 뒤 죽음 이후에 선처(sugati), 하늘(sagga), 세상(loka)에 태어날 것이라는 경우는 존재한다. 이러한 경우는 존재한다’’ti.</p>
+
+
+
+<p rend="bodytext" n="294-295" trans="true"><hi rend="paranum">294-295</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것은 있을 수 없는 일이다(Aṭṭhānametaṃ), 말의 선행(vacīsucarita)을 갖춘 자가…pe… 의 선행(manosucarita)을 갖춘 자가 그것을 원인으로 하고 그것을 조건으로 하여, 몸이 무너진 뒤 죽음 이후에 악처(apāya), 나쁜 곳(duggati), 파멸처(vinipāta), 지옥(niraya)에 태어날 것이라는 것은 불가능하고 여지는 없다. 이런 경우는 존재하지 않는다. 그러나 비구들이여, 라는 경우는 존재한다<pb ed="P" n="1.0030" />의 선행(manosucarita)을 갖춘 자가 그것을 원인으로 하고 그것을 조건으로 하여, 몸이 무너진 뒤 죽음 이후에 선처(sugati), 하늘(sagga), 세상(loka)에 태어날 것이라는 경우는 존재한다. 이러한 경우는 존재한다’’ti.</p>
+
+
+
+<p rend="centre" trans="true">제3품.</p>
+
+
+
+<trailer rend="centre" trans="true">아ṭṭhānapāḷi, 열다섯 번째.</trailer>
+</div>
+
+<div id="an1_16" n="an1_16" type="vagga">
+
+
+<head rend="chapter" trans="true">16. 한 가지 법의 경문(Ekadhammapāḷi)</head>
+
+
+
+<p rend="subhead" trans="true">1. 첫 번째 품</p>
+
+
+
+<p rend="bodytext" n="296" trans="true"><hi rend="paranum">296</hi><hi rend="dot">.</hi>‘‘하나의 법이<pb ed="V" n="1.0043" /><pb ed="M" n="1.0032" />비구들이여, 닦여지고 많이 행해지면 오로지 염오로, 이욕으로, 멸로, 고요로, 뛰어난 앎으로, 깨달음으로, 열반으로 이끈다. 어떤 하나의 법인가? 불수념(Buddhānussati)이다. 비구들이여, 이것이야말로 하나의 법이니, 닦여지고 많이 행해지면 오로지 염오로, 이욕으로, 멸로, 고요로, 뛰어난 앎으로, 깨달음으로<pb ed="T" n="1.0040" />열반으로 이끈다’’라고.</p>
+
+
+
+<p rend="bodytext" n="297" trans="true"><hi rend="paranum">297</hi><hi rend="dot">.</hi>“‘비구들이여, 하나의 법이 닦여지고 많이 익혀지면, 전적인 싫어버림을 위하여, 탐욕의 빛바램을 위하여, 소멸을 위하여, 고요를 위하여, 신통지(abhiññā)를 위하여, 올바른 깨달음을 위하여, 열반을 위하여 이르게 된다. 어떤 하나의 법인가? 법수념(dhammānussati)…pe… 승가수념(saṅghānussati)… 계수념(sīlānussati)… 시사(cāga)수념… 천신수념(devatānussati)… 들숨날숨에 대한 마음챙김(ānāpānassati)… 죽음수념(maraṇassati)… 몸에 간 마음챙김(kāyagatāsati)… 고요수념(upasamānussati)이다. 비구들이여, 이것이 하나의 법이니, 닦여지고 많이 익혀지면 전적인 싫어버림을 위하여, 탐욕의 빛바램을 위하여, 소멸을 위하여, 고요를 위하여, 신통지를 위하여, 올바른 깨달음을 위하여, 열반을 위하여 이르게 된다.’”라고.</p>
+
+
+
+<p rend="centre" trans="true">첫 번째 품.</p>
+
+
+
+<p rend="subhead" trans="true">2. 두 번째 품</p>
+
+
+
+<p rend="bodytext" n="298" trans="true"><hi rend="paranum">298</hi><hi rend="dot">.</hi>“‘비구들이여, 아직 일어나지 않은 불선한 법들이 일어나게 하고, 이미 일어난 불선한 법들이 더 커짐과 확대됨으로 나아가게 하는, 이와 같은 다른 어떤 하나의 법도 나는 보지 못한다. 즉 이것이니, 비구들이여, 잘못된 견해(micchādiṭṭhi)이다. 비구들이여, 잘못된 견해를 가진 자에게는, 아직 일어나지 않은 불선한 법들이 일어나고, 이미 일어난 불선한 법들은 더 커짐과 확대됨으로 나아간다.’”라고.</p>
+
+
+
+<p rend="bodytext" n="299" trans="true"><hi rend="paranum">299</hi><hi rend="dot">.</hi>“‘비구들이여, 아직 일어나지 않은 선한 법들이 일어나게 하고, 이미 일어난 선한 법들이 더 커짐과 확대됨으로 나아가게 하는, 이와 같은 다른 어떤 하나의 법도 나는 보지 못한다. 즉 이것이니<pb ed="V" n="1.0044" />비구들이여, 바른 견해(sammādiṭṭhi)이다. 바른 견해를 가진 자에게는<pb ed="P" n="1.0031" />비구들이여, 아직 일어나지 않은 선한 법들이 일어나고, 이미 일어난 선한 법들은 더 커짐과 확대됨으로 나아간다.’”라고.</p>
+
+
+
+<p rend="bodytext" n="300" trans="true"><hi rend="paranum">300</hi><hi rend="dot">.</hi>‘‘나는<pb ed="T" n="1.0041" />, 비구들이여, 이것과 같은 다른 어떤 한 법도 나는 보지 못한다. 그것으로 인하여 아직 일어나지 않은 선한 법들은 일어나지 않고 이미 일어난 선한 법들은 쇠퇴하니, 즉 이것은<pb ed="M" n="1.0033" />, 비구들이여, 사견(micchādiṭṭhi)이다. 비구들이여, 사견을 지닌 자에게는 아직 일어나지 않은 선한 법들은 일어나지 않고 이미 일어난 선한 법들은 쇠퇴한다’’라고.</p>
+
+
+
+<p rend="bodytext" n="301" trans="true"><hi rend="paranum">301</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것과 같은 다른 어떤 한 법도 나는 보지 못한다. 그것으로 인하여 아직 일어나지 않은 불선한 법들은 일어나지 않고 이미 일어난 불선한 법들은 쇠퇴하니, 즉 이것은, 비구들이여, 정견(sammādiṭṭhi)이다. 정견을 지닌 자에게는, 비구들이여, 아직 일어나지 않은 불선한 법들은 일어나지 않고 이미 일어난 불선한 법들은 쇠퇴한다’’라고.</p>
+
+
+
+<p rend="bodytext" n="302" trans="true"><hi rend="paranum">302</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것과 같은 다른 어떤 한 법도 나는 보지 못한다. 그것으로 인하여 아직 일어나지 않은 사견(micchādiṭṭhi)은 일어나고 이미 일어난 사견은 증대하니, 즉 이것은, 비구들이여, 비여리작의(ayonisomanasikāra)이다. 비구들이여, 부적절하게 마음에 두는 자에게는 아직 일어나지 않은 사견이 일어나고 이미 일어난 사견은 증대한다’’라고.</p>
+
+
+
+<p rend="bodytext" n="303" trans="true"><hi rend="paranum">303</hi><hi rend="dot">.</hi>‘‘비구들이여, 이것과 같은 다른 어떤 한 법도 나는 보지 못한다. 그것으로 인하여 아직 일어나지 않은 정견(sammādiṭṭhi)은 일어나고 이미 일어난 정견은 증대하니, 즉 이것은, 비구들이여, 여리작의(yonisomanasikāra)이다. 비구들이여, 적절하게 마음에 두는 자에게는 아직 일어나지 않은 정견이 일어나고 이미 일어난 정견은 증대한다’’라고.</p>
+
+
+
+<p rend="bodytext" n="304" trans="true"><hi rend="paranum">304</hi><hi rend="dot">.</hi>‘‘나는<pb ed="T" n="1.0042" />, 비구들이여, 이것과 같은 다른 어떤 한 법도 나는 보지 못한다. 그것으로 인하여<note trans="true">yenevaṃ (sī. syā. kaṃ. pī.)</note>중생들은 몸의 파괴 후 죽음 뒤에 악처(apāya), 악도(duggati), 몰락(vinipāta), 지옥(niraya)에 태어나니, 즉 이것은, 비구들이여, 사견(micchādiṭṭhi)이다. 비구들이여, 사견을 갖춘 중생들은 몸의 파괴 후 죽음 뒤에 악처, 악도, 몰락, 지옥에 태어난다’’라고.</p>
+
+
+
+<p rend="bodytext" n="305" trans="true"><hi rend="paranum">305</hi><hi rend="dot">.</hi>‘‘나는<pb ed="V" n="1.0045" />, 비구들이여, 다른 어떤 하나의 법도 관찰하지 않는다<pb ed="P" n="1.0032" />그것으로 말미암아 중생들이 몸이 부서진 뒤 죽음 후에 좋은 곳, 하늘 세계에 태어나는, 이것 곧, 비구들이여, 정견(sammādiṭṭhi)과 같은 것을. 비구들이여, 정견을 갖춘 중생들은 몸이 부서진 뒤 죽음 후에 좋은 곳, 하늘 세계에 태어난다’’라고.</p>
+
+
+
+<p rend="bodytext" n="306" trans="true"><hi rend="paranum">306</hi><hi rend="dot">.</hi>‘‘비구들이여, 삿된 견해(micchādiṭṭhi)를 지닌 사람됨의 개인에게, 그 견해에 꼭 맞고 받아 지닌 몸의 행위가 무엇이든, 또 말의 행위가 무엇이든 …pe… 또 그 견해에 꼭 맞고 받아 지닌 마음의 행위가 무엇이든, 그리고 의도(cetanā)가 무엇이든, 그리고 바람(patthanā)이 무엇이든, 그리고 서원(paṇidhi)이 무엇이든, 그리고 형성들(saṅkhārā)이 무엇이든, 그 모든 법들은 바람직하지 않음, 사랑스럽지 않음, 마음에 들지 않음, 이롭지 않음, 괴로움으로 귀결된다. 그것은 무슨 이유인가? 그의 견해가 참으로<note trans="true">견해가 참으로 (sī. syā. kaṃ. pī.)</note>, 비구들이여, 악하기 때문이다. 비구들이여, 이를테면<pb ed="M" n="1.0034" />, 님바 씨앗이거나 코사타키 씨앗이거나 쓴 박 씨앗이거나 젖은 땅에<note trans="true">땅에 (sī. syā. kaṃ. pī.)</note>놓였을 때, 그것이 흙의 맛을 취하든 물의 맛을 취하든, 그 모든 것은 쓴맛, 매운맛, 불쾌함으로 귀결된다. 그것은 무슨 이유인가? 그 씨앗이 참으로<note trans="true">씨앗이 (sī. syā. kaṃ. pī.)</note>, 비구들이여, 나쁘기 때문이다. 이와 같이 참으로, 비구들이여, 삿된 견해를 지닌 사람됨의 개인에게, 그 견해에 꼭 맞고 받아 지닌 몸의 행위가 무엇이든, 또 말의 행위가 무엇이든 …pe…<pb ed="T" n="1.0043" />또 그 견해에 꼭 맞고 받아 지닌 마음의 행위가 무엇이든, 그리고 의도(cetanā)가 무엇이든, 그리고 바람(patthanā)이 무엇이든, 그리고 서원(paṇidhi)이 무엇이든, 그리고 형성들(saṅkhārā)이 무엇이든, 그 모든 법들은 바람직하지 않음, 사랑스럽지 않음, 마음에 들지 않음, 이롭지 않음, 괴로움으로 귀결된다. 그것은 무슨 이유인가? 그의 견해가, 비구들이여, 악하기 때문이다’’라고.</p>
+
+
+
+<p rend="bodytext" n="307" trans="true"><hi rend="paranum">307</hi><hi rend="dot">.</hi>‘‘비구들이여, 정견(sammādiṭṭhi)을 지닌 사람됨의 개인에게, 그 견해에 꼭 맞고 받아 지닌 몸의 행위가 무엇이든, 또 말의 행위가 무엇이든 …pe… 또 그 견해에 꼭 맞고 받아 지닌 마음의 행위가 무엇이든, 그리고 의도(cetanā)가 무엇이든, 그리고 바람(patthanā)이 무엇이든, 그리고 서원(paṇidhi)이 무엇이든, 그리고 형성들(saṅkhārā)이 무엇이든, 그 모든 법들은 바람직함, 사랑스러움, 마음에 듦, 이로움, 행복으로 귀결된다. 그것은 무슨 이유인가? 그의 견해가, 비구들이여, 길상하기 때문이다. 비구들이여, 이를테면, 사탕수수 씨앗이거나 벼 씨앗이거나 포도 씨앗이거나 젖은 땅에 놓였을 때, 그것이 흙의 맛을 취하든 물의 맛을 취하든, 그 모든 것은 단맛, 기분 좋음, 달콤함으로 귀결된다. 그것은 무슨 이유인가? 그 씨앗이, 비구들이여, 좋기 때문이다. 이와 같이 참으로, 비구들이여, 정견을 지닌 사람됨의 개인에게, 그 견해에 꼭 맞고 받아 지닌 몸의 행위가 무엇이든, 또 말의 행위가 무엇이든 …pe… 또 그 견해에 꼭 맞고 받아 지닌 마음의 행위가 무엇이든, 그리고 의도(cetanā)가 무엇이든, 그리고 바람(patthanā)이 무엇이든, 그리고 서원(paṇidhi)이 무엇이든, 그리고 형성들(saṅkhārā)이 무엇이든, 그 모든 법들은 바람직함, 사랑스러움, 마음에 듦,<pb ed="V" n="1.0046" />이로움, 행복으로 귀결된다. 그것은 무슨 이유인가? 그의 견해가, 비구들이여, 길상하기 때문이다’’라고.</p>
+
+
+
+<p rend="centre" trans="true">두 번째 품.</p>
+
+
+
+<p rend="subhead" trans="true">3. 세 번째 품</p>
+
+
+
+<p rend="bodytext" n="308" trans="true"><hi rend="paranum">308</hi><hi rend="dot">.</hi>[" ‘‘한 사람<pb ed="T" n="1.0044" /><pb ed="P" n="1.0033" />, 비구들이여, 세상에 생겨나면서 생겨나는 이는 많은 사람들의 불이익을 위하여, 많은 사람들의 불행을 위하여, 많은 사람들의 무익을 위하여, 해로움을 위하여, 고통을 위하여<pb ed="M" n="1.0035" />천신들과 인간들의. 어떤 한 사람인가? 그는 잘못된 견해를 가진 자이며 뒤바뀐 봄을 가진 자이다. 그는 많은 사람을 바른 법(saddhamma)에서 일으켜 내어 바르지 않은 법(asaddhamma)에 확립시킨다. 이 비구들이여, 한 사람이 세상에 생겨나면서 생겨나는 이는 많은 사람들의 불이익을 위하여, 많은 사람들의 불행을 위하여, 많은 사람들의 무익을 위하여, 해로움을 위하여, 고통을 위하여 천신들과 인간들의’’라고.</p>
+
+
+
+<p rend="bodytext" n="309" trans="true"><hi rend="paranum">309</hi><hi rend="dot">.</hi>‘‘한 사람, 비구들이여, 세상에 생겨나면서 생겨나는 이는 많은 사람들의 이익을 위하여, 많은 사람들의 행복을 위하여, 많은 사람들의 유익을 위하여, 이로움을 위하여, सुख을 위하여 천신들과 인간들의. 어떤 한 사람인가? 그는 바른 견해를 가진 자이며 뒤바뀌지 않은 봄을 가진 자이다. 그는 많은 사람을 바르지 않은 법(asaddhamma)에서 일으켜 내어 바른 법(saddhamma)에 확립시킨다. 이 비구들이여, 한 사람이 세상에 태어나면서 생겨나는 이는 많은 사람들의 이익을 위하여, 많은 사람들의 행복을 위하여, 많은 사람들의 유익을 위하여, 이로움을 위하여, सुख을 위하여 천신들과 인간들의’’라고.</p>
+
+
+
+<p rend="bodytext" n="310" trans="true"><hi rend="paranum">310</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 큰 과실이 있는 다른 어떤 하나의 법도 보지 못하나니, 이것 곧 비구들이여, 잘못된 견해와 같은 것이다. 비구들이여, 잘못된 견해를 최상의 것으로 하는 것들이 큰 과실들이다’’라고<note trans="true">과실들이라고 (sī. syā. kaṃ.)</note>.</p>
+
+
+
+<p rend="bodytext" n="311" trans="true"><hi rend="paranum">311</hi><hi rend="dot">.</hi>‘‘비구들이여, 나는 이와 같이 많은 사람들의 불이익을 위하여 행하고 많은 사람들의 불행을 위하여, 많은 사람들의 무익을 위하여, 해로움을 위하여, 고통을 위하여, 천신들과 인간들의, 바로 이것 곧 비구들이여, 헛된 사람 막칼리(makkhali moghapuriso)와 같은 다른 어떤 한 사람도 보지 못하노라. 마치 비구들이여, 강 어귀에 빨리<note trans="true">빨리 (sī. syā. kaṃ. pī.)</note>던져 놓을 수 있다면<note trans="true">던져 놓을 수 있다면 (sī.), 흩뿌릴 수 있다면 (ka.)</note>많은 물고기들의 불이익을 위하여, 고통을 위하여, 파멸을 위하여, 재앙을 위하여 그럴 것이듯이; 이와 같이 참으로, 비구들이여<pb ed="V" n="1.0047" />, 헛된 사람 막칼리는 인간을 빨리<pb ed="T" n="1.0045" />나는 생각하건대 세상에 생겨나 많은 중생들의 불이익을 위하여, 고통을 위하여, 파멸을 위하여, 재앙을 위하여 생겨났다’’라고.</p>
+
+
+
+<p rend="bodytext" n="312" trans="true"><hi rend="paranum">312</hi><hi rend="dot">.</hi>‘‘비구들이여, 잘 설해지지 않은<pb ed="P" n="1.0034" />법과 율(dhammavinaya)에서, 누구든 권유하는 자도<note trans="true">권유하게 한다 (?)</note>또 그가 권유하는 바의 것에 대해, 그리고 권유된 자로서 그러한 상태를 위하여 실천하는 자도, 그들 모두는 많은 비복덕(apuñña)을 산출한다. 그것은 무엇 때문인가? 비구들이여, 법이 잘 설해지지 않았기 때문이다’’라고."]</p>
+
+
+
+<p rend="bodytext" n="313" trans="true"><hi rend="paranum">313</hi><hi rend="dot">.</hi>‘‘잘 설해진<pb ed="M" n="1.0036" />벗들이여, 법과 율(dhammavinaya)이 잘 설해져 있을 때, 누구든 권유하는 자와, 무엇이든 권유하는 그것과, 또 권유받은 자가 그러함(tathattā)을 위하여 실천하는 자들, 그들 모두는 많은 공덕을 산출한다. 그것은 무슨 이유 때문인가? 벗들이여, 법이 잘 설해져 있기 때문이다’’라고.</p>
+
+
+
+<p rend="bodytext" n="314" trans="true"><hi rend="paranum">314</hi><hi rend="dot">.</hi>‘‘잘못 설해진, 벗들이여, 법과 율에 있어서는 보시하는 자(dāyaka)에 의해 분량(mattā)이 알려져야 하며, 받는 자(paṭiggāhaka)에 의해서는 아니다. 그것은 무슨 이유 때문인가? 벗들이여, 법이 잘못 설해져 있기 때문이다’’라고.</p>
+
+
+
+<p rend="bodytext" n="315" trans="true"><hi rend="paranum">315</hi><hi rend="dot">.</hi>‘‘잘 설해진, 벗들이여, 법과 율에 있어서는 받는 자(paṭiggāhaka)에 의해 분량(mattā)이 알려져야 하며, 보시하는 자(dāyaka)에 의해서는 아니다. 그것은 무슨 이유 때문인가? 벗들이여, 법이 잘 설해져 있기 때문이다’’라고.</p>
+
+
+
+<p rend="bodytext" n="316" trans="true"><hi rend="paranum">316</hi><hi rend="dot">.</hi>‘‘잘못 설해진, 벗들이여, 법과 율에 있어서는 누구든 정진을 일으킨 자(āraddhavīriya)는 괴롭게 머문다. 그것은 무슨 이유 때문인가? 벗들이여, 법이 잘못 설해져 있기 때문이다’’라고.</p>
+
+
+
+<p rend="bodytext" n="317" trans="true"><hi rend="paranum">317</hi><hi rend="dot">.</hi>‘‘잘 설해진, 벗들이여, 법과 율에 있어서는 누구든 게으른 자(kusīta)는 괴롭게 머문다. 그것은 무슨 이유 때문인가? 벗들이여, 법이 잘 설해져 있기 때문이다’’라고.</p>
+
+
+
+<p rend="bodytext" n="318" trans="true"><hi rend="paranum">318</hi><hi rend="dot">.</hi>‘‘잘 설해지지 않은(durakkhāte), 비구들이여, 법과 율(dhammavinaye)에서 게으른 자(kusīto)는 सुख하게 머문다<pb ed="T" n="1.0046" />। 그것은 무슨 까닭인가? 비구들이여, 법(dhamma)이 잘 설해지지 않았기 때문이다(durakkhātattā).’’ti.</p>
+
+
+
+<p rend="bodytext" n="319" trans="true"><hi rend="paranum">319</hi><hi rend="dot">.</hi>‘‘잘 설해진(svākkhāte), 비구들이여, 법과 율(dhammavinaye)에서 정진을 일으킨 자(āraddhavīriyo)는 सुख하게 머문다. 그것은 무슨 까닭인가? 비구들이여, 법(dhamma)이 잘 설해졌기 때문이다(svākkhātattā).’’ti.</p>
+
+
+
+<p rend="bodytext" n="320" trans="true"><hi rend="paranum">320</hi><hi rend="dot">.</hi>‘‘비구들이여, 이를테면(seyyathāpi)<pb ed="V" n="1.0048" />비구들이여, 아주 적은 양의 똥(gūtho)이라도 악취가 난다(duggandho hoti); 이와 꼭 같이(evamevaṃ kho) 나도, 비구들이여, 아주 적은 양의 존재(bhava)라도 칭찬하지 않는다(na vaṇṇemi), 최하로는 손가락을 튕기는 한 찰나(accharāsaṅghātamattampi)만큼일지라도.’’.</p>
+
+
+
+<p rend="bodytext" n="321" trans="true"><hi rend="paranum">321</hi><hi rend="dot">.</hi>‘‘비구들이여, 이를테면(seyyathāpi), 아주 적은 양의 오줌(muttaṃ)이라도 악취가 난다… 아주 적은 양의 침(kheḷo)이라도 악취가 난다… 아주 적은 양의 고름(pubbo)이라도 악취가 난다… 아주 적은 양의<pb ed="P" n="1.0035" />피(lohitaṃ)라도 악취가 난다; 이와 꼭 같이(evamevaṃ kho) 나도, 비구들이여, 아주 적은 양의 존재(bhava)라도 칭찬하지 않는다(na vaṇṇemi), 최하로는 손가락을 튕기는 한 찰나(accharāsaṅghātamattampi)만큼일지라도.’’.</p>
+
+
+
+<p rend="centre" trans="true">셋째 품(vaggo tatiyo).</p>
+
+
+
+<p rend="subhead" trans="true">4. 제4품(Catutthavaggo)</p>
+
+
+
+<p rend="bodytext" n="322" trans="true"><hi rend="paranum">322</hi><hi rend="dot">.</hi>‘‘비구들이여, 마치도<pb ed="M" n="1.0037" />이 잠부디파(jambudīpa)에는 공원으로서 즐거운 곳, 숲으로서 즐거운 곳, 땅으로서 즐거운 곳, 연못으로서 즐거운 곳이 매우 적고; 그런데 바로 이것, 즉 가파른 둑과 비탈진 둑, 강의 험지, 그루터기와 가시가 있는 곳<note trans="true">khāṇukaṇḍakadhānaṃ (sī. pī.)</note>산의 험한 곳이야말로 훨씬 더 많다. 이와 같이 바로, 비구들이여, 육지에서 태어나는 저 중생들은 적고, 그런데 바로 그 중생들이 훨씬 더 많은데, 곧 물속의 것이다’’</p>
+
+
+
+<p rend="bodytext" n="323" trans="true"><hi rend="paranum">323</hi><hi rend="dot">.</hi>… 이와 같이 바로, 비구들이여, 인간들 가운데 다시 태어나는 저 중생들은 적고; 그런데 바로 그 중생들이 훨씬 더 많은데, 인간들 이외의 곳에서 다시 태어나는 자들이다.</p>
+
+
+
+<p rend="bodytext" trans="true">… 이와 같이 바로, 비구들이여, 중부 지방들에서 다시 태어나는 저 중생들은 적고; 그런데<pb ed="T" n="1.0047" />바로 그 중생들이 훨씬 더 많은데, 변경 지방들에서 다시 태어나는 자들, 알아들을 수 없는 밀라카(milakkha)들 가운데서 태어나는 자들이다<note trans="true">milakkhūsu (ka.)</note>.</p>
+
+
+
+<p rend="bodytext" n="324" trans="true"><hi rend="paranum">324</hi><hi rend="dot">.</hi>… 이와 같이 바로, 비구들이여, 지혜가 있고 어리석지 않으며 벙어리도 아니고 말더듬이도 아니며, 잘 설해진 것과 잘못 설해진 것의 뜻을 이해할 수 있는 능력이 있는 저 중생들은 적고; 그런데 바로 그 중생들이 훨씬 더 많은데, 지혜가 부족하고 어리석으며 벙어리이고 말더듬이이며, 잘 설해진 것과 잘못 설해진 것의 뜻을 이해할 수 있는 능력이 없는 자들이다.</p>
+
+
+
+<p rend="bodytext" n="325" trans="true"><hi rend="paranum">325</hi><hi rend="dot">.</hi>… 이와 같도다<pb ed="V" n="1.0049" />참으로, 비구들이여, 성스러운 지혜의 눈(ariyena paññācakkhunā)을 갖춘 저 중생들은 적다; 그러나 바로 이 중생들 가운데 무명에 이르러 혼미해진 자들이 더 많다.</p>
+
+
+
+<p rend="bodytext" n="326" trans="true"><hi rend="paranum">326</hi><hi rend="dot">.</hi>… 이와 같도다, 참으로, 비구들이여, 여래를 보기 위하여(dassanāya) 만나게 되는 저 중생들은 적다; 그러나 바로 이 중생들 가운데 여래를 보기 위하여 만나지 못하는 자들이 더 많다.</p>
+
+
+
+<p rend="bodytext" n="327" trans="true"><hi rend="paranum">327</hi><hi rend="dot">.</hi>… 이와 같도다, 참으로, 비구들이여, 여래가 설한 법과 율(tathāgatappaveditaṃ dhammavinayaṃ)을 듣기 위하여(savanāya) 만나게 되는 저 중생들은 적다; 그러나 바로 이<pb ed="P" n="1.0036" />중생들 가운데 여래가 설한 법과 율을 듣기 위하여 만나지 못하는 자들이 더 많다.</p>
+
+
+
+<p rend="bodytext" n="328" trans="true"><hi rend="paranum">328</hi><hi rend="dot">.</hi>… 이와 같도다<pb ed="M" n="1.0038" />참으로, 비구들이여, 법을 듣고서 그것을 지니는 저 중생들은 적다; 그러나 바로 이 중생들 가운데 법을 듣고서 그것을 지니지 않는 자들이 더 많다.</p>
+
+
+
+<p rend="bodytext" n="329" trans="true"><hi rend="paranum">329</hi><hi rend="dot">.</hi>… 이와 같도다, 참으로, 비구들이여, 외워진<note trans="true">dhatānaṃ (sī. syā. kaṃ. pī.)</note>법들의 의미를 숙고하는 저 중생들은 적다; 그러나 바로 이 중생들 가운데 외워진 법들의 의미를 숙고하지 않는 자들이 더 많다.</p>
+
+
+
+<p rend="bodytext" n="330" trans="true"><hi rend="paranum">330</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 저 중에서 뜻을 이해하고(atthamaññāya) 법을 이해하고(dhammamaññāya) 법과 상응하는 법(dhammānudhammaṃ)에 따라 실천하는 중생들은 적고; 그러나 바로 이 중생들이 더 많으니, 곧 뜻을 이해하고 법을 이해하고 법과 상응하는 법에 따라 실천하지 않는 자들이다.</p>
+
+
+
+<p rend="bodytext" n="331" trans="true"><hi rend="paranum">331</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 저 중에서 감동을 일으키는 곳들(saṃvejaniyesu ṭhānesu)에서 감동하는 자들은 적고; 그러나 바로 이 중생들이<pb ed="T" n="1.0048" />더 많으니, 곧 감동을 일으키는 곳들에서 감동하지 않는 자들이다.</p>
+
+
+
+<p rend="bodytext" n="332" trans="true"><hi rend="paranum">332</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 저 중에서 두려움에 떨며(saṃviggā)<pb ed="V" n="1.0050" />올바르게 이치대로 힘쓰는(yoniso padahanti) 자들은 적고; 그러나 바로 이 중생들이 더 많으니, 곧 두려움에 떨면서도 올바르게 이치대로 힘쓰지 않는 자들이다.</p>
+
+
+
+<p rend="bodytext" n="333" trans="true"><hi rend="paranum">333</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 저 중에서 놓아버림을 대상으로 삼고(vavassaggārammaṇaṃ karitvā) 삼매를 얻는 자들은 적고<note trans="true">마음의 삼매를 (sī.)</note>마음의 일점집중(cittassekaggataṃ)을 얻고<note trans="true">마음의 일점집중을 (sī.)</note>; 그러나 바로 이 중생들이 더 많으니, 곧 놓아버림을 대상으로 삼고도 삼매를 얻지 못하고 마음의 일점집중을 얻지 못하는 자들이다.</p>
+
+
+
+<p rend="bodytext" n="334" trans="true"><hi rend="paranum">334</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 저 중에서 최상의 음식 맛들의 획득자들(annaggarasaggānaṃ lābhino)은 적고; 그러나 바로 이 중생들이 더 많으니, 곧 최상의 음식 맛들의 획득자가 아니어서, 주워 모은 것(uñchena)과 발우에 얻은 것(kapālābhatena)으로 살아간다.</p>
+
+
+
+<p rend="bodytext" n="335" trans="true"><hi rend="paranum">335</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 의미의 맛(attharasa), 법의 맛(dhammarasa), 해탈의 맛(vimuttirasa)의 획득자들인 저 중생들은 적다; 그러나 바로 이 중생들이 더 많다, 곧 의미의 맛(attharasa), 법의 맛(dhammarasa), 해탈의 맛(vimuttirasa)의 획득자들이 아닌 자들이다. 그러므로 여기서, 비구들이여<pb ed="M" n="1.0039" />, 이렇게 배워야 한다 – ‘우리는 의미의 맛(attharasa), 법의 맛(dhammarasa), 해탈의 맛(vimuttirasa)의 획득자들이 될 것이다’라고. 비구들이여, 참으로 이와 같이 배워야 한다.”</p>
+
+
+
+<p rend="bodytext" n="336-338" trans="true"><hi rend="paranum">336-338</hi><hi rend="dot">.</hi>‘‘비유하자면<pb ed="P" n="1.0037" />, 비구들이여, 이 잠부디빠(jambudīpa)에서 공원이 아름다운 곳, 숲이 아름다운 곳, 땅이 아름다운 곳, 연못이 아름다운 곳은 매우 적다; 그러나 오히려 바로 이것이 더 많다, 곧 가파른 둑과 비탈, 강의 험지, 그루터기와 가시가 있는 곳, 산의 험한 곳이다. 이와 같이 참으로, 비구들이여, 인간들에게서 죽어 인간들 가운데 다시 태어나는 저 중생들은 적다. 그러나 바로 이 중생들이 더 많다, 곧 인간들에게서 죽어 지옥에 다시 태어난다…pe… 축생의 태에 다시 태어난다…pe… 아귀의 영역에 다시 태어난다’’.</p>
+
+
+
+<p rend="bodytext" n="339-341" trans="true"><hi rend="paranum">339-341</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 적다 저 중생들은, 곧<pb ed="T" n="1.0049" />인간들에게서 죽어 천상들에 다시 태어나는 자들이다; 그러나 바로 이 중생들이 더 많다, 곧 인간들에게서 죽어 지옥에 다시 태어난다… 축생의 태에 다시 태어난다… 아귀의 영역에 다시 태어난다.</p>
+
+
+
+<p rend="bodytext" n="342-344" trans="true"><hi rend="paranum">342-344</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 적다 저 중생들은, 곧 천상들이<pb ed="V" n="1.0051" />죽어 천상들에 다시 태어나는 자들이다; 그러나 바로 이 중생들이 더 많다, 곧 천상들이 죽어 지옥에 다시 태어난다… 축생의 태에 다시 태어난다… 아귀의 영역에 다시 태어난다.</p>
+
+
+
+<p rend="bodytext" n="345-347" trans="true"><hi rend="paranum">345-347</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 적다 저 중생들은, 곧 천상들이 죽어 인간들 가운데 다시 태어나는 자들이다; 그러나 바로 이 중생들이 더 많다, 곧 천상들이 죽어 지옥에 다시 태어난다… 축생의 태에 다시 태어난다… 아귀의 영역에 다시 태어난다.</p>
+
+
+
+<p rend="bodytext" n="348-350" trans="true"><hi rend="paranum">348-350</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 지옥(niraya)에서 죽어 인간들(manussa) 가운데 다시 태어나는 저 중생들은 적다; 그러나 바로 이 중생들은 더 많다, 곧 지옥에서 죽어 지옥에 다시 태어난다… 축생태(tiracchānayoni)에 다시 태어난다… 아귀계(pettivisaya)에 다시 태어난다.</p>
+
+
+
+<p rend="bodytext" n="351-353" trans="true"><hi rend="paranum">351-353</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 지옥(niraya)에서 죽어 천신들(deva) 가운데 다시 태어나는 저 중생들은 적다; 그러나 바로 이 중생들은 더 많다, 곧 지옥에서 죽어 지옥에 다시 태어난다… 축생태(tiracchānayoni)에 다시 태어난다… 아귀계(pettivisaya)에 다시 태어난다.</p>
+
+
+
+<p rend="bodytext" n="354-356" trans="true"><hi rend="paranum">354-356</hi><hi rend="dot">.</hi>… 이와 같이<pb ed="M" n="1.0040" />참으로, 비구들이여, 축생태(tiracchānayoni)에서 죽어 인간들(manussa) 가운데 다시 태어나는 저 중생들은 적다; 그러나 바로 이 중생들은 더 많다, 곧 축생태에서 죽어 지옥에 다시 태어난다… 축생태에 다시 태어난다… 아귀계(pettivisaya)에 다시 태어난다.</p>
+
+
+
+<p rend="bodytext" n="357-359" trans="true"><hi rend="paranum">357-359</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 축생태(tiracchānayoni)에서 죽어 천신들(deva) 가운데 다시 태어나는 저 중생들은 적다; 그러나 바로 이 중생들은 더 많다, 곧<pb ed="P" n="1.0038" />축생태(tiracchānayoni)에서 죽어 지옥에 다시 태어난다… 축생태에 다시 태어난다… 아귀계(pettivisaya)에 다시 태어난다.</p>
+
+
+
+<p rend="bodytext" n="360-362" trans="true"><hi rend="paranum">360-362</hi><hi rend="dot">.</hi>… 이와 같이 참으로, 비구들이여, 아귀계(pettivisaya)에서 죽어 인간들(manussa) 가운데 다시 태어나는 저 중생들은 적다; 그러나 바로 이 중생들은 더 많다, 곧 아귀계에서 죽어 지옥에 다시 태어난다… 축생태(tiracchānayoni)에 다시 태어난다… 아귀계(pettivisaya)에 다시 태어난다.</p>
+
+
+
+<p rend="bodytext" n="363-365" trans="true"><hi rend="paranum">363-365</hi><hi rend="dot">.</hi>… 이와 같이 참으로<pb ed="V" n="1.0052" />비구들이여, 참으로 아귀의 영역에서 죽어 천신들 가운데 다시 태어나는 저 중생들은 적다<pb ed="T" n="1.0050" />; 그러나 바로 그 중생들, 곧 아귀의 영역에서 죽어 지옥에 다시 태어나는 이들은 훨씬 더 많다… 축생의 태에 다시 태어나는 이들은 훨씬 더 많다… 아귀의 영역에 다시 태어나는 이들은 훨씬 더 많다.</p>
+
+
+
+<p rend="centre" trans="true">네 번째 품.</p>
+
+
+
+<p rend="centre" trans="true">잠부디빠(Jambudīpa) 반복구(peyyāla)가 끝났다.</p>
+
+
+
+<trailer rend="centre" trans="true">에까담마빨리(Ekadhammapāḷi) 열여섯 번째.</trailer>
+</div>
+
+<div id="an1_17" n="an1_17" type="vagga">
+
+
+<head rend="chapter" trans="true">17. 믿음을 일으키는 법들의 품(Pasādakaradhammavaggo)</head>
+
+
+
+<p rend="bodytext" n="366-381" trans="true"><hi rend="paranum">366-381</hi><hi rend="dot">.</hi>‘‘이것이 절반이다<pb ed="V" n="1.0053" />비구들이여, 이득들 가운데 이것, 곧 숲거주자됨(āraññikattaṃ)이다<note trans="true">숲거주자됨(araññakattaṃ) (모든 곳에서)</note>…pe… 탁발식자됨(piṇḍapātikattaṃ)… 분소의착자됨(paṃsukūlikattaṃ)… 삼의소지자됨(tecīvarikattaṃ)… 법설자됨(dhammakathikattaṃ)… 율지자됨(vinayadharattaṃ)<note trans="true">율지자됨(vinayadharakattaṃ) (syā. kaṃ. pī. ka.)</note>… 많이 배움(bāhusaccaṃ)… 확고함(thāvareyyaṃ)… 용모의 구족(ākappasampadā)… 수행원 구족(parivārasampadā)… 큰 수행원 많음(mahāparivāratā)… 좋은 가문의 아들됨(kolaputti)… 용색의 아름다움(vaṇṇapokkharatā)… 훌륭한 말씨(kalyāṇavākkaraṇatā)… 소욕(appicchatā)… 적은 병고(appābādhatā)’’ti.</p>
+
+
+
+<p rend="centre" trans="true">열여섯 가지 신심을 일으키는 법들이 끝났다.</p>
+
+
+
+<trailer rend="centre" trans="true">신심을 일으키는 법들의 품, 열일곱째.</trailer>
+</div>
+
+<div id="an1_18" n="an1_18" type="vagga">
+
+
+<head rend="chapter" trans="true">18. 아파라아차라상가타품(Aparaaccharāsaṅghātavaggo)</head>
+
+
+
+<p rend="bodytext" n="382" trans="true"><hi rend="paranum">382</hi><hi rend="dot">.</hi>‘‘손가락 튕김 한 번의 순간만큼이라도(Accharāsaṅghātamattampi)<pb ed="V" n="1.0054" /><pb ed="M" n="1.0041" />만일, 비구들이여, 비구가 첫 번째 선정(paṭhamaṃ jhānaṃ)을 닦는다면, 이 비구들이여, 이렇게 말해진다 – ‘그 비구는 공허하지 않은 선정(arittajjhāno)으로 머물며, 스승의 가르침을 행하는 자이고 훈계를 따르는 자이며, 나라의 공양 음식(raṭṭhapiṇḍaṃ)을 헛되이 먹지 않는다’. 하물며 그것을 자주 닦는 이들이야 더 말해 무엇하겠는가’’ti!</p>
+
+
+
+<p rend="bodytext" n="383-389" trans="true"><hi rend="paranum">383-389</hi><hi rend="dot">.</hi>‘‘비구들이여, 비구가 손가락 튕김 한순간만큼이라도 둘째 선정(dutiyaṃ jhānaṃ)을 닦는다면…pe…<pb ed="T" n="1.0051" />셋째 선정(tatiyaṃ jhānaṃ)을 닦는다…pe… 넷째 선정(catutthaṃ jhānaṃ)을 닦는다…pe… 자애의 심해탈(mettaṃ cetovimuttiṃ)을 닦는다…pe… 연민의 심해탈(karuṇaṃ cetovimuttiṃ)을 닦는다…pe… 기쁨(muditaṃ)<pb ed="P" n="1.0039" />심해탈(cetovimuttiṃ)을 닦는다…pe… 평정의 심해탈(upekkhaṃ cetovimuttiṃ)을 닦는다…pe….</p>
+
+
+
+<p rend="bodytext" n="390-393" trans="true"><hi rend="paranum">390-393</hi><hi rend="dot">.</hi>몸에서 몸을 관찰하는 자(kāye kāyānupassī)로 열심히, 분명히 알아차리며, 마음챙김을 지니고, 세상에 대한 탐욕과 근심을 제어하고 머문다; 느낌들에서 느낌을 관찰하는 자(vedanāsu vedanānupassī)로 머문다…pe… 마음에서 마음을 관찰하는 자(citte cittānupassī)로 머문다…pe… 법들에서 법들을 관찰하는 자(dhammesu dhammānupassī)로 열심히, 분명히 알아차리며, 마음챙김을 지니고, 세상에 대한 탐욕과 근심을 제어하고 머문다.</p>
+
+
+
+<p rend="bodytext" n="394-397" trans="true"><hi rend="paranum">394-397</hi><hi rend="dot">.</hi>아직 일어나지 않은 악하고 불선한 법들(anuppannānaṃ pāpakānaṃ akusalānaṃ dhammānaṃ)이 일어나지 않도록 의욕(chanda)을 낸다, 노력한다, 정진(vīriya)을<note trans="true">정진(vīriya) (sī. syā. kaṃ. pī.)</note>일으킨다, 마음을 들어 올린다, 분투한다; 이미 일어난 악하고 불선한 법들을 버리기 위해 의욕을 낸다, 노력한다, 정진을 일으킨다, 마음을 들어 올린다, 분투한다. 아직 일어나지 않은 선한 법들(kusalānaṃ dhammānaṃ)이 일어나도록 의욕을 낸다, 노력한다, 정진을 일으킨다, 마음을 들어 올린다, 분투한다; 이미 일어난 선한 법들이 머묾, 잊히지 않음, 더욱 커짐, 광대해짐, 닦임, 원만해짐을 위해 의욕을 낸다, 노력한다, 정진을 일으킨다, 마음을 들어 올린다, 분투한다.</p>
+
+
+
+<p rend="bodytext" n="398-401" trans="true"><hi rend="paranum">398-401</hi><hi rend="dot">.</hi>의욕의 삼매와 정진의 형성들(chandasamādhipadhānasaṅkhārasamannāgataṃ)을 구족한 신족(iddhipāda)을 닦는다… 정진의 삼매와 정진의 형성들(vīriyasamādhipadhānasaṅkhārasamannāgataṃ)을<pb ed="V" n="1.0055" />신족(iddhipāda)을 닦는다… 마음의 삼매와 정진의 형성들(cittasamādhipadhānasaṅkhārasamannāgataṃ)을 구족한 신족을 닦는다… 관찰의 삼매와 정진의 형성들(vīmaṃsāsamādhipadhānasaṅkhārasamannāgataṃ)을 구족한 신족을 닦는다….</p>
+
+
+
+<p rend="bodytext" n="402-406" trans="true"><hi rend="paranum">402-406</hi><hi rend="dot">.</hi>믿음의 근기(saddhindriyaṃ)를 닦는다… 정진의 근기(vīriyindriyaṃ)를 닦는다… 마음챙김의 근기(satindriyaṃ)를 닦는다… 삼매의 근기(samādhindriyaṃ)를 닦는다… 지혜의 근기(paññindriyaṃ)를 닦는다….</p>
+
+
+
+<p rend="bodytext" n="407-411" trans="true"><hi rend="paranum">407-411</hi><hi rend="dot">.</hi>믿음의 힘을 닦는다<pb ed="M" n="1.0042" />정진의 힘을 닦는다… 마음챙김의 힘을 닦는다<pb ed="T" n="1.0052" />닦는다… 삼매의 힘을 닦는다… 지혜의 힘을 닦는다….</p>
+
+
+
+<p rend="bodytext" n="412-418" trans="true"><hi rend="paranum">412-418</hi><hi rend="dot">.</hi>마음챙김의 깨달음요소를 닦는다… 법택의 깨달음요소를 닦는다… 정진의 깨달음요소를<pb ed="P" n="1.0040" />닦는다… 희열의 깨달음요소를 닦는다… 경안의 깨달음요소를 닦는다… 삼매의 깨달음요소를 닦는다… 평정의 깨달음요소를 닦는다….</p>
+
+
+
+<p rend="bodytext" n="419-426" trans="true"><hi rend="paranum">419-426</hi><hi rend="dot">.</hi>바른 견해를 닦는다… 바른 사유를 닦는다… 바른 말을 닦는다… 바른 행위를 닦는다… 바른 생계를 닦는다… 바른 노력을 닦는다… 바른 마음챙김을 닦는다… 바른 삼매를 닦는다….</p>
+
+
+
+<p rend="bodytext" n="427-434" trans="true"><hi rend="paranum">427-434</hi><hi rend="dot">.</hi> <note trans="true">dī. ni. 2.173; ma. ni. 2.249; a. ni. 8.65</note>안으로 형상에 대한 지각을 가진 이는 밖의 형상들을 본다, 작은 것들, 아름다운 것들과 추한 것들을. ‘그것들을 압도하여 나는 안다, 나는 본다’라고, 이와 같은 지각을 갖는다… 안으로 형상에 대한 지각을 가진 이는 밖의 형상들을 본다, 한량없는 것들, 아름다운 것들과 추한 것들을. ‘그것들을 압도하여 나는 안다, 나는 본다’라고, 이와 같은 지각을 갖는다… 안으로 무형상에 대한 지각을 가진 이는 밖의 형상들을 본다, 작은 것들, 아름다운 것들과 추한 것들을. ‘그것들을 압도하여 나는 안다, 나는 본다’라고, 이와 같은 지각을 갖는다… 안으로 무형상에 대한 지각을 가진 이는 밖의 형상들을 본다, 한량없는 것들, 아름다운 것들과 추한 것들을. ‘그것들을 압도하여 나는 안다, 나는 본다’라고, 이와 같은 지각을 갖는다… 안으로<pb ed="T" n="1.0053" />무형상에 대한 지각을 가진 이는 밖의 형상들을 본다, 푸른 것들, 푸른 색의 것들, 푸르게 보이는 것들, 푸른 광채의 것들을. ‘그것들을 압도하여 나는 안다, 나는 본다’라고, 이와 같은 지각을 갖는다… 안으로 무형상에 대한 지각을 가진 이는 밖의 형상들을 본다, 노란 것들, 노란 색의 것들, 노랗게 보이는 것들, 노란 광채의 것들을. ‘그것들을 압도하여 나는 안다, 나는 본다’라고, 이와 같은 지각을 갖는다… 안으로 무형상에 대한 지각을 가진 이는 밖의 형상들을 본다, 붉은 것들, 붉은 색의 것들을<pb ed="V" n="1.0056" />붉게 보이는 것들, 붉은 광채의 것들을. ‘그것들을 압도하여 나는 안다, 나는 본다’라고 이와 같은 지각을 갖는다… 안으로 무형상에 대한 지각을 가진 이는 밖의 형상들을 본다, 흰 것들, 흰 색의 것들, 희게 보이는 것들, 흰 광채의 것들을. ‘그것들을 압도하여 나는 안다, 나는 본다’라고, 이와 같은 지각을 갖는다….</p>
+
+
+
+<p rend="bodytext" n="435-442" trans="true"><hi rend="paranum">435-442</hi><hi rend="dot">.</hi>형상을 가진 이는 형상들을 본다… 안으로<pb ed="P" n="1.0041" />무형상에 대한 지각을 가진 이는 밖의 형상들을 본다, 아름다운 것이라고만 확신하게 된다… 모든 형상지각들을 완전히 초월함으로써, 거친 접촉의 지각들이 사라짐으로써, 여러 가지 지각들에 마음씀을 하지 않음으로써, 무한한<pb ed="M" n="1.0043" />허공이다’라고 하여 허공무변처를 성취하여 머문다… 모든 허공무변처를 완전히 초월하여 ‘무한한 식이다’라고 하여 식무변처를 성취하여 머문다… 모든 식무변처를 완전히 초월하여 ‘아무것도 없다’라고 하여 무소유처를<pb ed="T" n="1.0054" />성취하여 머문다… 모든 무소유처를 완전히 초월하여 비상비비상처를 성취하여 머문다… 모든 비상비비상처를 완전히 초월하여 상수멸을 성취하여 머문다….</p>
+
+
+
+<p rend="bodytext" n="443-452" trans="true"><hi rend="paranum">443-452</hi><hi rend="dot">.</hi>지(地)까시나(pathavīkasiṇa)를 닦는다… 수(水)까시나(āpokasiṇa)를 닦는다… 화(火)까시나(tejokasiṇa)를 닦는다… 풍(風)까시나(vāyokasiṇa)를 닦는다… 청색까시나(nīlakasiṇa)를 닦는다… 황색까시나(pītakasiṇa)를 닦는다… 적색까시나(lohitakasiṇa)를 닦는다… 백색까시나(odātakasiṇa)를 닦는다… 공(空)까시나(ākāsakasiṇa)를 닦는다… 식(識)까시나(viññāṇakasiṇa)를 닦는다….</p>
+
+
+
+<p rend="bodytext" n="453-462" trans="true"><hi rend="paranum">453-462</hi><hi rend="dot">.</hi>부정(不淨) 상념(asubhasaññā)을 닦는다… 죽음의 상념(maraṇasaññā)을 닦는다… 음식에 대한 역겨움의 상념(āhāre paṭikūlasaññā)을 닦는다… 온 세상에 대한 즐거움 없음의 상념(sabbaloke anabhiratisaññā)을<note trans="true">즐거움 없음의 상념(anabhiratasaññā) (sī. syā. kaṃ. pī.)</note>닦는다… 무상 상념(aniccasaññā)을 닦는다… 무상한 것에 대해 괴로움의 상념(anicce dukkhasaññā)을 닦는다… 괴로움에 대해 무아의 상념(dukkhe anattasaññā)을 닦는다… 버림의 상념(pahānasaññā)을 닦는다… 이욕의 상념(virāgasaññā)을 닦는다… 멸의 상념(nirodhasaññā)을 닦는다….</p>
+
+
+
+<p rend="bodytext" n="463-472" trans="true"><hi rend="paranum">463-472</hi><hi rend="dot">.</hi>무상 상념(aniccasaññā)을 닦는다… 무아 상념(anattasaññā)을 닦는다… 죽음의 상념(maraṇasaññā)을<pb ed="P" n="1.0042" />닦는다… 음식에 대한 역겨움의 상념(āhāre paṭikūlasaññā)을 닦는다… 온 세상에 대한 즐거움 없음의 상념(sabbaloke anabhiratisaññā)을 닦는다… 해골의 상념(aṭṭhikasaññā)을 닦는다… 구더기의 상념(puḷavakasaññā)을<note trans="true">구더기의 상념(puḷuvakasaññā) (ka.)</note>닦는다… 푸르게 멍든 것의 상념(vinīlakasaññā)을 닦는다… 찢겨 갈라진 것의 상념(vicchiddakasaññā)을 닦는다… 부어오른 것의 상념(uddhumātakasaññā)을 닦는다….</p>
+
+
+
+<p rend="bodytext" n="473-482" trans="true"><hi rend="paranum">473-482</hi><hi rend="dot">.</hi>부처에 대한 수념(Buddhānussati)을<pb ed="V" n="1.0057" />닦는다… 법에 대한 수념(dhammānussati)을 닦는다… 승가에 대한 수념(saṅghānussati)을 닦는다… 계에 대한 수념(sīlānussati)을 닦는다… 보시에 대한 수념(cāgānussati)을 닦는다… 천들에 대한 수념(devatānussati)을<pb ed="T" n="1.0055" />닦는다… 들숨날숨에 대한 수념(ānāpānassati)을 닦는다… 죽음에 대한 수념(maraṇassati)을 닦는다… 몸에 이른 마음챙김(kāyagatāsati)을 닦는다… 적정에 대한 수념(upasamānussati)을 닦는다….</p>
+
+
+
+<p rend="bodytext" n="483-492" trans="true"><hi rend="paranum">483-492</hi><hi rend="dot">.</hi>초선과 함께하는(paṭhamajjhānasahagata)<pb ed="M" n="1.0044" />믿음의 근(saddhindriya)을 닦는다… 정진의 근(vīriyindriya)을 닦는다… 마음챙김의 근(satindriya)을 닦는다… 삼매의 근(samādhindriya)을 닦는다… 지혜의 근(paññindriya)을 닦는다… 믿음의 힘(saddhābala)을 닦는다… 정진의 힘(vīriyabala)을 닦는다… 마음챙김의 힘(satibala)을 닦는다… 삼매의 힘(samādhibala)을 닦는다… 지혜의 힘(paññābala)을 닦는다….</p>
+
+
+
+<p rend="bodytext" n="493-562" trans="true"><hi rend="paranum">493-562</hi><hi rend="dot">.</hi>“제이선과 함께한…pe… 제삼선과 함께한…pe… 제사선과 함께한…pe… 자애(mettā)와 함께한…pe… 연민(karuṇā)과 함께한…pe… 함께 기뻐함(muditā)과 함께한…pe… 평정(upekkhā)과 함께한 믿음의 기능(saddhindriya)을 닦는다… 정진의 기능(vīriyindriya)을 닦는다… 마음챙김의 기능(satindriya)을<pb ed="P" n="1.0043" />닦는다… 삼매의 기능(samādhindriya)을 닦는다… 지혜의 기능(paññindriya)을 닦는다… 믿음의 힘(saddhābala)을 닦는다… 정진의 힘(vīriyabala)을 닦는다… 마음챙김의 힘(satibala)을 닦는다… 삼매의 힘(samādhibala)을 닦는다… 지혜의 힘(paññābala)을 닦는다. 이것을, 비구들이여, ‘비구는 공허하지 않은 선정(arittajjhāna)으로 머무르며, 스승의 가르침을 행하는 자이고 훈계를 따르는 자이며, 나라의 공양물(raṭṭhapiṇḍa)을 헛되지 않게 먹는다’라고 말한다. 하물며 그것을 많이 닦는 이들이야 어떠하겠는가”라고!</p>
+
+
+
+<trailer rend="centre" trans="true">아빠라차라상가타 품(Aparaaccharāsaṅghātavagga) 열여덟째.</trailer>
+</div>
+
+<div id="an1_19" n="an1_19" type="vagga">
+
+
+<head rend="chapter" trans="true">19. 신수념 품(Kāyagatāsativaggo)</head>
+
+
+
+<p rend="bodytext" n="563" trans="true"><hi rend="paranum">563</hi><hi rend="dot">.</hi>“비구들이여, 누구에게든지<pb ed="V" n="1.0058" />큰 바다가 마음으로 두루 미쳐 있으며, 그 안에 바다로 흘러가는 어떤 작은 강들(kunnadiyo)이든 잠겨 들어가 있듯이, 바로 그와 같이, 비구들이여, 누구에게든지 몸에 관한 마음챙김(kāyagatā sati)이 닦여지고 많이 닦여지면, 명지(vijjā)에 속하는 어떤 선한 법들이든 그 안에 잠겨 들어가 있다”라고.</p>
+
+
+
+<p rend="bodytext" n="564-570" trans="true"><hi rend="paranum">564-570</hi><hi rend="dot">.</hi>“비구들이여, 한 법이 닦여지고 많이 닦여지면 큰 두려움 없는 분발(saṃvega)로 이끈다… 큰 이익으로 이끈다… 큰 안온(yogakkhema)으로 이끈다… 마음챙김과 분명한 앎(satisampajañña)으로<pb ed="T" n="1.0056" />이끈다… 지견(ñāṇadassana)의 획득으로 이끈다… 현법락주(diṭṭhadhammasukhavihāra)로 이끈다… 명지와 해탈의 과보의 실현(vijjāvimuttiphalasacchikiriyā)으로 이끈다. 그 한 법은 무엇인가? 몸에 관한 마음챙김(kāyagatā sati)이다. 참으로 이것이, 비구들이여, 한 법이니, 닦여지고 많이 닦여지면 큰 분발(saṃvega)로 이끈다… 큰 이익으로 이끈다… 큰 안온(yogakkhema)으로 이끈다… 마음챙김과 분명한 앎(satisampajañña)으로 이끈다… 지견의 획득으로 이끈다… 현법락주로 이끈다… 명지와 해탈의 과보의 실현으로 이끈다”라고.</p>
+
+
+
+<p rend="bodytext" n="571" trans="true"><hi rend="paranum">571</hi><hi rend="dot">.</hi>‘‘하나의 법을<pb ed="M" n="1.0045" />비구들이여, 닦고 많이 익히면 몸도 고요해지고, 마음도 고요해지며, 사유와 숙고도 가라앉고, 명지에 속하는 법들도 모두 닦음의 완성에 이른다. 어떤 하나의 법인가? 몸에 대한 마음챙김(kāyagatā sati)이다. 이<pb ed="P" n="1.0044" />참으로, 비구들이여, 하나의 법을 닦고 많이 익히면 몸도 고요해지고, 마음도 고요해지며, 사유와 숙고도 가라앉고, 명지에 속하는 법들도 모두 닦음의 완성에 이른다’’라고 하셨다.</p>
+
+
+
+<p rend="bodytext" n="572" trans="true"><hi rend="paranum">572</hi><hi rend="dot">.</hi>‘‘하나의 법을, 비구들이여, 닦고 많이 익히면 아직 일어나지 않은 불선한 법들은 일어나지 않고, 이미 일어난 불선한 법들은 버려진다. 어떤 하나의 법인가? 몸에 대한 마음챙김(kāyagatā sati)이다. 이 하나의 법을, 참으로 비구들이여, 닦고 많이 익히면 아직 일어나지 않은 불선한 법들은 일어나지 않고, 이미 일어난 불선한 법들은 버려진다’’라고 하셨다.</p>
+
+
+
+<p rend="bodytext" n="573" trans="true"><hi rend="paranum">573</hi><hi rend="dot">.</hi>‘‘하나의 법을<pb ed="V" n="1.0059" />비구들이여, 닦고 많이 익히면 아직 일어나지 않은 선한 법들은 일어나고, 이미 일어난 선한 법들은 더욱 커짐과 넓어짐으로<pb ed="T" n="1.0057" />이끈다. 어떤 하나의 법인가? 몸에 대한 마음챙김(kāyagatā sati)이다. 이 하나의 법을, 참으로 비구들이여, 닦고 많이 익히면 아직 일어나지 않은 선한 법들은 일어나고, 이미 일어난 선한 법들은 더욱 커짐과 넓어짐으로 이끈다’’라고 하셨다.</p>
+
+
+
+<p rend="bodytext" n="574" trans="true"><hi rend="paranum">574</hi><hi rend="dot">.</hi>‘‘하나의 법을, 비구들이여, 닦고 많이 익히면 무명은 버려지고, 명지는 일어나며, 나라는 교만(asmimāna)은 버려지고, 수면(anusaya)들은 근절에 이르며, 결박(saṃyojana)들은 버려진다. 어떤 하나의 법인가? 몸에 대한 마음챙김(kāyagatā sati)이다. 이 하나의 법을, 참으로 비구들이여, 닦고 많이 익히면 무명은 버려지고, 명지는 일어나며, 나라는 교만은 버려지고, 수면들은 근절에 이르며, 결박들은 버려진다’’라고 하셨다.</p>
+
+
+
+<p rend="bodytext" n="575-576" trans="true"><hi rend="paranum">575-576</hi><hi rend="dot">.</hi>‘‘하나의 법이, 비구들이여, 닦여지고 많이 익혀지면 지혜의 분별로 이끈다… 취착 없음에 의한 완전한 열반(anupādāparinibbāna)으로 이끈다. 어떤 하나의 법인가? 몸에 대한 마음챙김(kāyagatā sati)이다. 이 하나의 법이, 참으로 비구들이여, 닦여지고 많이 익혀지면 지혜의 분별로 이끈다… 취착 없음에 의한 완전한 열반으로 이끈다’’라고 하셨다.</p>
+
+
+
+<p rend="bodytext" n="577-579" trans="true"><hi rend="paranum">577-579</hi><hi rend="dot">.</hi>‘‘하나의 법에서<pb ed="M" n="1.0046" />비구들이여, 닦이고 많이 익혀지면 많은 요소들(anekadhātu)에 대한 통찰이 있다… 갖가지 요소들(nānādhātu)에 대한 통찰이 있다… 많은 요소들에 대한 분석지( paṭisambhidā )가 있다. 어떤 하나의 법에서인가? 몸에 나아간 알아차림(kāyagatā sati)에서이다. 참으로 이 하나의 법이, 비구들이여, 닦이고 많이 익혀지면 많은 요소들에 대한 통찰이 있다… 갖가지 요소들에 대한 통찰이 있다… 많은 요소들에 대한 분석지가 있다’’라고.</p>
+
+
+
+<p rend="bodytext" n="580-583" trans="true"><hi rend="paranum">580-583</hi><hi rend="dot">.</hi>‘‘하나의 법이, 비구들이여, 닦여지고 많이 익혀지면 예류과의 실현을 위하여<pb ed="T" n="1.0058" />이끈다… 일래과의 실현을 위하여 이끈다… 불환과의 실현을 위하여 이끈다… 아라한과의 실현을 위하여<pb ed="P" n="1.0045" />이끈다. 어떤 하나의 법인가? 몸에 나아간 알아차림이다. 이 하나의 법이야말로, 비구들이여, 닦여지고 많이 익혀지면 예류과의 실현을 위하여 이끈다… 일래과의 실현을 위하여 이끈다… 불환과의 실현을 위하여 이끈다… 아라한과의 실현을 위하여 이끈다’’라고.</p>
+
+
+
+<p rend="bodytext" n="584-599" trans="true"><hi rend="paranum">584-599</hi><hi rend="dot">.</hi>‘‘하나의 법이<pb ed="V" n="1.0060" />비구들이여, 닦여지고 많이 익혀지면 지혜의 획득을 위하여 이끈다… 지혜의 증장을 위하여 이끈다… 지혜의 광대함을 위하여 이끈다… 큰 지혜 됨을 위하여 이끈다… 넓은 지혜 됨을 위하여 이끈다… 광대한 지혜 됨을 위하여 이끈다… 깊은 지혜 됨을 위하여 이끈다… 비근하지 않은 지혜 됨을 위하여<note trans="true">이끈다… 무능한 지혜 됨을 위하여 (syā. kaṃ.), 같지 않은 지혜 됨을 위하여 (ka.), 둘레가 없는 지혜 됨을 위하여 (ṭīkā) paṭi. ma. aṭṭha. 2.3.1에서 보아야 한다</note>이끈다… 많은 지혜 됨을 위하여 이끈다… 지혜의 풍부함을 위하여 이끈다… 빠른 지혜 됨을 위하여 이끈다… 가벼운 지혜 됨을 위하여 이끈다… 명랑한 지혜 됨을 위하여<note trans="true">hāsupaññatāya (sī. pī.)</note>이끈다… 재빠른 지혜 됨을 위하여 이끈다… 날카로운 지혜 됨을 위하여 이끈다… 꿰뚫는 지혜 됨을 위하여 이끈다. 어떤 하나의 법인가? 몸에 나아간 알아차림이다. 이 하나의 법이야말로, 비구들이여, 닦여지고 많이 익혀지면 지혜의 획득을 위하여 이끈다… 지혜의 증장을 위하여 이끈다… 지혜의 광대함을 위하여 이끈다… 큰 지혜 됨을 위하여 이끈다… 넓은 지혜 됨을 위하여 이끈다… 광대한 지혜 됨을 위하여 이끈다… 깊은 지혜 됨을 위하여 이끈다… 비근하지 않은 지혜 됨을 위하여 이끈다… 많은 지혜 됨을 위하여 이끈다… 지혜의 풍부함을 위하여 이끈다… 빠른 지혜 됨을 위하여 이끈다… 가벼운 지혜 됨을 위하여 이끈다… 명랑한 지혜 됨을 위하여 이끈다… 재빠른 지혜 됨을 위하여 이끈다… 날카로운 지혜 됨을 위하여 이끈다… 꿰뚫는 지혜 됨을 위하여 이끈다’’라고.</p>
+
+
+
+<trailer rend="centre" trans="true">몸에 나아간 알아차림의 품(vagga), 열아홉째에서 하나 모자란 것.</trailer>
+</div>
+
+<div id="an1_20" n="an1_20" type="vagga">
+
+
+<head rend="chapter" trans="true">20. 불사(Amata)의 품</head>
+
+
+
+<p rend="bodytext" n="600" trans="true"><hi rend="paranum">600</hi><hi rend="dot">.</hi>‘‘불사(amata)를<pb ed="T" n="1.0059" /><pb ed="V" n="1.0061" /><pb ed="M" n="1.0047" />그것을, 비구들이여, 몸에 대한 마음챙김(kāyagatāsati)을 향유하지 않는 자들은 향유하지 않는다. 그것을, 비구들이여, 몸에 대한 마음챙김을 향유하는 자들은 향유한다’’라고.</p>
+
+
+
+<p rend="bodytext" n="601" trans="true"><hi rend="paranum">601</hi><hi rend="dot">.</hi>‘‘그들의, 비구들이여, 몸에 대한 마음챙김이 향유되지 않은 자들에게는 불사(amata)가 향유되지 않은 것이다. 그들의, 비구들이여, 몸에 대한 마음챙김이 향유된 자들에게는 불사(amata)가 향유된 것이다’’라고.</p>
+
+
+
+<p rend="bodytext" n="602" trans="true"><hi rend="paranum">602</hi><hi rend="dot">.</hi>‘‘그들의, 비구들이여, 몸에 대한 마음챙김이 쇠퇴한 자들에게는 불사(amata)가 쇠퇴한 것이다. 그들의, 비구들이여, 몸에 대한 마음챙김이 쇠퇴하지 않은 자들에게는 불사(amata)가 쇠퇴하지 않은 것이다’’라고.</p>
+
+
+
+<p rend="bodytext" n="603" trans="true"><hi rend="paranum">603</hi><hi rend="dot">.</hi>‘‘그들의, 비구들이여, 몸에 대한 마음챙김이 빗나간 자들에게는 불사(amata)가<pb ed="P" n="1.0046" />빗나간 것이다. 그들의, 비구들이여, 불사(amata)는 착수된 것이다<note trans="true">빗나가지 않은 (ka.)</note>몸에 대한 마음챙김이 착수된 자들에게는’’라고.</p>
+
+
+
+<p rend="bodytext" n="604" trans="true"><hi rend="paranum">604</hi><hi rend="dot">.</hi>‘‘그것을, 비구들이여, 몸에 대한 마음챙김을 게을리한 자들은 불사(amata)를 게을리했다. 그것을, 비구들이여, 몸에 대한 마음챙김을 게을리하지 않은 자들은 불사(amata)를 게을리하지 않았다’’.</p>
+
+
+
+<p rend="bodytext" n="605" trans="true"><hi rend="paranum">605</hi><hi rend="dot">.</hi>‘‘비구들이여, 몸에 대한 마음챙김(kāyagatāsati)이 잊혀진 자들에게는 불사(amata)가 잊혀졌다. 비구들이여, 몸에 대한 마음챙김(kāyagatāsati)이 잊혀지지 않은 자들에게는 불사(amata)가 잊혀지지 않았다’’라고.</p>
+
+
+
+<p rend="bodytext" n="606" trans="true"><hi rend="paranum">606</hi><hi rend="dot">.</hi>‘‘비구들이여, 몸에 대한 마음챙김(kāyagatāsati)을 닦지 않은 자들에게는 불사(amata)가 닦이지 않았다. 비구들이여, 몸에 대한 마음챙김(kāyagatāsati)을 닦은 자들에게는 불사(amata)가 닦였다’’라고.</p>
+
+
+
+<p rend="bodytext" n="607" trans="true"><hi rend="paranum">607</hi><hi rend="dot">.</hi>‘‘비구들이여, 몸에 대한 마음챙김(kāyagatāsati)이 수습되지 않은 자들에게는 불사(amata)가 수습되지 않았다. 비구들이여, 몸에 대한 마음챙김(kāyagatāsati)이 수습된 자들에게는 불사(amata)가 수습되었다’’라고.</p>
+
+
+
+<p rend="bodytext" n="608" trans="true"><hi rend="paranum">608</hi><hi rend="dot">.</hi>‘‘불사(amata)가<pb ed="V" n="1.0062" /><pb ed="M" n="1.0048" />그들에게, 비구들이여, 몸에 대한 마음챙김(kāyagatāsati)이 자주 닦이지 않은 자들에게는 자주 닦이지 않았다<pb ed="T" n="1.0060" />. 비구들이여, 몸에 대한 마음챙김(kāyagatāsati)이 자주 닦인 자들에게는 불사(amata)가 자주 닦였다’’라고.</p>
+
+
+
+<p rend="bodytext" n="609" trans="true"><hi rend="paranum">609</hi><hi rend="dot">.</hi>‘‘비구들이여, 몸에 대한 마음챙김(kāyagatāsati)이 완전히 알려지지 않은 자들에게는 불사(amata)가 완전히 알려지지 않았다. 비구들이여, 몸에 대한 마음챙김(kāyagatāsati)이 완전히 알려진 자들에게는 불사(amata)가 완전히 알려졌다’’라고.</p>
+
+
+
+<p rend="bodytext" n="610" trans="true"><hi rend="paranum">610</hi><hi rend="dot">.</hi>“비구들이여, 그들에게는 불사(amata)가 완전히 알려지지 않았다. 누구들에게인가? 몸에 대한 마음챙김(kāyagatāsati)이 완전히 알려지지 않은 자들에게이다. 비구들이여, 그들에게는 불사(amata)가 완전히 알려졌다. 누구들에게인가? 몸에 대한 마음챙김(kāyagatāsati)이 완전히 알려진 자들에게이다”라고.</p>
+
+
+
+<p rend="bodytext" n="611" trans="true"><hi rend="paranum">611</hi><hi rend="dot">.</hi>“비구들이여, 그들에게는 불사(amata)가 직접 증득되지 않았다. 누구들에게인가? 몸에 대한 마음챙김(kāyagatāsati)이 직접 증득되지 않은 자들에게이다. 비구들이여, 그들에게는 불사(amata)가 직접 증득되었다. 누구들에게인가? 몸에 대한 마음챙김(kāyagatāsati)이 직접 증득된 자들에게이다”라고. (….)<note trans="true">(일단락(Ekakanipāta)의 천 개의 경(suttasahassaṃ)이 끝났다.) (sī. syā. kaṃ. pī.)</note></p>
+
+
+
+<p rend="bodytext" trans="true">(세존께서 이렇게 말씀하셨다. 그 비구들은 만족하여 세존의 말씀을 기뻐하였다.)<note trans="true">( ) 이 사이에는 독본(pāṭho)이 sī. syā. kaṃ. pī. 필사본들(potthakesu)에는 없다</note></p>
+
+
+
+<trailer rend="centre" trans="true">불사의 품(Amatavagga) 스무 번째.</trailer>
+</div>
+
+
+
+<trailer rend="centre" trans="true">일단락의 빠알리(Ekakanipātapāḷi)가 끝났다.</trailer>
+</div>
+
+
+</body>
+<back></back>
+</text>
+</TEI.2>

@@ -89,13 +89,17 @@ if ! [[ "${SLEEP_SECONDS}" =~ ^[0-9]+([.][0-9]+)?$ ]]; then
 fi
 
 CODEX_BIN="$(command -v codex || true)"
-if [[ -z "${CODEX_BIN}" && -x "/Users/jb.park/.vscode/extensions/openai.chatgpt-0.4.79-darwin-arm64/bin/macos-aarch64/codex" ]]; then
-  CODEX_BIN="/Users/jb.park/.vscode/extensions/openai.chatgpt-0.4.79-darwin-arm64/bin/macos-aarch64/codex"
+if [[ -z "${CODEX_BIN}" ]]; then
+  for candidate in /Users/jb.park/.vscode/extensions/openai.chatgpt-*/bin/macos-aarch64/codex; do
+    if [[ -x "${candidate}" ]]; then
+      CODEX_BIN="${candidate}"
+    fi
+  done
 fi
 
 if [[ -z "${CODEX_BIN}" ]]; then
   echo "ERROR: codex 실행 파일을 찾지 못했습니다." >&2
-  echo "확인 경로: PATH, /Users/jb.park/.vscode/extensions/openai.chatgpt-0.4.79-darwin-arm64/bin/macos-aarch64/codex" >&2
+  echo "확인 경로: PATH, /Users/jb.park/.vscode/extensions/openai.chatgpt-*/bin/macos-aarch64/codex" >&2
   exit 1
 fi
 
